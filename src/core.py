@@ -161,6 +161,7 @@ class Planner:
                 "need_std_wan": round(need_std / 1e4, 1), "gap_wan": round(gap / 1e4, 1),
                 "shift_wan": round(shift / 1e4, 1), "ratio": ratio_now,
                 "verdict": verdict, "verdict_en": VERDICT_EN.get(verdict, verdict),
+                "province_en": en(province), "stage_en": STAGE_EN.get(stage, stage),
                 "verdict_note": verdict_note,
                 "national_gap_wan": round(nat_gap, 1), "share_national": round(share, 4),
             },
