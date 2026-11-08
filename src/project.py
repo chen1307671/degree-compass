@@ -28,6 +28,7 @@ RATIO_STD = {"primary": 19.0, "junior": 13.5}   # 国家基本编制标准生师
 ANCHOR = {"primary_entrants_2025": 14_617_400, "primary_enrol_2025": 101_782_900,
           "junior_entrants_2025": 18_528_100, "junior_enrol_2025": 55_093_400}
 SCENARIOS = {"基准": -0.06, "温和": -0.03, "加速": -0.09}   # 2026 起小学招生年变化
+JUNIOR_CALIB = 0.9808   # 初中招生总量校准：使 2025 年全国预测精确对齐公报 5,509.3 万
 
 
 def load_all() -> dict:
@@ -50,13 +51,15 @@ def baseline(d: dict) -> dict:
         gp = pri.get(p, {})
         gj = jun.get(p, {})
         grades = [gp.get(f"g{i}", 0.0) for i in range(1, 7)]
-        jgrades = [gj.get(f"g{i}", 0.0) for i in range(1, 4)]
+        # 初中存在五四学制（4 个年级），按实际数据判定，避免按三年制硬推
+        jgrades = [gj.get(f"g{i}", 0.0) for i in range(1, 5)]
+        n_jun = 4 if jgrades[3] > 0.02 * max(1.0, sum(jgrades)) else 3
         enrol_p = gp.get("enrolment", sum(grades))
         enrol_j = gj.get("enrolment", sum(jgrades))
         tp = d["t_primary"].get(p, 0.0)
         tj = d["t_junior"].get(p, 0.0)
         out[p] = {
-            "grades_p": grades, "grades_j": jgrades,
+            "grades_p": grades, "grades_j": jgrades, "n_jun": n_jun,
             "enrol_p": enrol_p, "enrol_j": enrol_j,
             "teachers_p": tp, "teachers_j": tj,
             "ratio_p": round(enrol_p / tp, 3) if tp else None,
@@ -78,7 +81,7 @@ def project(base: dict, delta: float, years=range(2025, 2031)) -> dict:
     total_share = sum(shares.values()) or 1.0
     nat_2024 = ANCHOR["primary_entrants_2025"] / (1 + delta)   # 由 2025 锚点与增速反推 2024
     nat_entry = {2024: nat_2024, 2025: ANCHOR["primary_entrants_2025"]}
-    for y in range(2026, 2031):
+    for y in range(2026, (max(years) if years else 2030) + 1):
         nat_entry[y] = nat_entry[y - 1] * (1 + delta)
 
     res = {}
@@ -100,9 +103,12 @@ def project(base: dict, delta: float, years=range(2025, 2031)) -> dict:
             new_gp = [g1] + [gp[i] * SURVIVE for i in range(5)]
             # 初中：初一 = 小学毕业生 × 升学率；初二初三递推
             grad_p = gp[5] * SURVIVE
-            rate = b["junior_intake_rate"] or 1.0
+            rate = (b["junior_intake_rate"] or 1.0) * JUNIOR_CALIB
             j1 = grad_p * rate
-            new_gj = [j1, gj[0] * SURVIVE, gj[1] * SURVIVE]
+            if b.get("n_jun", 3) == 4:
+                new_gj = [j1, gj[0] * SURVIVE, gj[1] * SURVIVE, gj[2] * SURVIVE]
+            else:
+                new_gj = [j1, gj[0] * SURVIVE, gj[1] * SURVIVE, 0.0]
             cur[p] = {"enrol_p": sum(new_gp), "enrol_j": sum(new_gj),
                       "grades_p": new_gp, "grades_j": new_gj}
         res[y] = cur
