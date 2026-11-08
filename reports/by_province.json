@@ -315,1873 +315,1873 @@
   "2025": {
    "北京": {
     "enrol_p": 1166913.3,
-    "enrol_j": 449708.8,
+    "enrol_j": 445688.7,
     "need_p_std": 61416.5,
     "gap_p_std": -19044.5,
-    "need_j_std": 33311.8,
-    "gap_j_std": -7504.2,
+    "need_j_std": 33014.0,
+    "gap_j_std": -7802.0,
     "shift_p": -178.0,
-    "shift_j": 3798.0
+    "shift_j": 3399.1
    },
    "天津": {
     "enrol_p": 808205.3,
-    "enrol_j": 416731.7,
+    "enrol_j": 413170.1,
     "need_p_std": 42537.1,
     "gap_p_std": -9568.9,
-    "need_j_std": 30869.0,
-    "gap_j_std": -2275.0,
+    "need_j_std": 30605.2,
+    "gap_j_std": -2538.8,
     "shift_p": -1320.2,
-    "shift_j": -125.1
+    "shift_j": -407.3
    },
    "河北": {
     "enrol_p": 5706317.9,
-    "enrol_j": 3447500.6,
+    "enrol_j": 3418373.4,
     "need_p_std": 300332.5,
     "gap_p_std": -94052.5,
-    "need_j_std": 255370.4,
-    "gap_j_std": 5786.4,
+    "need_j_std": 253212.8,
+    "gap_j_std": 3628.8,
     "shift_p": -28642.3,
-    "shift_j": 942.9
+    "shift_j": -1173.8
    },
    "山西": {
     "enrol_p": 2171581.2,
-    "enrol_j": 1137025.3,
+    "enrol_j": 1127368.3,
     "need_p_std": 114293.7,
     "gap_p_std": -50773.3,
-    "need_j_std": 84224.1,
-    "gap_j_std": -19238.9,
+    "need_j_std": 83508.8,
+    "gap_j_std": -19954.2,
     "shift_p": -6765.4,
-    "shift_j": -611.3
+    "shift_j": -1484.9
    },
    "内蒙古": {
     "enrol_p": 1305143.8,
-    "enrol_j": 686948.9,
+    "enrol_j": 680817.6,
     "need_p_std": 68691.8,
     "gap_p_std": -43611.2,
-    "need_j_std": 50885.1,
-    "gap_j_std": -14854.9,
+    "need_j_std": 50430.9,
+    "gap_j_std": -15309.1,
     "shift_p": -5621.3,
-    "shift_j": 954.1
+    "shift_j": 358.8
    },
    "辽宁": {
     "enrol_p": 1846798.3,
-    "enrol_j": 968967.0,
+    "enrol_j": 960474.4,
     "need_p_std": 97199.9,
     "gap_p_std": -39482.1,
-    "need_j_std": 71775.3,
-    "gap_j_std": -25510.7,
+    "need_j_std": 71146.3,
+    "gap_j_std": -26139.7,
     "shift_p": -6286.0,
-    "shift_j": 1588.2
+    "shift_j": 721.6
    },
    "吉林": {
     "enrol_p": 970968.6,
-    "enrol_j": 575253.1,
+    "enrol_j": 570370.2,
     "need_p_std": 51103.6,
     "gap_p_std": -45113.4,
-    "need_j_std": 42611.3,
-    "gap_j_std": -22086.7,
+    "need_j_std": 42249.6,
+    "gap_j_std": -22448.4,
     "shift_p": -6345.8,
-    "shift_j": -1566.6
+    "shift_j": -2102.5
    },
    "黑龙江": {
     "enrol_p": 1007676.6,
-    "enrol_j": 783669.0,
+    "enrol_j": 862819.3,
     "need_p_std": 53035.6,
     "gap_p_std": -38007.4,
-    "need_j_std": 58049.6,
-    "gap_j_std": -22661.4,
+    "need_j_std": 63912.5,
+    "gap_j_std": -16798.5,
     "shift_p": 1252.0,
-    "shift_j": 1529.4
+    "shift_j": 9835.7
    },
    "上海": {
     "enrol_p": 1077170.9,
-    "enrol_j": 484403.8,
+    "enrol_j": 643521.1,
     "need_p_std": 56693.2,
     "gap_p_std": -11116.8,
-    "need_j_std": 35881.8,
-    "gap_j_std": -14543.2,
+    "need_j_std": 47668.2,
+    "gap_j_std": -2756.8,
     "shift_p": 10976.6,
-    "shift_j": -10726.3
+    "shift_j": 2314.0
    },
    "江苏": {
     "enrol_p": 5422418.9,
-    "enrol_j": 2918631.7,
+    "enrol_j": 2893688.8,
     "need_p_std": 285390.5,
     "gap_p_std": -74972.5,
-    "need_j_std": 216194.9,
-    "gap_j_std": -20620.1,
+    "need_j_std": 214347.3,
+    "gap_j_std": -22467.7,
     "shift_p": -17323.9,
-    "shift_j": 3283.0
+    "shift_j": 1231.1
    },
    "浙江": {
     "enrol_p": 4087877.2,
-    "enrol_j": 1899286.5,
+    "enrol_j": 1882709.1,
     "need_p_std": 215151.4,
     "gap_p_std": -24054.6,
-    "need_j_std": 140687.9,
-    "gap_j_std": -1987.1,
+    "need_j_std": 139459.9,
+    "gap_j_std": -3215.1,
     "shift_p": -3376.0,
-    "shift_j": 5544.6
+    "shift_j": 4250.9
    },
    "安徽": {
     "enrol_p": 4423781.2,
-    "enrol_j": 2372533.1,
+    "enrol_j": 2352579.6,
     "need_p_std": 232830.6,
     "gap_p_std": -33752.4,
-    "need_j_std": 175743.2,
-    "gap_j_std": 4096.2,
+    "need_j_std": 174265.2,
+    "gap_j_std": 2618.2,
     "shift_p": -10384.4,
-    "shift_j": 825.6
+    "shift_j": -624.9
    },
    "福建": {
     "enrol_p": 3478838.6,
-    "enrol_j": 1730582.2,
+    "enrol_j": 1715067.7,
     "need_p_std": 183096.8,
     "gap_p_std": -25387.2,
-    "need_j_std": 128191.3,
-    "gap_j_std": 7332.3,
+    "need_j_std": 127042.0,
+    "gap_j_std": 6183.0,
     "shift_p": -8573.7,
-    "shift_j": 5580.9
+    "shift_j": 4447.3
    },
    "江西": {
     "enrol_p": 3335539.7,
-    "enrol_j": 2018794.9,
+    "enrol_j": 2013304.9,
     "need_p_std": 175554.7,
     "gap_p_std": -55312.3,
-    "need_j_std": 149540.4,
-    "gap_j_std": -7495.6,
+    "need_j_std": 149133.7,
+    "gap_j_std": -7902.3,
     "shift_p": -13737.7,
-    "shift_j": -4097.0
+    "shift_j": -4512.9
    },
    "山东": {
     "enrol_p": 8333416.0,
-    "enrol_j": 4803035.3,
+    "enrol_j": 4975418.9,
     "need_p_std": 438600.8,
     "gap_p_std": -37783.2,
-    "need_j_std": 355780.4,
-    "gap_j_std": 40204.4,
+    "need_j_std": 368549.6,
+    "gap_j_std": 52973.6,
     "shift_p": 9671.2,
-    "shift_j": 58201.1
+    "shift_j": 71616.1
    },
    "河南": {
     "enrol_p": 8582529.8,
-    "enrol_j": 5027927.1,
+    "enrol_j": 4985449.4,
     "need_p_std": 451712.1,
     "gap_p_std": -130677.9,
-    "need_j_std": 372439.0,
-    "gap_j_std": 6303.0,
+    "need_j_std": 369292.6,
+    "gap_j_std": 3156.6,
     "shift_p": -36705.2,
-    "shift_j": -3553.8
+    "shift_j": -6617.0
    },
    "湖北": {
     "enrol_p": 3687569.3,
-    "enrol_j": 1941390.1,
+    "enrol_j": 1924906.8,
     "need_p_std": 194082.6,
     "gap_p_std": -31327.4,
-    "need_j_std": 143806.7,
-    "gap_j_std": -6534.3,
+    "need_j_std": 142585.7,
+    "gap_j_std": -7755.3,
     "shift_p": -7815.8,
-    "shift_j": 857.6
+    "shift_j": -426.1
    },
    "湖南": {
     "enrol_p": 4697468.1,
-    "enrol_j": 2714461.7,
+    "enrol_j": 2691863.8,
     "need_p_std": 247235.2,
     "gap_p_std": -57214.8,
-    "need_j_std": 201071.2,
-    "gap_j_std": -6983.8,
+    "need_j_std": 199397.3,
+    "gap_j_std": -8657.7,
     "shift_p": -16579.7,
-    "shift_j": -2911.3
+    "shift_j": -4619.1
    },
    "广东": {
     "enrol_p": 10719128.5,
-    "enrol_j": 5252670.2,
+    "enrol_j": 5205860.0,
     "need_p_std": 564164.7,
     "gap_p_std": -50664.3,
-    "need_j_std": 389086.7,
-    "gap_j_std": 32479.7,
+    "need_j_std": 385619.3,
+    "gap_j_std": 29012.3,
     "shift_p": -18028.8,
-    "shift_j": 15579.7
+    "shift_j": 12262.8
    },
    "广西": {
     "enrol_p": 4806227.2,
-    "enrol_j": 2628223.3,
+    "enrol_j": 2604593.4,
     "need_p_std": 252959.3,
     "gap_p_std": -48796.7,
-    "need_j_std": 194683.2,
-    "gap_j_std": 23105.2,
+    "need_j_std": 192932.8,
+    "gap_j_std": 21354.8,
     "shift_p": -15620.0,
-    "shift_j": 5693.2
+    "shift_j": 4099.4
    },
    "海南": {
     "enrol_p": 818955.0,
-    "enrol_j": 446166.8,
+    "enrol_j": 442278.4,
     "need_p_std": 43102.9,
     "gap_p_std": -14010.1,
-    "need_j_std": 33049.4,
-    "gap_j_std": 401.4,
+    "need_j_std": 32761.4,
+    "gap_j_std": 113.4,
     "shift_p": -2337.1,
-    "shift_j": 971.7
+    "shift_j": 678.7
    },
    "重庆": {
     "enrol_p": 1965539.3,
-    "enrol_j": 1035728.1,
+    "enrol_j": 1026913.1,
     "need_p_std": 103449.4,
     "gap_p_std": -29545.6,
-    "need_j_std": 76720.6,
-    "gap_j_std": -7298.4,
+    "need_j_std": 76067.6,
+    "gap_j_std": -7951.4,
     "shift_p": -4351.8,
-    "shift_j": -908.1
+    "shift_j": -1615.4
    },
    "四川": {
     "enrol_p": 5221589.5,
-    "enrol_j": 2759608.6,
+    "enrol_j": 2736210.6,
     "need_p_std": 274820.5,
     "gap_p_std": -74575.5,
-    "need_j_std": 204415.4,
-    "gap_j_std": -20222.6,
+    "need_j_std": 202682.3,
+    "gap_j_std": -21955.7,
     "shift_p": -11538.4,
-    "shift_j": -970.6
+    "shift_j": -2867.0
    },
    "贵州": {
     "enrol_p": 3778262.4,
-    "enrol_j": 2035867.0,
+    "enrol_j": 2018354.2,
     "need_p_std": 198855.9,
     "gap_p_std": -20047.1,
-    "need_j_std": 150805.0,
-    "gap_j_std": 11882.0,
+    "need_j_std": 149507.7,
+    "gap_j_std": 10584.7,
     "shift_p": -6986.3,
-    "shift_j": 874.2
+    "shift_j": -328.3
    },
    "云南": {
     "enrol_p": 3729197.4,
-    "enrol_j": 1922651.0,
+    "enrol_j": 1906076.3,
     "need_p_std": 196273.5,
     "gap_p_std": -33386.5,
-    "need_j_std": 142418.6,
-    "gap_j_std": 2543.6,
+    "need_j_std": 141190.8,
+    "gap_j_std": 1315.8,
     "shift_p": -6341.4,
-    "shift_j": 331.4
+    "shift_j": -877.2
    },
    "西藏": {
     "enrol_p": 381656.5,
-    "enrol_j": 167728.5,
+    "enrol_j": 166287.8,
     "need_p_std": 20087.2,
     "gap_p_std": -6994.8,
-    "need_j_std": 12424.3,
-    "gap_j_std": -918.7,
+    "need_j_std": 12317.6,
+    "gap_j_std": -1025.4,
     "shift_p": -362.8,
-    "shift_j": 192.2
+    "shift_j": 76.0
    },
    "陕西": {
     "enrol_p": 2871948.7,
-    "enrol_j": 1487825.3,
+    "enrol_j": 1475015.4,
     "need_p_std": 151155.2,
     "gap_p_std": -40499.8,
-    "need_j_std": 110209.3,
-    "gap_j_std": -2807.7,
+    "need_j_std": 109260.4,
+    "gap_j_std": -3756.6,
     "shift_p": -6821.1,
-    "shift_j": 2830.2
+    "shift_j": 1832.8
    },
    "甘肃": {
     "enrol_p": 1949913.4,
-    "enrol_j": 998575.7,
+    "enrol_j": 989965.6,
     "need_p_std": 102627.0,
     "gap_p_std": -49363.0,
-    "need_j_std": 73968.6,
-    "gap_j_std": -11676.4,
+    "need_j_std": 73330.8,
+    "gap_j_std": -12314.2,
     "shift_p": -4915.5,
-    "shift_j": 1127.3
+    "shift_j": 379.1
    },
    "青海": {
     "enrol_p": 492221.0,
-    "enrol_j": 258240.6,
+    "enrol_j": 256016.1,
     "need_p_std": 25906.4,
     "gap_p_std": -3727.6,
-    "need_j_std": 19128.9,
-    "gap_j_std": 1531.9,
+    "need_j_std": 18964.2,
+    "gap_j_std": 1367.2,
     "shift_p": -1086.2,
-    "shift_j": 469.4
+    "shift_j": 313.7
    },
    "宁夏": {
     "enrol_p": 602662.7,
-    "enrol_j": 298887.1,
+    "enrol_j": 296303.8,
     "need_p_std": 31719.1,
     "gap_p_std": -3987.9,
-    "need_j_std": 22139.8,
-    "gap_j_std": 724.8,
+    "need_j_std": 21948.4,
+    "gap_j_std": 533.4,
     "shift_p": -957.4,
-    "shift_j": 174.6
+    "shift_j": -12.0
    },
    "新疆": {
     "enrol_p": 2505663.7,
-    "enrol_j": 1424907.3,
+    "enrol_j": 1411533.0,
     "need_p_std": 131877.0,
     "gap_p_std": -27264.0,
-    "need_j_std": 105548.7,
-    "gap_j_std": 11029.7,
+    "need_j_std": 104558.0,
+    "gap_j_std": 10039.0,
     "shift_p": -15508.8,
-    "shift_j": 7683.5
+    "shift_j": 6724.2
    }
   },
   "2026": {
    "北京": {
     "enrol_p": 1130448.7,
-    "enrol_j": 493536.1,
+    "enrol_j": 479287.8,
     "need_p_std": 59497.3,
     "gap_p_std": -20963.7,
-    "need_j_std": 36558.2,
-    "gap_j_std": -4257.8,
+    "need_j_std": 35502.8,
+    "gap_j_std": -5313.2,
     "shift_p": -2686.8,
-    "shift_j": 8145.9
+    "shift_j": 6732.4
    },
    "天津": {
     "enrol_p": 771111.9,
-    "enrol_j": 430346.0,
+    "enrol_j": 423001.2,
     "need_p_std": 40584.8,
     "gap_p_std": -11521.2,
-    "need_j_std": 31877.5,
-    "gap_j_std": -1266.5,
+    "need_j_std": 31333.4,
+    "gap_j_std": -1810.6,
     "shift_p": -3651.1,
-    "shift_j": 953.6
+    "shift_j": 371.7
    },
    "河北": {
     "enrol_p": 5246585.6,
-    "enrol_j": 3407277.4,
+    "enrol_j": 3349928.9,
     "need_p_std": 276136.1,
     "gap_p_std": -118248.9,
-    "need_j_std": 252390.9,
-    "gap_j_std": 2806.9,
+    "need_j_std": 248142.9,
+    "gap_j_std": -1441.1,
     "shift_p": -58108.5,
-    "shift_j": -1980.1
+    "shift_j": -6147.6
    },
    "山西": {
     "enrol_p": 2049742.5,
-    "enrol_j": 1144183.7,
+    "enrol_j": 1124654.8,
     "need_p_std": 107881.2,
     "gap_p_std": -57185.8,
-    "need_j_std": 84754.3,
-    "gap_j_std": -18708.7,
+    "need_j_std": 83307.8,
+    "gap_j_std": -20155.2,
     "shift_p": -15647.1,
-    "shift_j": 36.2
+    "shift_j": -1730.3
    },
    "内蒙古": {
     "enrol_p": 1231638.1,
-    "enrol_j": 702712.1,
+    "enrol_j": 690626.6,
     "need_p_std": 64823.1,
     "gap_p_std": -47479.9,
-    "need_j_std": 52052.7,
-    "gap_j_std": -13687.3,
+    "need_j_std": 51157.5,
+    "gap_j_std": -14582.5,
     "shift_p": -11629.6,
-    "shift_j": 2484.5
+    "shift_j": 1311.1
    },
    "辽宁": {
     "enrol_p": 1737271.7,
-    "enrol_j": 1002775.3,
+    "enrol_j": 985693.3,
     "need_p_std": 91435.4,
     "gap_p_std": -45246.6,
-    "need_j_std": 74279.7,
-    "gap_j_std": -23006.3,
+    "need_j_std": 73014.3,
+    "gap_j_std": -24271.7,
     "shift_p": -14019.3,
-    "shift_j": 5038.0
+    "shift_j": 3295.0
    },
    "吉林": {
     "enrol_p": 901690.7,
-    "enrol_j": 569657.4,
+    "enrol_j": 560086.5,
     "need_p_std": 47457.4,
     "gap_p_std": -48759.6,
-    "need_j_std": 42196.8,
-    "gap_j_std": -22501.2,
+    "need_j_std": 41487.9,
+    "gap_j_std": -23210.1,
     "shift_p": -12758.0,
-    "shift_j": -2180.7
+    "shift_j": -3231.1
    },
    "黑龙江": {
     "enrol_p": 934727.6,
-    "enrol_j": 741704.2,
+    "enrol_j": 815501.8,
     "need_p_std": 49196.2,
     "gap_p_std": -41846.8,
-    "need_j_std": 54941.1,
-    "gap_j_std": -25769.9,
+    "need_j_std": 60407.5,
+    "gap_j_std": -20303.5,
     "shift_p": -5429.5,
-    "shift_j": -2874.5
+    "shift_j": 4870.0
    },
    "上海": {
     "enrol_p": 1035664.3,
-    "enrol_j": 517570.8,
+    "enrol_j": 671361.8,
     "need_p_std": 54508.6,
     "gap_p_std": -13301.4,
-    "need_j_std": 38338.6,
-    "gap_j_std": -12086.4,
+    "need_j_std": 49730.5,
+    "gap_j_std": -694.5,
     "shift_p": 7940.7,
-    "shift_j": -8008.1
+    "shift_j": 4595.6
    },
    "江苏": {
     "enrol_p": 5137806.0,
-    "enrol_j": 2905893.0,
+    "enrol_j": 2856960.0,
     "need_p_std": 270410.8,
     "gap_p_std": -89952.2,
-    "need_j_std": 215251.3,
-    "gap_j_std": -21563.7,
+    "need_j_std": 211626.7,
+    "gap_j_std": -25188.3,
     "shift_p": -35329.4,
-    "shift_j": 2235.1
+    "shift_j": -1790.3
    },
    "浙江": {
     "enrol_p": 3995485.7,
-    "enrol_j": 1937530.8,
+    "enrol_j": 1904535.8,
     "need_p_std": 210288.7,
     "gap_p_std": -28917.3,
-    "need_j_std": 143520.8,
-    "gap_j_std": 845.8,
+    "need_j_std": 141076.7,
+    "gap_j_std": -1598.3,
     "shift_p": -8706.1,
-    "shift_j": 8529.2
+    "shift_j": 5954.3
    },
    "安徽": {
     "enrol_p": 4228586.7,
-    "enrol_j": 2337229.9,
+    "enrol_j": 2297963.2,
     "need_p_std": 222557.2,
     "gap_p_std": -44025.8,
-    "need_j_std": 173128.1,
-    "gap_j_std": 1481.1,
+    "need_j_std": 170219.5,
+    "gap_j_std": -1427.5,
     "shift_p": -21688.9,
-    "shift_j": -1740.8
+    "shift_j": -4595.3
    },
    "福建": {
     "enrol_p": 3307728.3,
-    "enrol_j": 1795753.1,
+    "enrol_j": 1764964.8,
     "need_p_std": 174091.0,
     "gap_p_std": -34393.0,
-    "need_j_std": 133018.7,
-    "gap_j_std": 12159.7,
+    "need_j_std": 130738.1,
+    "gap_j_std": 9879.1,
     "shift_p": -18406.5,
-    "shift_j": 10342.4
+    "shift_j": 8092.9
    },
    "江西": {
     "enrol_p": 3145844.1,
-    "enrol_j": 1925231.8,
+    "enrol_j": 1904551.1,
     "need_p_std": 165570.7,
     "gap_p_std": -65296.3,
-    "need_j_std": 142609.8,
-    "gap_j_std": -14426.2,
+    "need_j_std": 141077.9,
+    "gap_j_std": -15958.1,
     "shift_p": -26086.1,
-    "shift_j": -11185.1
+    "shift_j": -12751.8
    },
    "山东": {
     "enrol_p": 8159849.3,
-    "enrol_j": 4792193.0,
+    "enrol_j": 4931552.2,
     "need_p_std": 429465.8,
     "gap_p_std": -46918.2,
-    "need_j_std": 354977.3,
-    "gap_j_std": 39401.3,
+    "need_j_std": 365300.2,
+    "gap_j_std": 49724.2,
     "shift_p": -452.3,
-    "shift_j": 57357.3
+    "shift_j": 68202.4
    },
    "河南": {
     "enrol_p": 8032038.6,
-    "enrol_j": 4890782.0,
+    "enrol_j": 4808382.3,
     "need_p_std": 422738.9,
     "gap_p_std": -159651.1,
-    "need_j_std": 362280.2,
-    "gap_j_std": -3855.8,
+    "need_j_std": 356176.5,
+    "gap_j_std": -9959.5,
     "shift_p": -71706.0,
-    "shift_j": -13443.8
+    "shift_j": -19386.0
    },
    "湖北": {
     "enrol_p": 3555277.8,
-    "enrol_j": 1912786.4,
+    "enrol_j": 1880707.3,
     "need_p_std": 187119.9,
     "gap_p_std": -38290.1,
-    "need_j_std": 141687.9,
-    "gap_j_std": -8653.1,
+    "need_j_std": 139311.7,
+    "gap_j_std": -11029.3,
     "shift_p": -15622.0,
-    "shift_j": -1370.1
+    "shift_j": -3868.5
    },
    "湖南": {
     "enrol_p": 4445903.3,
-    "enrol_j": 2630638.5,
+    "enrol_j": 2586985.8,
     "need_p_std": 233994.9,
     "gap_p_std": -70455.1,
-    "need_j_std": 194862.1,
-    "gap_j_std": -13192.9,
+    "need_j_std": 191628.6,
+    "gap_j_std": -16426.4,
     "shift_p": -31996.1,
-    "shift_j": -9246.2
+    "shift_j": -12545.2
    },
    "广东": {
     "enrol_p": 10454430.5,
-    "enrol_j": 5269658.6,
+    "enrol_j": 5180096.5,
     "need_p_std": 550233.2,
     "gap_p_std": -64595.8,
-    "need_j_std": 390345.1,
-    "gap_j_std": 33738.1,
+    "need_j_std": 383710.9,
+    "gap_j_std": 27103.9,
     "shift_p": -32766.2,
-    "shift_j": 16783.4
+    "shift_j": 10437.3
    },
    "广西": {
     "enrol_p": 4584430.1,
-    "enrol_j": 2614813.8,
+    "enrol_j": 2569724.6,
     "need_p_std": 241285.8,
     "gap_p_std": -60470.2,
-    "need_j_std": 193689.9,
-    "gap_j_std": 22111.9,
+    "need_j_std": 190350.0,
+    "gap_j_std": 18772.0,
     "shift_p": -28824.5,
-    "shift_j": 4788.8
+    "shift_j": 1747.5
    },
    "海南": {
     "enrol_p": 786054.5,
-    "enrol_j": 445103.5,
+    "enrol_j": 437579.5,
     "need_p_std": 41371.3,
     "gap_p_std": -15741.7,
-    "need_j_std": 32970.6,
-    "gap_j_std": 322.6,
+    "need_j_std": 32413.3,
+    "gap_j_std": -234.7,
     "shift_p": -4537.6,
-    "shift_j": 891.6
+    "shift_j": 324.6
    },
    "重庆": {
     "enrol_p": 1902475.5,
-    "enrol_j": 1015115.9,
+    "enrol_j": 998051.8,
     "need_p_std": 100130.3,
     "gap_p_std": -32864.7,
-    "need_j_std": 75193.8,
-    "gap_j_std": -8825.2,
+    "need_j_std": 73929.8,
+    "gap_j_std": -10089.2,
     "shift_p": -8479.3,
-    "shift_j": -2562.1
+    "shift_j": -3931.4
    },
    "四川": {
     "enrol_p": 5054644.5,
-    "enrol_j": 2699053.2,
+    "enrol_j": 2653810.7,
     "need_p_std": 266033.9,
     "gap_p_std": -83362.1,
-    "need_j_std": 199929.9,
-    "gap_j_std": -24708.1,
+    "need_j_std": 196578.6,
+    "gap_j_std": -28059.4,
     "shift_p": -22340.4,
-    "shift_j": -5878.6
+    "shift_j": -9545.5
    },
    "贵州": {
     "enrol_p": 3666750.1,
-    "enrol_j": 1996677.0,
+    "enrol_j": 1962945.2,
     "need_p_std": 192986.8,
     "gap_p_std": -25916.2,
-    "need_j_std": 147902.0,
-    "gap_j_std": 8979.0,
+    "need_j_std": 145403.3,
+    "gap_j_std": 6480.3,
     "shift_p": -13240.9,
-    "shift_j": -1816.8
+    "shift_j": -4133.1
    },
    "云南": {
     "enrol_p": 3613535.0,
-    "enrol_j": 1913707.6,
+    "enrol_j": 1881246.5,
     "need_p_std": 190186.1,
     "gap_p_std": -39473.9,
-    "need_j_std": 141756.1,
-    "gap_j_std": 1881.1,
+    "need_j_std": 139351.6,
+    "gap_j_std": -523.4,
     "shift_p": -13267.7,
-    "shift_j": -320.7
+    "shift_j": -2687.9
    },
    "西藏": {
     "enrol_p": 371557.7,
-    "enrol_j": 169400.8,
+    "enrol_j": 166491.7,
     "need_p_std": 19555.7,
     "gap_p_std": -7526.3,
-    "need_j_std": 12548.2,
-    "gap_j_std": -794.8,
+    "need_j_std": 12332.7,
+    "gap_j_std": -1010.3,
     "shift_p": -1069.8,
-    "shift_j": 327.2
+    "shift_j": 92.4
    },
    "陕西": {
     "enrol_p": 2739890.0,
-    "enrol_j": 1505381.8,
+    "enrol_j": 1479781.4,
     "need_p_std": 144204.7,
     "gap_p_std": -47450.3,
-    "need_j_std": 111509.8,
-    "gap_j_std": -1507.2,
+    "need_j_std": 109613.4,
+    "gap_j_std": -3403.6,
     "shift_p": -15320.2,
-    "shift_j": 4197.2
+    "shift_j": 2203.9
    },
    "甘肃": {
     "enrol_p": 1871052.0,
-    "enrol_j": 998558.3,
+    "enrol_j": 981465.6,
     "need_p_std": 98476.4,
     "gap_p_std": -53513.6,
-    "need_j_std": 73967.3,
-    "gap_j_std": -11677.7,
+    "need_j_std": 72701.2,
+    "gap_j_std": -12943.8,
     "shift_p": -10863.7,
-    "shift_j": 1125.8
+    "shift_j": -359.5
    },
    "青海": {
     "enrol_p": 474969.3,
-    "enrol_j": 255065.3,
+    "enrol_j": 250770.8,
     "need_p_std": 24998.4,
     "gap_p_std": -4635.6,
-    "need_j_std": 18893.7,
-    "gap_j_std": 1296.7,
+    "need_j_std": 18575.6,
+    "gap_j_std": 978.6,
     "shift_p": -2086.8,
-    "shift_j": 247.2
+    "shift_j": -53.2
    },
    "宁夏": {
     "enrol_p": 582392.3,
-    "enrol_j": 299414.9,
+    "enrol_j": 294301.8,
     "need_p_std": 30652.2,
     "gap_p_std": -5054.8,
-    "need_j_std": 22178.9,
-    "gap_j_std": 763.9,
+    "need_j_std": 21800.1,
+    "gap_j_std": 385.1,
     "shift_p": -2126.2,
-    "shift_j": 212.8
+    "shift_j": -156.6
    },
    "新疆": {
     "enrol_p": 2199962.1,
-    "enrol_j": 1526179.8,
+    "enrol_j": 1498983.9,
     "need_p_std": 115787.5,
     "gap_p_std": -43353.5,
-    "need_j_std": 113050.4,
-    "gap_j_std": 18531.4,
+    "need_j_std": 111035.8,
+    "gap_j_std": 16516.8,
     "shift_p": -33032.5,
-    "shift_j": 14947.3
+    "shift_j": 12996.7
    }
   },
   "2027": {
    "北京": {
     "enrol_p": 1096834.6,
-    "enrol_j": 498460.8,
+    "enrol_j": 480005.8,
     "need_p_std": 57728.1,
     "gap_p_std": -22732.9,
-    "need_j_std": 36923.0,
-    "gap_j_std": -3893.0,
+    "need_j_std": 35556.0,
+    "gap_j_std": -5260.0,
     "shift_p": -4999.4,
-    "shift_j": 8634.5
+    "shift_j": 6803.6
    },
    "天津": {
     "enrol_p": 743664.3,
-    "enrol_j": 415841.1,
+    "enrol_j": 406849.3,
     "need_p_std": 39140.2,
     "gap_p_std": -12965.8,
-    "need_j_std": 30803.0,
-    "gap_j_std": -2341.0,
+    "need_j_std": 30137.0,
+    "gap_j_std": -3007.0,
     "shift_p": -5375.8,
-    "shift_j": -195.7
+    "shift_j": -908.1
    },
    "河北": {
     "enrol_p": 4923033.7,
-    "enrol_j": 3154929.0,
+    "enrol_j": 3131941.3,
     "need_p_std": 259107.0,
     "gap_p_std": -135278.0,
-    "need_j_std": 233698.4,
-    "gap_j_std": -15885.6,
+    "need_j_std": 231995.6,
+    "gap_j_std": -17588.4,
     "shift_p": -78846.4,
-    "shift_j": -20318.0
+    "shift_j": -21988.5
    },
    "山西": {
     "enrol_p": 1965257.6,
-    "enrol_j": 1090524.3,
+    "enrol_j": 1075405.0,
     "need_p_std": 103434.6,
     "gap_p_std": -61632.4,
-    "need_j_std": 80779.6,
-    "gap_j_std": -22683.4,
+    "need_j_std": 79659.6,
+    "gap_j_std": -23803.4,
     "shift_p": -21805.8,
-    "shift_j": -4817.7
+    "shift_j": -6185.3
    },
    "内蒙古": {
     "enrol_p": 1140874.0,
-    "enrol_j": 708234.9,
+    "enrol_j": 690038.0,
     "need_p_std": 60046.0,
     "gap_p_std": -52257.0,
-    "need_j_std": 52461.8,
-    "gap_j_std": -13278.2,
+    "need_j_std": 51113.9,
+    "gap_j_std": -14626.1,
     "shift_p": -19048.6,
-    "shift_j": 3020.7
+    "shift_j": 1254.0
    },
    "辽宁": {
     "enrol_p": 1631026.1,
-    "enrol_j": 980538.9,
+    "enrol_j": 955345.6,
     "need_p_std": 85843.5,
     "gap_p_std": -50838.5,
-    "need_j_std": 72632.5,
-    "gap_j_std": -24653.5,
+    "need_j_std": 70766.3,
+    "gap_j_std": -26519.7,
     "shift_p": -21520.9,
-    "shift_j": 2769.0
+    "shift_j": 198.2
    },
    "吉林": {
     "enrol_p": 846116.4,
-    "enrol_j": 533797.0,
+    "enrol_j": 521944.5,
     "need_p_std": 44532.4,
     "gap_p_std": -51684.6,
-    "need_j_std": 39540.5,
-    "gap_j_std": -25157.5,
+    "need_j_std": 38662.6,
+    "gap_j_std": -26035.4,
     "shift_p": -17901.9,
-    "shift_j": -6116.2
+    "shift_j": -7417.0
    },
    "黑龙江": {
     "enrol_p": 874179.5,
-    "enrol_j": 694147.2,
+    "enrol_j": 763206.4,
     "need_p_std": 46009.4,
     "gap_p_std": -45033.6,
-    "need_j_std": 51418.3,
-    "gap_j_std": -29292.7,
+    "need_j_std": 56533.8,
+    "gap_j_std": -24177.2,
     "shift_p": -10975.3,
-    "shift_j": -7865.2
+    "shift_j": -618.0
    },
    "上海": {
     "enrol_p": 984200.3,
-    "enrol_j": 527356.5,
+    "enrol_j": 675811.8,
     "need_p_std": 51800.0,
     "gap_p_std": -16010.0,
-    "need_j_std": 39063.4,
-    "gap_j_std": -11361.6,
+    "need_j_std": 50060.1,
+    "gap_j_std": -364.9,
     "shift_p": 4176.6,
-    "shift_j": -7206.1
+    "shift_j": 4960.3
    },
    "江苏": {
     "enrol_p": 4815928.3,
-    "enrol_j": 2829950.1,
+    "enrol_j": 2757239.3,
     "need_p_std": 253469.9,
     "gap_p_std": -106893.1,
-    "need_j_std": 209625.9,
-    "gap_j_std": -27189.1,
+    "need_j_std": 204240.0,
+    "gap_j_std": -32575.0,
     "shift_p": -55692.4,
-    "shift_j": -4012.3
+    "shift_j": -9993.7
    },
    "浙江": {
     "enrol_p": 3854392.4,
-    "enrol_j": 1933833.4,
+    "enrol_j": 1884146.8,
     "need_p_std": 202862.8,
     "gap_p_std": -36343.2,
-    "need_j_std": 143246.9,
-    "gap_j_std": 571.9,
+    "need_j_std": 139566.4,
+    "gap_j_std": -3108.6,
     "shift_p": -16845.8,
-    "shift_j": 8240.7
+    "shift_j": 4363.1
    },
    "安徽": {
     "enrol_p": 4014200.1,
-    "enrol_j": 2260813.2,
+    "enrol_j": 2202725.4,
     "need_p_std": 211273.7,
     "gap_p_std": -55309.3,
-    "need_j_std": 167467.6,
-    "gap_j_std": -4179.4,
+    "need_j_std": 163164.8,
+    "gap_j_std": -8482.2,
     "shift_p": -34104.9,
-    "shift_j": -7295.9
+    "shift_j": -11518.7
    },
    "福建": {
     "enrol_p": 3100572.7,
-    "enrol_j": 1799115.8,
+    "enrol_j": 1752890.5,
     "need_p_std": 163188.0,
     "gap_p_std": -45296.0,
-    "need_j_std": 133267.8,
-    "gap_j_std": 12408.8,
+    "need_j_std": 129843.7,
+    "gap_j_std": 8984.7,
     "shift_p": -30310.6,
-    "shift_j": 10588.1
+    "shift_j": 7210.7
    },
    "江西": {
     "enrol_p": 2950047.9,
-    "enrol_j": 1795834.1,
+    "enrol_j": 1760515.3,
     "need_p_std": 155265.7,
     "gap_p_std": -75601.3,
-    "need_j_std": 133024.8,
-    "gap_j_std": -24011.2,
+    "need_j_std": 130408.5,
+    "gap_j_std": -26627.5,
     "shift_p": -38831.6,
-    "shift_j": -20988.0
+    "shift_j": -23663.6
    },
    "山东": {
     "enrol_p": 7842625.9,
-    "enrol_j": 4830963.6,
+    "enrol_j": 4935576.1,
     "need_p_std": 412769.8,
     "gap_p_std": -63614.2,
-    "need_j_std": 357849.2,
-    "gap_j_std": 42273.2,
+    "need_j_std": 365598.2,
+    "gap_j_std": 50022.2,
     "shift_p": -18954.7,
-    "shift_j": 60374.5
+    "shift_j": 68515.5
    },
    "河南": {
     "enrol_p": 7437986.2,
-    "enrol_j": 4734294.5,
+    "enrol_j": 4612654.8,
     "need_p_std": 391473.0,
     "gap_p_std": -190917.0,
-    "need_j_std": 350688.5,
-    "gap_j_std": -15447.5,
+    "need_j_std": 341678.1,
+    "gap_j_std": -24457.9,
     "shift_p": -109476.3,
-    "shift_j": -24728.7
+    "shift_j": -33500.6
    },
    "湖北": {
     "enrol_p": 3376888.4,
-    "enrol_j": 1868832.3,
+    "enrol_j": 1820815.9,
     "need_p_std": 177731.0,
     "gap_p_std": -47679.0,
-    "need_j_std": 138432.0,
-    "gap_j_std": -11909.0,
+    "need_j_std": 134875.2,
+    "gap_j_std": -15465.8,
     "shift_p": -26148.3,
-    "shift_j": -4793.3
+    "shift_j": -8532.9
    },
    "湖南": {
     "enrol_p": 4168368.1,
-    "enrol_j": 2505119.0,
+    "enrol_j": 2440754.2,
     "need_p_std": 219387.8,
     "gap_p_std": -85062.2,
-    "need_j_std": 185564.4,
-    "gap_j_std": -22490.6,
+    "need_j_std": 180796.6,
+    "gap_j_std": -27258.4,
     "shift_p": -49004.0,
-    "shift_j": -18732.2
+    "shift_j": -23596.6
    },
    "广东": {
     "enrol_p": 10041914.7,
-    "enrol_j": 5196585.7,
+    "enrol_j": 5063068.2,
     "need_p_std": 528521.8,
     "gap_p_std": -86307.2,
-    "need_j_std": 384932.3,
-    "gap_j_std": 28325.3,
+    "need_j_std": 375042.1,
+    "gap_j_std": 18435.1,
     "shift_p": -55733.5,
-    "shift_j": 11605.7
+    "shift_j": 2145.1
    },
    "广西": {
     "enrol_p": 4326943.4,
-    "enrol_j": 2583693.8,
+    "enrol_j": 2517310.1,
     "need_p_std": 227733.9,
     "gap_p_std": -74022.1,
-    "need_j_std": 191384.7,
-    "gap_j_std": 19806.7,
+    "need_j_std": 186467.4,
+    "gap_j_std": 14889.4,
     "shift_p": -44153.8,
-    "shift_j": 2689.8
+    "shift_j": -1787.8
    },
    "海南": {
     "enrol_p": 747512.3,
-    "enrol_j": 432602.9,
+    "enrol_j": 421487.9,
     "need_p_std": 39342.8,
     "gap_p_std": -17770.2,
-    "need_j_std": 32044.7,
-    "gap_j_std": -603.3,
+    "need_j_std": 31221.3,
+    "gap_j_std": -1426.7,
     "shift_p": -7115.5,
-    "shift_j": -50.4
+    "shift_j": -887.9
    },
    "重庆": {
     "enrol_p": 1807957.5,
-    "enrol_j": 999053.4,
+    "enrol_j": 973384.4,
     "need_p_std": 95155.7,
     "gap_p_std": -37839.3,
-    "need_j_std": 74004.0,
-    "gap_j_std": -10015.0,
+    "need_j_std": 72102.5,
+    "gap_j_std": -11916.5,
     "shift_p": -14665.4,
-    "shift_j": -3851.0
+    "shift_j": -5910.8
    },
    "四川": {
     "enrol_p": 4831376.3,
-    "enrol_j": 2620016.2,
+    "enrol_j": 2552699.3,
     "need_p_std": 254283.0,
     "gap_p_std": -95113.0,
-    "need_j_std": 194075.3,
-    "gap_j_std": -30562.7,
+    "need_j_std": 189088.8,
+    "gap_j_std": -35549.2,
     "shift_p": -36786.7,
-    "shift_j": -12284.6
+    "shift_j": -17740.7
    },
    "贵州": {
     "enrol_p": 3549256.3,
-    "enrol_j": 1914875.6,
+    "enrol_j": 1865676.1,
     "need_p_std": 186803.0,
     "gap_p_std": -32100.0,
-    "need_j_std": 141842.6,
-    "gap_j_std": 2919.6,
+    "need_j_std": 138198.2,
+    "gap_j_std": -724.8,
     "shift_p": -19830.9,
-    "shift_j": -7433.9
+    "shift_j": -10812.3
    },
    "云南": {
     "enrol_p": 3511601.6,
-    "enrol_j": 1834178.3,
+    "enrol_j": 1787052.2,
     "need_p_std": 184821.1,
     "gap_p_std": -44838.9,
-    "need_j_std": 135865.1,
-    "gap_j_std": -4009.9,
+    "need_j_std": 132374.2,
+    "gap_j_std": -7500.8,
     "shift_p": -19371.9,
-    "shift_j": -6120.3
+    "shift_j": -9556.9
    },
    "西藏": {
     "enrol_p": 356666.6,
-    "enrol_j": 171541.5,
+    "enrol_j": 167134.0,
     "need_p_std": 18771.9,
     "gap_p_std": -8310.1,
-    "need_j_std": 12706.8,
-    "gap_j_std": -636.2,
+    "need_j_std": 12380.3,
+    "gap_j_std": -962.7,
     "shift_p": -2112.3,
-    "shift_j": 499.9
+    "shift_j": 144.3
    },
    "陕西": {
     "enrol_p": 2610328.2,
-    "enrol_j": 1466844.2,
+    "enrol_j": 1429156.1,
     "need_p_std": 137385.7,
     "gap_p_std": -54269.3,
-    "need_j_std": 108655.1,
-    "gap_j_std": -4361.9,
+    "need_j_std": 105863.4,
+    "gap_j_std": -7153.6,
     "shift_p": -23658.6,
-    "shift_j": 1196.5
+    "shift_j": -1738.0
    },
    "甘肃": {
     "enrol_p": 1793842.7,
-    "enrol_j": 976657.7,
+    "enrol_j": 951564.1,
     "need_p_std": 94412.8,
     "gap_p_std": -57577.2,
-    "need_j_std": 72345.0,
-    "gap_j_std": -13300.0,
+    "need_j_std": 70486.2,
+    "gap_j_std": -15158.8,
     "shift_p": -16687.3,
-    "shift_j": -777.3
+    "shift_j": -2957.8
    },
    "青海": {
     "enrol_p": 451903.5,
-    "enrol_j": 249038.0,
+    "enrol_j": 242639.4,
     "need_p_std": 23784.4,
     "gap_p_std": -5849.6,
-    "need_j_std": 18447.3,
-    "gap_j_std": 850.3,
+    "need_j_std": 17973.3,
+    "gap_j_std": 376.3,
     "shift_p": -3424.5,
-    "shift_j": -174.4
+    "shift_j": -622.1
    },
    "宁夏": {
     "enrol_p": 555389.9,
-    "enrol_j": 298748.0,
+    "enrol_j": 291072.1,
     "need_p_std": 29231.0,
     "gap_p_std": -6476.0,
-    "need_j_std": 22129.5,
-    "gap_j_std": 714.5,
+    "need_j_std": 21560.9,
+    "gap_j_std": 145.9,
     "shift_p": -3683.1,
-    "shift_j": 164.6
+    "shift_j": -389.9
    },
    "新疆": {
     "enrol_p": 1886386.9,
-    "enrol_j": 1587929.4,
+    "enrol_j": 1547130.2,
     "need_p_std": 99283.5,
     "gap_p_std": -59857.5,
-    "need_j_std": 117624.4,
-    "gap_j_std": 23105.4,
+    "need_j_std": 114602.2,
+    "gap_j_std": 20083.2,
     "shift_p": -51007.6,
-    "shift_j": 19376.4
+    "shift_j": 16450.0
    }
   },
   "2028": {
    "北京": {
     "enrol_p": 1050727.3,
-    "enrol_j": 511473.6,
+    "enrol_j": 492712.4,
     "need_p_std": 55301.4,
     "gap_p_std": -25159.6,
-    "need_j_std": 37886.9,
-    "gap_j_std": -2929.1,
+    "need_j_std": 36497.2,
+    "gap_j_std": -4318.8,
     "shift_p": -8171.5,
-    "shift_j": 9925.4
+    "shift_j": 8064.2
    },
    "天津": {
     "enrol_p": 713092.4,
-    "enrol_j": 405519.0,
+    "enrol_j": 396783.9,
     "need_p_std": 37531.2,
     "gap_p_std": -14574.8,
-    "need_j_std": 30038.4,
-    "gap_j_std": -3105.6,
+    "need_j_std": 29391.4,
+    "gap_j_std": -3752.6,
     "shift_p": -7296.9,
-    "shift_j": -1013.5
+    "shift_j": -1705.6
    },
    "河北": {
     "enrol_p": 4621601.5,
-    "enrol_j": 2897871.9,
+    "enrol_j": 2899554.4,
     "need_p_std": 243242.2,
     "gap_p_std": -151142.8,
-    "need_j_std": 214657.2,
-    "gap_j_std": -34926.8,
+    "need_j_std": 214781.8,
+    "gap_j_std": -34802.2,
     "shift_p": -98166.5,
-    "shift_j": -38998.1
+    "shift_j": -38875.9
    },
    "山西": {
     "enrol_p": 1865558.7,
-    "enrol_j": 1048170.7,
+    "enrol_j": 1034075.1,
     "need_p_std": 98187.3,
     "gap_p_std": -66879.7,
-    "need_j_std": 77642.3,
-    "gap_j_std": -25820.7,
+    "need_j_std": 76598.2,
+    "gap_j_std": -26864.8,
     "shift_p": -29073.5,
-    "shift_j": -8648.8
+    "shift_j": -9923.9
    },
    "内蒙古": {
     "enrol_p": 1088377.6,
-    "enrol_j": 663273.0,
+    "enrol_j": 668192.2,
     "need_p_std": 57283.0,
     "gap_p_std": -55020.0,
-    "need_j_std": 49131.3,
-    "gap_j_std": -16608.7,
+    "need_j_std": 49495.7,
+    "gap_j_std": -16244.3,
     "shift_p": -23339.6,
-    "shift_j": -1344.6
+    "shift_j": -867.0
    },
    "辽宁": {
     "enrol_p": 1539199.6,
-    "enrol_j": 942032.8,
+    "enrol_j": 917828.8,
     "need_p_std": 81010.5,
     "gap_p_std": -55671.5,
-    "need_j_std": 69780.2,
-    "gap_j_std": -27505.8,
+    "need_j_std": 67987.3,
+    "gap_j_std": -29298.7,
     "shift_p": -28004.5,
-    "shift_j": -1160.2
+    "shift_j": -3630.0
    },
    "吉林": {
     "enrol_p": 789946.0,
-    "enrol_j": 501124.8,
+    "enrol_j": 490102.4,
     "need_p_std": 41576.1,
     "gap_p_std": -54640.9,
-    "need_j_std": 37120.4,
-    "gap_j_std": -27577.6,
+    "need_j_std": 36303.9,
+    "gap_j_std": -28394.1,
     "shift_p": -23100.9,
-    "shift_j": -9701.9
+    "shift_j": -10911.5
    },
    "黑龙江": {
     "enrol_p": 821133.5,
-    "enrol_j": 637398.8,
+    "enrol_j": 702018.3,
     "need_p_std": 43217.6,
     "gap_p_std": -47825.4,
-    "need_j_std": 47214.7,
-    "gap_j_std": -33496.3,
+    "need_j_std": 52001.4,
+    "gap_j_std": -28709.6,
     "shift_p": -15833.9,
-    "shift_j": -13820.6
+    "shift_j": -7039.2
    },
    "上海": {
     "enrol_p": 926669.4,
-    "enrol_j": 527344.9,
+    "enrol_j": 670538.1,
     "need_p_std": 48772.1,
     "gap_p_std": -19037.9,
-    "need_j_std": 39062.6,
-    "gap_j_std": -11362.4,
+    "need_j_std": 49669.5,
+    "gap_j_std": -755.5,
     "shift_p": -31.4,
-    "shift_j": -7207.1
+    "shift_j": 4528.1
    },
    "江苏": {
     "enrol_p": 4497284.5,
-    "enrol_j": 2754096.4,
+    "enrol_j": 2683334.5,
     "need_p_std": 236699.2,
     "gap_p_std": -123663.8,
-    "need_j_std": 204007.1,
-    "gap_j_std": -32807.9,
+    "need_j_std": 198765.5,
+    "gap_j_std": -38049.5,
     "shift_p": -75850.8,
-    "shift_j": -10252.3
+    "shift_j": -16073.4
    },
    "浙江": {
     "enrol_p": 3696001.4,
-    "enrol_j": 1930051.2,
+    "enrol_j": 1880461.8,
     "need_p_std": 194526.4,
     "gap_p_std": -44679.6,
-    "need_j_std": 142966.8,
-    "gap_j_std": 291.8,
+    "need_j_std": 139293.5,
+    "gap_j_std": -3381.5,
     "shift_p": -25983.4,
-    "shift_j": 7945.5
+    "shift_j": 4075.6
    },
    "安徽": {
     "enrol_p": 3781231.7,
-    "enrol_j": 2210878.6,
+    "enrol_j": 2154073.8,
     "need_p_std": 199012.2,
     "gap_p_std": -67570.8,
-    "need_j_std": 163768.8,
-    "gap_j_std": -7878.2,
+    "need_j_std": 159561.0,
+    "gap_j_std": -12086.0,
     "shift_p": -47597.0,
-    "shift_j": -10926.0
+    "shift_j": -15055.4
    },
    "福建": {
     "enrol_p": 2912721.5,
-    "enrol_j": 1759002.7,
+    "enrol_j": 1713808.1,
     "need_p_std": 153301.1,
     "gap_p_std": -55182.9,
-    "need_j_std": 130296.5,
-    "gap_j_std": 9437.5,
+    "need_j_std": 126948.8,
+    "gap_j_std": 6089.8,
     "shift_p": -41105.5,
-    "shift_j": 7657.3
+    "shift_j": 4355.3
    },
    "江西": {
     "enrol_p": 2763478.1,
-    "enrol_j": 1699094.1,
+    "enrol_j": 1655438.8,
     "need_p_std": 145446.2,
     "gap_p_std": -85420.8,
-    "need_j_std": 125858.8,
-    "gap_j_std": -31177.2,
+    "need_j_std": 122625.1,
+    "gap_j_std": -34410.9,
     "shift_p": -50976.5,
-    "shift_j": -28316.7
+    "shift_j": -31624.0
    },
    "山东": {
     "enrol_p": 7539327.1,
-    "enrol_j": 4786697.4,
+    "enrol_j": 4858673.6,
     "need_p_std": 396806.7,
     "gap_p_std": -79577.3,
-    "need_j_std": 354570.2,
-    "gap_j_std": 38994.2,
+    "need_j_std": 359901.8,
+    "gap_j_std": 44325.8,
     "shift_p": -36644.9,
-    "shift_j": 56929.6
+    "shift_j": 62530.9
    },
    "河南": {
     "enrol_p": 6926401.4,
-    "enrol_j": 4487556.3,
+    "enrol_j": 4372256.1,
     "need_p_std": 364547.4,
     "gap_p_std": -217842.6,
-    "need_j_std": 332411.6,
-    "gap_j_std": -33724.4,
+    "need_j_std": 323870.8,
+    "gap_j_std": -42265.2,
     "shift_p": -142003.3,
-    "shift_j": -42521.9
+    "shift_j": -50836.6
    },
    "湖北": {
     "enrol_p": 3187906.2,
-    "enrol_j": 1837335.8,
+    "enrol_j": 1790128.6,
     "need_p_std": 167784.5,
     "gap_p_std": -57625.5,
-    "need_j_std": 136099.0,
-    "gap_j_std": -14242.0,
+    "need_j_std": 132602.1,
+    "gap_j_std": -17738.9,
     "shift_p": -37299.6,
-    "shift_j": -7246.3
+    "shift_j": -10922.9
    },
    "湖南": {
     "enrol_p": 3884424.7,
-    "enrol_j": 2414654.1,
+    "enrol_j": 2352613.6,
     "need_p_std": 204443.4,
     "gap_p_std": -100006.6,
-    "need_j_std": 178863.3,
-    "gap_j_std": -29191.7,
+    "need_j_std": 174267.7,
+    "gap_j_std": -33787.3,
     "shift_p": -66404.6,
-    "shift_j": -25569.0
+    "shift_j": -30257.7
    },
    "广东": {
     "enrol_p": 9621823.5,
-    "enrol_j": 5030462.9,
+    "enrol_j": 4901213.6,
     "need_p_std": 506411.8,
     "gap_p_std": -108417.2,
-    "need_j_std": 372626.9,
-    "gap_j_std": 16019.9,
+    "need_j_std": 363052.9,
+    "gap_j_std": 6445.9,
     "shift_p": -79122.6,
-    "shift_j": -165.2
+    "shift_j": -9323.4
    },
    "广西": {
     "enrol_p": 4084539.7,
-    "enrol_j": 2452400.6,
+    "enrol_j": 2389390.3,
     "need_p_std": 214975.8,
     "gap_p_std": -86780.2,
-    "need_j_std": 181659.3,
-    "gap_j_std": 10081.3,
+    "need_j_std": 176991.9,
+    "gap_j_std": 5413.9,
     "shift_p": -58585.2,
-    "shift_j": -6165.8
+    "shift_j": -10415.8
    },
    "海南": {
     "enrol_p": 710061.3,
-    "enrol_j": 415293.5,
+    "enrol_j": 404623.2,
     "need_p_std": 37371.6,
     "gap_p_std": -19741.4,
-    "need_j_std": 30762.5,
-    "gap_j_std": -1885.5,
+    "need_j_std": 29972.1,
+    "gap_j_std": -2675.9,
     "shift_p": -9620.4,
-    "shift_j": -1354.7
+    "shift_j": -2158.7
    },
    "重庆": {
     "enrol_p": 1706668.2,
-    "enrol_j": 986322.4,
+    "enrol_j": 960980.5,
     "need_p_std": 89824.6,
     "gap_p_std": -43170.4,
-    "need_j_std": 73060.9,
-    "gap_j_std": -10958.1,
+    "need_j_std": 71183.7,
+    "gap_j_std": -12835.3,
     "shift_p": -21294.7,
-    "shift_j": -4872.6
+    "shift_j": -6906.1
    },
    "四川": {
     "enrol_p": 4585758.2,
-    "enrol_j": 2560462.5,
+    "enrol_j": 2494675.7,
     "need_p_std": 241355.7,
     "gap_p_std": -108040.3,
-    "need_j_std": 189663.9,
-    "gap_j_std": -34974.1,
+    "need_j_std": 184790.8,
+    "gap_j_std": -39847.2,
     "shift_p": -52679.2,
-    "shift_j": -17111.5
+    "shift_j": -22443.5
    },
    "贵州": {
     "enrol_p": 3419337.8,
-    "enrol_j": 1824727.0,
+    "enrol_j": 1777843.7,
     "need_p_std": 179965.1,
     "gap_p_std": -38937.9,
-    "need_j_std": 135165.0,
-    "gap_j_std": -3758.0,
+    "need_j_std": 131692.1,
+    "gap_j_std": -7230.9,
     "shift_p": -27117.8,
-    "shift_j": -13624.2
+    "shift_j": -16843.5
    },
    "云南": {
     "enrol_p": 3391648.1,
-    "enrol_j": 1754992.3,
+    "enrol_j": 1709900.7,
     "need_p_std": 178507.8,
     "gap_p_std": -51152.2,
-    "need_j_std": 129999.4,
-    "gap_j_std": -9875.6,
+    "need_j_std": 126659.3,
+    "gap_j_std": -13215.7,
     "shift_p": -26555.1,
-    "shift_j": -11894.8
+    "shift_j": -15183.0
    },
    "西藏": {
     "enrol_p": 337181.0,
-    "enrol_j": 175801.2,
+    "enrol_j": 171284.3,
     "need_p_std": 17746.4,
     "gap_p_std": -9335.6,
-    "need_j_std": 13022.3,
-    "gap_j_std": -320.7,
+    "need_j_std": 12687.7,
+    "gap_j_std": -655.3,
     "shift_p": -3476.5,
-    "shift_j": 843.7
+    "shift_j": 479.2
    },
    "陕西": {
     "enrol_p": 2468202.3,
-    "enrol_j": 1435186.9,
+    "enrol_j": 1398312.2,
     "need_p_std": 129905.4,
     "gap_p_std": -61749.6,
-    "need_j_std": 106310.1,
-    "gap_j_std": -6706.9,
+    "need_j_std": 103578.7,
+    "gap_j_std": -9438.3,
     "shift_p": -32805.6,
-    "shift_j": -1268.4
+    "shift_j": -4139.6
    },
    "甘肃": {
     "enrol_p": 1713078.4,
-    "enrol_j": 945302.0,
+    "enrol_j": 921014.1,
     "need_p_std": 90162.0,
     "gap_p_std": -61828.0,
-    "need_j_std": 70022.4,
-    "gap_j_std": -15622.6,
+    "need_j_std": 68223.3,
+    "gap_j_std": -17421.7,
     "shift_p": -22779.1,
-    "shift_j": -3502.0
+    "shift_j": -5612.5
    },
    "青海": {
     "enrol_p": 430245.4,
-    "enrol_j": 240220.2,
+    "enrol_j": 234048.2,
     "need_p_std": 22644.5,
     "gap_p_std": -6989.5,
-    "need_j_std": 17794.1,
-    "gap_j_std": 197.1,
+    "need_j_std": 17336.9,
+    "gap_j_std": -260.1,
     "shift_p": -4680.7,
-    "shift_j": -791.3
+    "shift_j": -1223.1
    },
    "宁夏": {
     "enrol_p": 526511.3,
-    "enrol_j": 296290.3,
+    "enrol_j": 288677.6,
     "need_p_std": 27711.1,
     "gap_p_std": -7995.9,
-    "need_j_std": 21947.4,
-    "gap_j_std": 532.4,
+    "need_j_std": 21383.5,
+    "gap_j_std": -31.5,
     "shift_p": -5348.3,
-    "shift_j": -12.9
+    "shift_j": -562.8
    },
    "新疆": {
     "enrol_p": 1647118.9,
-    "enrol_j": 1516038.9,
+    "enrol_j": 1508704.7,
     "need_p_std": 86690.5,
     "gap_p_std": -72450.5,
-    "need_j_std": 112299.2,
-    "gap_j_std": 17780.2,
+    "need_j_std": 111755.9,
+    "gap_j_std": 17236.9,
     "shift_p": -64723.2,
-    "shift_j": 14220.0
+    "shift_j": 13693.9
    }
   },
   "2029": {
    "北京": {
     "enrol_p": 952772.8,
-    "enrol_j": 542985.6,
+    "enrol_j": 506866.3,
     "need_p_std": 50145.9,
     "gap_p_std": -30315.1,
-    "need_j_std": 40221.2,
-    "gap_j_std": -594.8,
+    "need_j_std": 37545.6,
+    "gap_j_std": -3270.4,
     "shift_p": -14910.8,
-    "shift_j": 13051.6
+    "shift_j": 9468.4
    },
    "天津": {
     "enrol_p": 648517.8,
-    "enrol_j": 414988.7,
+    "enrol_j": 390329.7,
     "need_p_std": 34132.5,
     "gap_p_std": -17973.5,
-    "need_j_std": 30739.9,
-    "gap_j_std": -2404.1,
+    "need_j_std": 28913.3,
+    "gap_j_std": -4230.7,
     "shift_p": -11354.6,
-    "shift_j": -263.2
+    "shift_j": -2217.0
    },
    "河北": {
     "enrol_p": 4175643.7,
-    "enrol_j": 2774975.2,
+    "enrol_j": 2779434.6,
     "need_p_std": 219770.7,
     "gap_p_std": -174614.3,
-    "need_j_std": 205553.7,
-    "gap_j_std": -44030.3,
+    "need_j_std": 205884.0,
+    "gap_j_std": -43700.0,
     "shift_p": -126749.8,
-    "shift_j": -47928.9
+    "shift_j": -47604.9
    },
    "山西": {
     "enrol_p": 1709753.0,
-    "enrol_j": 1035050.6,
+    "enrol_j": 1015602.7,
     "need_p_std": 89987.0,
     "gap_p_std": -75080.0,
-    "need_j_std": 76670.4,
-    "gap_j_std": -26792.6,
+    "need_j_std": 75229.8,
+    "gap_j_std": -28233.2,
     "shift_p": -40431.3,
-    "shift_j": -9835.6
+    "shift_j": -11594.8
    },
    "内蒙古": {
     "enrol_p": 990171.1,
-    "enrol_j": 660434.5,
+    "enrol_j": 665316.9,
     "need_p_std": 52114.3,
     "gap_p_std": -60188.7,
-    "need_j_std": 48921.1,
-    "gap_j_std": -16818.9,
+    "need_j_std": 49282.7,
+    "gap_j_std": -16457.3,
     "shift_p": -31367.0,
-    "shift_j": -1620.1
+    "shift_j": -1146.1
    },
    "辽宁": {
     "enrol_p": 1409027.9,
-    "enrol_j": 923838.1,
+    "enrol_j": 900101.6,
     "need_p_std": 74159.4,
     "gap_p_std": -62522.6,
-    "need_j_std": 68432.5,
-    "gap_j_std": -28853.5,
+    "need_j_std": 66674.2,
+    "gap_j_std": -30611.8,
     "shift_p": -37195.5,
-    "shift_j": -3016.8
+    "shift_j": -5438.9
    },
    "吉林": {
     "enrol_p": 720114.3,
-    "enrol_j": 482339.5,
+    "enrol_j": 471790.5,
     "need_p_std": 37900.8,
     "gap_p_std": -58316.2,
-    "need_j_std": 35728.8,
-    "gap_j_std": -28969.2,
+    "need_j_std": 34947.4,
+    "gap_j_std": -29750.6,
     "shift_p": -29564.4,
-    "shift_j": -11763.5
+    "shift_j": -12921.2
    },
    "黑龙江": {
     "enrol_p": 748945.4,
-    "enrol_j": 692115.6,
+    "enrol_j": 674421.5,
     "need_p_std": 39418.2,
     "gap_p_std": -51624.8,
-    "need_j_std": 51267.8,
-    "gap_j_std": -29443.2,
+    "need_j_std": 49957.1,
+    "gap_j_std": -30753.9,
     "shift_p": -22445.7,
-    "shift_j": -8078.4
+    "shift_j": -9935.3
    },
    "上海": {
     "enrol_p": 846177.7,
-    "enrol_j": 715710.0,
+    "enrol_j": 697321.0,
     "need_p_std": 44535.7,
     "gap_p_std": -23274.3,
-    "need_j_std": 53015.6,
-    "gap_j_std": 2590.6,
+    "need_j_std": 51653.4,
+    "gap_j_std": 1228.4,
     "shift_p": -5918.7,
-    "shift_j": 8230.1
+    "shift_j": 6723.1
    },
    "江苏": {
     "enrol_p": 4107289.0,
-    "enrol_j": 2744944.6,
+    "enrol_j": 2674417.9,
     "need_p_std": 216173.1,
     "gap_p_std": -144189.9,
-    "need_j_std": 203329.2,
-    "gap_j_std": -33485.8,
+    "need_j_std": 198105.0,
+    "gap_j_std": -38710.0,
     "shift_p": -100523.1,
-    "shift_j": -11005.1
+    "shift_j": -16806.9
    },
    "浙江": {
     "enrol_p": 3394062.7,
-    "enrol_j": 2040331.8,
+    "enrol_j": 1942167.9,
     "need_p_std": 178634.9,
     "gap_p_std": -60571.1,
-    "need_j_std": 151135.7,
-    "gap_j_std": 8460.7,
+    "need_j_std": 143864.3,
+    "gap_j_std": 1189.3,
     "shift_p": -43402.2,
-    "shift_j": 16551.8
+    "shift_j": 8891.1
    },
    "安徽": {
     "enrol_p": 3477596.3,
-    "enrol_j": 2221242.9,
+    "enrol_j": 2164171.8,
     "need_p_std": 183031.4,
     "gap_p_std": -83551.6,
-    "need_j_std": 164536.5,
-    "gap_j_std": -7110.5,
+    "need_j_std": 160309.0,
+    "gap_j_std": -11338.0,
     "shift_p": -65181.7,
-    "shift_j": -10172.5
+    "shift_j": -14321.3
    },
    "福建": {
     "enrol_p": 2654413.8,
-    "enrol_j": 1771579.0,
+    "enrol_j": 1726061.3,
     "need_p_std": 139706.0,
     "gap_p_std": -68778.0,
-    "need_j_std": 131228.1,
-    "gap_j_std": 10369.1,
+    "need_j_std": 127856.4,
+    "gap_j_std": 6997.4,
     "shift_p": -55949.0,
-    "shift_j": 8576.2
+    "shift_j": 5250.5
    },
    "江西": {
     "enrol_p": 2529962.7,
-    "enrol_j": 1673148.5,
+    "enrol_j": 1630159.8,
     "need_p_std": 133155.9,
     "gap_p_std": -97711.1,
-    "need_j_std": 123936.9,
-    "gap_j_std": -33099.1,
+    "need_j_std": 120752.6,
+    "gap_j_std": -36283.4,
     "shift_p": -66177.3,
-    "shift_j": -30282.3
+    "shift_j": -33539.0
    },
    "山东": {
     "enrol_p": 6702806.7,
-    "enrol_j": 5500208.8,
+    "enrol_j": 5030929.0,
     "need_p_std": 352779.3,
     "gap_p_std": -123604.7,
-    "need_j_std": 407422.9,
-    "gap_j_std": 91846.9,
+    "need_j_std": 372661.4,
+    "gap_j_std": 57085.4,
     "shift_p": -85435.8,
-    "shift_j": 112455.8
+    "shift_j": 75936.0
    },
    "河南": {
     "enrol_p": 6353216.2,
-    "enrol_j": 4337983.5,
+    "enrol_j": 4226526.3,
     "need_p_std": 334379.8,
     "gap_p_std": -248010.2,
-    "need_j_std": 321332.1,
-    "gap_j_std": -44803.9,
+    "need_j_std": 313076.0,
+    "gap_j_std": -53060.0,
     "shift_p": -178447.0,
-    "shift_j": -53308.2
+    "shift_j": -61345.8
    },
    "湖北": {
     "enrol_p": 2931021.9,
-    "enrol_j": 1878485.1,
+    "enrol_j": 1830220.6,
     "need_p_std": 154264.3,
     "gap_p_std": -71145.7,
-    "need_j_std": 139147.0,
-    "gap_j_std": -11194.0,
+    "need_j_std": 135571.9,
+    "gap_j_std": -14769.1,
     "shift_p": -52457.7,
-    "shift_j": -4041.5
+    "shift_j": -7800.5
    },
    "湖南": {
     "enrol_p": 3550575.3,
-    "enrol_j": 2398094.9,
+    "enrol_j": 2336479.9,
     "need_p_std": 186872.4,
     "gap_p_std": -117577.6,
-    "need_j_std": 177636.7,
-    "gap_j_std": -30418.3,
+    "need_j_std": 173072.6,
+    "gap_j_std": -34982.4,
     "shift_p": -86863.6,
-    "shift_j": -26820.5
+    "shift_j": -31477.0
    },
    "广东": {
     "enrol_p": 8894163.6,
-    "enrol_j": 5231534.5,
+    "enrol_j": 5044227.2,
     "need_p_std": 468113.9,
     "gap_p_std": -146715.1,
-    "need_j_std": 387521.1,
-    "gap_j_std": 30914.1,
+    "need_j_std": 373646.5,
+    "gap_j_std": 17039.5,
     "shift_p": -119635.9,
-    "shift_j": 14082.0
+    "shift_j": 810.1
    },
    "广西": {
     "enrol_p": 3787187.8,
-    "enrol_j": 2421871.6,
+    "enrol_j": 2359645.7,
     "need_p_std": 199325.7,
     "gap_p_std": -102430.3,
-    "need_j_std": 179397.9,
-    "gap_j_std": 7819.9,
+    "need_j_std": 174788.6,
+    "gap_j_std": 3210.6,
     "shift_p": -76287.9,
-    "shift_j": -8225.0
+    "shift_j": -12422.1
    },
    "海南": {
     "enrol_p": 662270.7,
-    "enrol_j": 411493.1,
+    "enrol_j": 400920.5,
     "need_p_std": 34856.4,
     "gap_p_std": -22256.6,
-    "need_j_std": 30481.0,
-    "gap_j_std": -2167.0,
+    "need_j_std": 29697.8,
+    "gap_j_std": -2950.2,
     "shift_p": -12816.9,
-    "shift_j": -1641.1
+    "shift_j": -2437.7
    },
    "重庆": {
     "enrol_p": 1575202.3,
-    "enrol_j": 1009927.5,
+    "enrol_j": 983979.2,
     "need_p_std": 82905.4,
     "gap_p_std": -50089.6,
-    "need_j_std": 74809.4,
-    "gap_j_std": -9209.6,
+    "need_j_std": 72887.3,
+    "gap_j_std": -11131.7,
     "shift_p": -29899.1,
-    "shift_j": -2978.4
+    "shift_j": -5060.6
    },
    "四川": {
     "enrol_p": 4238906.5,
-    "enrol_j": 2619006.6,
+    "enrol_j": 2551715.6,
     "need_p_std": 223100.3,
     "gap_p_std": -126295.7,
-    "need_j_std": 194000.5,
-    "gap_j_std": -30637.5,
+    "need_j_std": 189016.0,
+    "gap_j_std": -35622.0,
     "shift_p": -75121.9,
-    "shift_j": -12366.4
+    "shift_j": -17820.4
    },
    "贵州": {
     "enrol_p": 3184437.6,
-    "enrol_j": 1857228.4,
+    "enrol_j": 1793076.4,
     "need_p_std": 167602.0,
     "gap_p_std": -51301.0,
-    "need_j_std": 137572.5,
-    "gap_j_std": -1350.5,
+    "need_j_std": 132820.5,
+    "gap_j_std": -6102.5,
     "shift_p": -40293.0,
-    "shift_j": -11392.4
+    "shift_j": -15797.5
    },
    "云南": {
     "enrol_p": 3140143.5,
-    "enrol_j": 1800439.7,
+    "enrol_j": 1710845.0,
     "need_p_std": 165270.7,
     "gap_p_std": -64389.3,
-    "need_j_std": 133365.9,
-    "gap_j_std": -6509.1,
+    "need_j_std": 126729.3,
+    "gap_j_std": -13145.7,
     "shift_p": -41616.2,
-    "shift_j": -8580.6
+    "shift_j": -15114.2
    },
    "西藏": {
     "enrol_p": 316154.6,
-    "enrol_j": 177562.2,
+    "enrol_j": 173000.0,
     "need_p_std": 16639.7,
     "gap_p_std": -10442.3,
-    "need_j_std": 13152.8,
-    "gap_j_std": -190.2,
+    "need_j_std": 12814.8,
+    "gap_j_std": -528.2,
     "shift_p": -4948.5,
-    "shift_j": 985.8
+    "shift_j": 617.6
    },
    "陕西": {
     "enrol_p": 2265630.0,
-    "enrol_j": 1441924.9,
+    "enrol_j": 1404877.1,
     "need_p_std": 119243.7,
     "gap_p_std": -72411.3,
-    "need_j_std": 106809.3,
-    "gap_j_std": -6207.7,
+    "need_j_std": 104065.0,
+    "gap_j_std": -8952.0,
     "shift_p": -45842.8,
-    "shift_j": -743.8
+    "shift_j": -3628.5
    },
    "甘肃": {
     "enrol_p": 1581046.0,
-    "enrol_j": 953606.0,
+    "enrol_j": 923358.5,
     "need_p_std": 83212.9,
     "gap_p_std": -68777.1,
-    "need_j_std": 70637.5,
-    "gap_j_std": -15007.5,
+    "need_j_std": 68396.9,
+    "gap_j_std": -17248.1,
     "shift_p": -32737.8,
-    "shift_j": -2780.4
+    "shift_j": -5408.8
    },
    "青海": {
     "enrol_p": 399414.6,
-    "enrol_j": 242424.3,
+    "enrol_j": 236195.6,
     "need_p_std": 21021.8,
     "gap_p_std": -8612.2,
-    "need_j_std": 17957.4,
-    "gap_j_std": 360.4,
+    "need_j_std": 17496.0,
+    "gap_j_std": -101.0,
     "shift_p": -6468.8,
-    "shift_j": -637.1
+    "shift_j": -1072.9
    },
    "宁夏": {
     "enrol_p": 487318.7,
-    "enrol_j": 301291.6,
+    "enrol_j": 293550.4,
     "need_p_std": 25648.4,
     "gap_p_std": -10058.6,
-    "need_j_std": 22317.9,
-    "gap_j_std": 902.9,
+    "need_j_std": 21744.5,
+    "gap_j_std": 329.5,
     "shift_p": -7608.1,
-    "shift_j": 348.3
+    "shift_j": -210.8
    },
    "新疆": {
     "enrol_p": 1482255.6,
-    "enrol_j": 1339254.9,
+    "enrol_j": 1404372.4,
     "need_p_std": 78013.5,
     "gap_p_std": -81127.5,
-    "need_j_std": 99204.1,
-    "gap_j_std": 4685.1,
+    "need_j_std": 104027.6,
+    "gap_j_std": 9508.6,
     "shift_p": -74173.6,
-    "shift_j": 1540.0
+    "shift_j": 6210.6
    }
   },
   "2030": {
    "北京": {
     "enrol_p": 888646.1,
-    "enrol_j": 547622.5,
+    "enrol_j": 511495.0,
     "need_p_std": 46770.8,
     "gap_p_std": -33690.2,
-    "need_j_std": 40564.6,
-    "gap_j_std": -251.4,
+    "need_j_std": 37888.5,
+    "gap_j_std": -2927.5,
     "shift_p": -19322.6,
-    "shift_j": 13511.6
+    "shift_j": 9927.5
    },
    "天津": {
     "enrol_p": 604717.1,
-    "enrol_j": 414073.1,
+    "enrol_j": 387840.2,
     "need_p_std": 31827.2,
     "gap_p_std": -20278.8,
-    "need_j_std": 30672.1,
-    "gap_j_std": -2471.9,
+    "need_j_std": 28728.9,
+    "gap_j_std": -4415.1,
     "shift_p": -14106.9,
-    "shift_j": -335.7
+    "shift_j": -2414.2
    },
    "河北": {
     "enrol_p": 3895588.8,
-    "enrol_j": 2628546.1,
+    "enrol_j": 2670477.6,
     "need_p_std": 205031.0,
     "gap_p_std": -189354.0,
-    "need_j_std": 194707.1,
-    "gap_j_std": -54876.9,
+    "need_j_std": 197813.2,
+    "gap_j_std": -51770.8,
     "shift_p": -144699.8,
-    "shift_j": -58569.8
+    "shift_j": -55522.7
    },
    "山西": {
     "enrol_p": 1595035.5,
-    "enrol_j": 1020672.8,
+    "enrol_j": 998552.9,
     "need_p_std": 83949.2,
     "gap_p_std": -81117.8,
-    "need_j_std": 75605.4,
-    "gap_j_std": -27857.6,
+    "need_j_std": 73966.9,
+    "gap_j_std": -29496.1,
     "shift_p": -48793.8,
-    "shift_j": -11136.2
+    "shift_j": -13137.1
    },
    "内蒙古": {
     "enrol_p": 923554.5,
-    "enrol_j": 611569.9,
+    "enrol_j": 633066.8,
     "need_p_std": 48608.1,
     "gap_p_std": -63694.9,
-    "need_j_std": 45301.5,
-    "gap_j_std": -20438.5,
+    "need_j_std": 46893.8,
+    "gap_j_std": -18846.2,
     "shift_p": -36812.2,
-    "shift_j": -6364.3
+    "shift_j": -4277.2
    },
    "辽宁": {
     "enrol_p": 1314509.7,
-    "enrol_j": 876250.7,
+    "enrol_j": 867788.1,
     "need_p_std": 69184.7,
     "gap_p_std": -67497.3,
-    "need_j_std": 64907.5,
-    "gap_j_std": -32378.5,
+    "need_j_std": 64280.6,
+    "gap_j_std": -33005.4,
     "shift_p": -43869.1,
-    "shift_j": -7872.7
+    "shift_j": -8736.2
    },
    "吉林": {
     "enrol_p": 671808.4,
-    "enrol_j": 456953.5,
+    "enrol_j": 455156.3,
     "need_p_std": 35358.3,
     "gap_p_std": -60858.7,
-    "need_j_std": 33848.4,
-    "gap_j_std": -30849.6,
+    "need_j_std": 33715.3,
+    "gap_j_std": -30982.7,
     "shift_p": -34035.5,
-    "shift_j": -14549.5
+    "shift_j": -14746.7
    },
    "黑龙江": {
     "enrol_p": 698716.0,
-    "enrol_j": 643773.9,
+    "enrol_j": 637366.3,
     "need_p_std": 36774.5,
     "gap_p_std": -54268.5,
-    "need_j_std": 47687.0,
-    "gap_j_std": -33024.0,
+    "need_j_std": 47212.3,
+    "gap_j_std": -33498.7,
     "shift_p": -27046.3,
-    "shift_j": -13151.6
+    "shift_j": -13824.0
    },
    "上海": {
     "enrol_p": 789182.6,
-    "enrol_j": 700823.6,
+    "enrol_j": 692918.8,
     "need_p_std": 41535.9,
     "gap_p_std": -26274.1,
-    "need_j_std": 51912.9,
-    "gap_j_std": 1487.9,
+    "need_j_std": 51327.3,
+    "gap_j_std": 902.3,
     "shift_p": -10087.5,
-    "shift_j": 7010.1
+    "shift_j": 6362.3
    },
    "江苏": {
     "enrol_p": 3831808.4,
-    "enrol_j": 2595476.3,
+    "enrol_j": 2578461.9,
     "need_p_std": 201674.1,
     "gap_p_std": -158688.9,
-    "need_j_std": 192257.5,
-    "gap_j_std": -44557.5,
+    "need_j_std": 190997.2,
+    "gap_j_std": -45817.8,
     "shift_p": -117950.9,
-    "shift_j": -23301.0
+    "shift_j": -24700.7
    },
    "浙江": {
     "enrol_p": 3166322.2,
-    "enrol_j": 2036705.6,
+    "enrol_j": 1938863.7,
     "need_p_std": 166648.5,
     "gap_p_std": -72557.5,
-    "need_j_std": 150867.1,
-    "gap_j_std": 8192.1,
+    "need_j_std": 143619.5,
+    "gap_j_std": 944.5,
     "shift_p": -56540.6,
-    "shift_j": 16268.8
+    "shift_j": 8633.2
    },
    "安徽": {
     "enrol_p": 3244287.3,
-    "enrol_j": 2150091.1,
+    "enrol_j": 2114391.0,
     "need_p_std": 170752.0,
     "gap_p_std": -95831.0,
-    "need_j_std": 159266.0,
-    "gap_j_std": -12381.0,
+    "need_j_std": 156621.6,
+    "gap_j_std": -15025.4,
     "shift_p": -78693.5,
-    "shift_j": -15344.9
+    "shift_j": -17940.2
    },
    "福建": {
     "enrol_p": 2475934.4,
-    "enrol_j": 1675717.0,
+    "enrol_j": 1669877.9,
     "need_p_std": 130312.3,
     "gap_p_std": -78171.7,
-    "need_j_std": 124127.2,
-    "gap_j_std": 3268.2,
+    "need_j_std": 123694.7,
+    "gap_j_std": 2835.7,
     "shift_p": -66205.3,
-    "shift_j": 1572.3
+    "shift_j": 1145.7
    },
    "江西": {
     "enrol_p": 2358915.3,
-    "enrol_j": 1584755.1,
+    "enrol_j": 1567666.1,
     "need_p_std": 124153.4,
     "gap_p_std": -106713.6,
-    "need_j_std": 117389.3,
-    "gap_j_std": -39646.7,
+    "need_j_std": 116123.4,
+    "gap_j_std": -40912.6,
     "shift_p": -77311.8,
-    "shift_j": -36978.8
+    "shift_j": -38273.4
    },
    "山东": {
     "enrol_p": 6253171.5,
-    "enrol_j": 5528282.3,
+    "enrol_j": 5059921.0,
     "need_p_std": 329114.3,
     "gap_p_std": -147269.7,
-    "need_j_std": 409502.4,
-    "gap_j_std": 93926.4,
+    "need_j_std": 374809.0,
+    "gap_j_std": 59233.0,
     "shift_p": -111661.3,
-    "shift_j": 114640.5
+    "shift_j": 78192.2
    },
    "河南": {
     "enrol_p": 5927343.2,
-    "enrol_j": 4013490.2,
+    "enrol_j": 3962014.0,
     "need_p_std": 311965.4,
     "gap_p_std": -270424.6,
-    "need_j_std": 297295.6,
-    "gap_j_std": -68840.4,
+    "need_j_std": 293482.5,
+    "gap_j_std": -72653.5,
     "shift_p": -205524.3,
-    "shift_j": -76708.6
+    "shift_j": -80420.7
    },
    "湖北": {
     "enrol_p": 2733587.7,
-    "enrol_j": 1821077.1,
+    "enrol_j": 1790970.0,
     "need_p_std": 143873.0,
     "gap_p_std": -81537.0,
-    "need_j_std": 134894.6,
-    "gap_j_std": -15446.4,
+    "need_j_std": 132664.4,
+    "gap_j_std": -17676.6,
     "shift_p": -64107.8,
-    "shift_j": -8512.6
+    "shift_j": -10857.4
    },
    "湖南": {
     "enrol_p": 3312434.7,
-    "enrol_j": 2268440.7,
+    "enrol_j": 2250658.6,
     "need_p_std": 174338.7,
     "gap_p_std": -130111.3,
-    "need_j_std": 168032.6,
-    "gap_j_std": -40022.4,
+    "need_j_std": 166715.5,
+    "gap_j_std": -41339.5,
     "shift_p": -101457.3,
-    "shift_j": -36619.0
+    "shift_j": -37962.9
    },
    "广东": {
     "enrol_p": 8297418.1,
-    "enrol_j": 5181650.9,
+    "enrol_j": 4995889.7,
     "need_p_std": 436706.2,
     "gap_p_std": -178122.8,
-    "need_j_std": 383826.0,
-    "gap_j_std": 27219.0,
+    "need_j_std": 370065.9,
+    "gap_j_std": 13458.9,
     "shift_p": -152860.4,
-    "shift_j": 10547.5
+    "shift_j": -2615.0
    },
    "广西": {
     "enrol_p": 3532191.4,
-    "enrol_j": 2321164.0,
+    "enrol_j": 2261525.6,
     "need_p_std": 185904.8,
     "gap_p_std": -115851.2,
-    "need_j_std": 171938.1,
-    "gap_j_std": 360.1,
+    "need_j_std": 167520.4,
+    "gap_j_std": -4057.6,
     "shift_p": -91469.0,
-    "shift_j": -15017.6
+    "shift_j": -19040.2
    },
    "海南": {
     "enrol_p": 617868.8,
-    "enrol_j": 399921.9,
+    "enrol_j": 389646.5,
     "need_p_std": 32519.4,
     "gap_p_std": -24593.6,
-    "need_j_std": 29623.8,
-    "gap_j_std": -3024.2,
+    "need_j_std": 28862.7,
+    "gap_j_std": -3785.3,
     "shift_p": -15786.7,
-    "shift_j": -2513.0
+    "shift_j": -3287.2
    },
    "重庆": {
     "enrol_p": 1469388.4,
-    "enrol_j": 979849.2,
+    "enrol_j": 958267.7,
     "need_p_std": 77336.2,
     "gap_p_std": -55658.8,
-    "need_j_std": 72581.4,
-    "gap_j_std": -11437.6,
+    "need_j_std": 70982.8,
+    "gap_j_std": -13036.2,
     "shift_p": -36824.5,
-    "shift_j": -5392.0
+    "shift_j": -7123.8
    },
    "四川": {
     "enrol_p": 3954310.5,
-    "enrol_j": 2569074.3,
+    "enrol_j": 2506815.3,
     "need_p_std": 208121.6,
     "gap_p_std": -141274.4,
-    "need_j_std": 190301.8,
-    "gap_j_std": -34336.2,
+    "need_j_std": 185690.0,
+    "gap_j_std": -38948.0,
     "shift_p": -93536.4,
-    "shift_j": -16413.5
+    "shift_j": -21459.6
    },
    "贵州": {
     "enrol_p": 2970461.9,
-    "enrol_j": 1868630.5,
+    "enrol_j": 1804267.7,
     "need_p_std": 156340.1,
     "gap_p_std": -62562.9,
-    "need_j_std": 138417.1,
-    "gap_j_std": -505.9,
+    "need_j_std": 133649.5,
+    "gap_j_std": -5273.5,
     "shift_p": -52294.6,
-    "shift_j": -10609.4
+    "shift_j": -15029.0
    },
    "云南": {
     "enrol_p": 2929360.4,
-    "enrol_j": 1824675.0,
+    "enrol_j": 1734674.4,
     "need_p_std": 154176.9,
     "gap_p_std": -75483.1,
-    "need_j_std": 135161.1,
-    "gap_j_std": -4713.9,
+    "need_j_std": 128494.4,
+    "gap_j_std": -11380.6,
     "shift_p": -54238.7,
-    "shift_j": -6813.3
+    "shift_j": -13376.5
    },
    "西藏": {
     "enrol_p": 294904.2,
-    "enrol_j": 175698.7,
+    "enrol_j": 171184.4,
     "need_p_std": 15521.3,
     "gap_p_std": -11560.7,
-    "need_j_std": 13014.7,
-    "gap_j_std": -328.3,
+    "need_j_std": 12680.3,
+    "gap_j_std": -662.7,
     "shift_p": -6436.2,
-    "shift_j": 835.4
+    "shift_j": 471.1
    },
    "陕西": {
     "enrol_p": 2113537.7,
-    "enrol_j": 1405185.1,
+    "enrol_j": 1385900.0,
     "need_p_std": 111238.8,
     "gap_p_std": -80416.2,
-    "need_j_std": 104087.8,
-    "gap_j_std": -8929.2,
+    "need_j_std": 102659.3,
+    "gap_j_std": -10357.7,
     "shift_p": -55631.2,
-    "shift_j": -3604.5
+    "shift_j": -5106.1
    },
    "甘肃": {
     "enrol_p": 1474917.5,
-    "enrol_j": 940959.0,
+    "enrol_j": 911065.2,
     "need_p_std": 77627.2,
     "gap_p_std": -74362.8,
-    "need_j_std": 69700.7,
-    "gap_j_std": -15944.3,
+    "need_j_std": 67486.3,
+    "gap_j_std": -18158.7,
     "shift_p": -40742.6,
-    "shift_j": -3879.4
+    "shift_j": -6477.0
    },
    "青海": {
     "enrol_p": 372357.4,
-    "enrol_j": 236077.2,
+    "enrol_j": 230011.6,
     "need_p_std": 19597.8,
     "gap_p_std": -10036.2,
-    "need_j_std": 17487.2,
-    "gap_j_std": -109.8,
+    "need_j_std": 17037.9,
+    "gap_j_std": -559.1,
     "shift_p": -8038.0,
-    "shift_j": -1081.2
+    "shift_j": -1505.5
    },
    "宁夏": {
     "enrol_p": 454528.1,
-    "enrol_j": 294355.6,
+    "enrol_j": 286792.7,
     "need_p_std": 23922.5,
     "gap_p_std": -11784.5,
-    "need_j_std": 21804.1,
-    "gap_j_std": 389.1,
+    "need_j_std": 21243.9,
+    "gap_j_std": -171.1,
     "shift_p": -9498.8,
-    "shift_j": -152.7
+    "shift_j": -699.0
    },
    "新疆": {
     "enrol_p": 1382657.1,
-    "enrol_j": 1092986.6,
+    "enrol_j": 1263935.2,
     "need_p_std": 72771.4,
     "gap_p_std": -86369.6,
-    "need_j_std": 80962.0,
-    "gap_j_std": -13557.0,
+    "need_j_std": 93624.8,
+    "gap_j_std": -894.2,
     "shift_p": -79882.9,
-    "shift_j": -16123.7
+    "shift_j": -3862.3
    }
   }
  },
@@ -2501,1873 +2501,1873 @@
   "2025": {
    "北京": {
     "enrol_p": 1166913.3,
-    "enrol_j": 449708.8,
+    "enrol_j": 445688.7,
     "need_p_std": 61416.5,
     "gap_p_std": -19044.5,
-    "need_j_std": 33311.8,
-    "gap_j_std": -7504.2,
+    "need_j_std": 33014.0,
+    "gap_j_std": -7802.0,
     "shift_p": -178.0,
-    "shift_j": 3798.0
+    "shift_j": 3399.1
    },
    "天津": {
     "enrol_p": 808205.3,
-    "enrol_j": 416731.7,
+    "enrol_j": 413170.1,
     "need_p_std": 42537.1,
     "gap_p_std": -9568.9,
-    "need_j_std": 30869.0,
-    "gap_j_std": -2275.0,
+    "need_j_std": 30605.2,
+    "gap_j_std": -2538.8,
     "shift_p": -1320.2,
-    "shift_j": -125.1
+    "shift_j": -407.3
    },
    "河北": {
     "enrol_p": 5706317.9,
-    "enrol_j": 3447500.6,
+    "enrol_j": 3418373.4,
     "need_p_std": 300332.5,
     "gap_p_std": -94052.5,
-    "need_j_std": 255370.4,
-    "gap_j_std": 5786.4,
+    "need_j_std": 253212.8,
+    "gap_j_std": 3628.8,
     "shift_p": -28642.3,
-    "shift_j": 942.9
+    "shift_j": -1173.8
    },
    "山西": {
     "enrol_p": 2171581.2,
-    "enrol_j": 1137025.3,
+    "enrol_j": 1127368.3,
     "need_p_std": 114293.7,
     "gap_p_std": -50773.3,
-    "need_j_std": 84224.1,
-    "gap_j_std": -19238.9,
+    "need_j_std": 83508.8,
+    "gap_j_std": -19954.2,
     "shift_p": -6765.4,
-    "shift_j": -611.3
+    "shift_j": -1484.9
    },
    "内蒙古": {
     "enrol_p": 1305143.8,
-    "enrol_j": 686948.9,
+    "enrol_j": 680817.6,
     "need_p_std": 68691.8,
     "gap_p_std": -43611.2,
-    "need_j_std": 50885.1,
-    "gap_j_std": -14854.9,
+    "need_j_std": 50430.9,
+    "gap_j_std": -15309.1,
     "shift_p": -5621.3,
-    "shift_j": 954.1
+    "shift_j": 358.8
    },
    "辽宁": {
     "enrol_p": 1846798.3,
-    "enrol_j": 968967.0,
+    "enrol_j": 960474.4,
     "need_p_std": 97199.9,
     "gap_p_std": -39482.1,
-    "need_j_std": 71775.3,
-    "gap_j_std": -25510.7,
+    "need_j_std": 71146.3,
+    "gap_j_std": -26139.7,
     "shift_p": -6286.0,
-    "shift_j": 1588.2
+    "shift_j": 721.6
    },
    "吉林": {
     "enrol_p": 970968.6,
-    "enrol_j": 575253.1,
+    "enrol_j": 570370.2,
     "need_p_std": 51103.6,
     "gap_p_std": -45113.4,
-    "need_j_std": 42611.3,
-    "gap_j_std": -22086.7,
+    "need_j_std": 42249.6,
+    "gap_j_std": -22448.4,
     "shift_p": -6345.8,
-    "shift_j": -1566.6
+    "shift_j": -2102.5
    },
    "黑龙江": {
     "enrol_p": 1007676.6,
-    "enrol_j": 783669.0,
+    "enrol_j": 862819.3,
     "need_p_std": 53035.6,
     "gap_p_std": -38007.4,
-    "need_j_std": 58049.6,
-    "gap_j_std": -22661.4,
+    "need_j_std": 63912.5,
+    "gap_j_std": -16798.5,
     "shift_p": 1252.0,
-    "shift_j": 1529.4
+    "shift_j": 9835.7
    },
    "上海": {
     "enrol_p": 1077170.9,
-    "enrol_j": 484403.8,
+    "enrol_j": 643521.1,
     "need_p_std": 56693.2,
     "gap_p_std": -11116.8,
-    "need_j_std": 35881.8,
-    "gap_j_std": -14543.2,
+    "need_j_std": 47668.2,
+    "gap_j_std": -2756.8,
     "shift_p": 10976.6,
-    "shift_j": -10726.3
+    "shift_j": 2314.0
    },
    "江苏": {
     "enrol_p": 5422418.9,
-    "enrol_j": 2918631.7,
+    "enrol_j": 2893688.8,
     "need_p_std": 285390.5,
     "gap_p_std": -74972.5,
-    "need_j_std": 216194.9,
-    "gap_j_std": -20620.1,
+    "need_j_std": 214347.3,
+    "gap_j_std": -22467.7,
     "shift_p": -17323.9,
-    "shift_j": 3283.0
+    "shift_j": 1231.1
    },
    "浙江": {
     "enrol_p": 4087877.2,
-    "enrol_j": 1899286.5,
+    "enrol_j": 1882709.1,
     "need_p_std": 215151.4,
     "gap_p_std": -24054.6,
-    "need_j_std": 140687.9,
-    "gap_j_std": -1987.1,
+    "need_j_std": 139459.9,
+    "gap_j_std": -3215.1,
     "shift_p": -3376.0,
-    "shift_j": 5544.6
+    "shift_j": 4250.9
    },
    "安徽": {
     "enrol_p": 4423781.2,
-    "enrol_j": 2372533.1,
+    "enrol_j": 2352579.6,
     "need_p_std": 232830.6,
     "gap_p_std": -33752.4,
-    "need_j_std": 175743.2,
-    "gap_j_std": 4096.2,
+    "need_j_std": 174265.2,
+    "gap_j_std": 2618.2,
     "shift_p": -10384.4,
-    "shift_j": 825.6
+    "shift_j": -624.9
    },
    "福建": {
     "enrol_p": 3478838.6,
-    "enrol_j": 1730582.2,
+    "enrol_j": 1715067.7,
     "need_p_std": 183096.8,
     "gap_p_std": -25387.2,
-    "need_j_std": 128191.3,
-    "gap_j_std": 7332.3,
+    "need_j_std": 127042.0,
+    "gap_j_std": 6183.0,
     "shift_p": -8573.7,
-    "shift_j": 5580.9
+    "shift_j": 4447.3
    },
    "江西": {
     "enrol_p": 3335539.7,
-    "enrol_j": 2018794.9,
+    "enrol_j": 2013304.9,
     "need_p_std": 175554.7,
     "gap_p_std": -55312.3,
-    "need_j_std": 149540.4,
-    "gap_j_std": -7495.6,
+    "need_j_std": 149133.7,
+    "gap_j_std": -7902.3,
     "shift_p": -13737.7,
-    "shift_j": -4097.0
+    "shift_j": -4512.9
    },
    "山东": {
     "enrol_p": 8333416.0,
-    "enrol_j": 4803035.3,
+    "enrol_j": 4975418.9,
     "need_p_std": 438600.8,
     "gap_p_std": -37783.2,
-    "need_j_std": 355780.4,
-    "gap_j_std": 40204.4,
+    "need_j_std": 368549.6,
+    "gap_j_std": 52973.6,
     "shift_p": 9671.2,
-    "shift_j": 58201.1
+    "shift_j": 71616.1
    },
    "河南": {
     "enrol_p": 8582529.8,
-    "enrol_j": 5027927.1,
+    "enrol_j": 4985449.4,
     "need_p_std": 451712.1,
     "gap_p_std": -130677.9,
-    "need_j_std": 372439.0,
-    "gap_j_std": 6303.0,
+    "need_j_std": 369292.6,
+    "gap_j_std": 3156.6,
     "shift_p": -36705.2,
-    "shift_j": -3553.8
+    "shift_j": -6617.0
    },
    "湖北": {
     "enrol_p": 3687569.3,
-    "enrol_j": 1941390.1,
+    "enrol_j": 1924906.8,
     "need_p_std": 194082.6,
     "gap_p_std": -31327.4,
-    "need_j_std": 143806.7,
-    "gap_j_std": -6534.3,
+    "need_j_std": 142585.7,
+    "gap_j_std": -7755.3,
     "shift_p": -7815.8,
-    "shift_j": 857.6
+    "shift_j": -426.1
    },
    "湖南": {
     "enrol_p": 4697468.1,
-    "enrol_j": 2714461.7,
+    "enrol_j": 2691863.8,
     "need_p_std": 247235.2,
     "gap_p_std": -57214.8,
-    "need_j_std": 201071.2,
-    "gap_j_std": -6983.8,
+    "need_j_std": 199397.3,
+    "gap_j_std": -8657.7,
     "shift_p": -16579.7,
-    "shift_j": -2911.3
+    "shift_j": -4619.1
    },
    "广东": {
     "enrol_p": 10719128.5,
-    "enrol_j": 5252670.2,
+    "enrol_j": 5205860.0,
     "need_p_std": 564164.7,
     "gap_p_std": -50664.3,
-    "need_j_std": 389086.7,
-    "gap_j_std": 32479.7,
+    "need_j_std": 385619.3,
+    "gap_j_std": 29012.3,
     "shift_p": -18028.8,
-    "shift_j": 15579.7
+    "shift_j": 12262.8
    },
    "广西": {
     "enrol_p": 4806227.2,
-    "enrol_j": 2628223.3,
+    "enrol_j": 2604593.4,
     "need_p_std": 252959.3,
     "gap_p_std": -48796.7,
-    "need_j_std": 194683.2,
-    "gap_j_std": 23105.2,
+    "need_j_std": 192932.8,
+    "gap_j_std": 21354.8,
     "shift_p": -15620.0,
-    "shift_j": 5693.2
+    "shift_j": 4099.4
    },
    "海南": {
     "enrol_p": 818955.0,
-    "enrol_j": 446166.8,
+    "enrol_j": 442278.4,
     "need_p_std": 43102.9,
     "gap_p_std": -14010.1,
-    "need_j_std": 33049.4,
-    "gap_j_std": 401.4,
+    "need_j_std": 32761.4,
+    "gap_j_std": 113.4,
     "shift_p": -2337.1,
-    "shift_j": 971.7
+    "shift_j": 678.7
    },
    "重庆": {
     "enrol_p": 1965539.3,
-    "enrol_j": 1035728.1,
+    "enrol_j": 1026913.1,
     "need_p_std": 103449.4,
     "gap_p_std": -29545.6,
-    "need_j_std": 76720.6,
-    "gap_j_std": -7298.4,
+    "need_j_std": 76067.6,
+    "gap_j_std": -7951.4,
     "shift_p": -4351.8,
-    "shift_j": -908.1
+    "shift_j": -1615.4
    },
    "四川": {
     "enrol_p": 5221589.5,
-    "enrol_j": 2759608.6,
+    "enrol_j": 2736210.6,
     "need_p_std": 274820.5,
     "gap_p_std": -74575.5,
-    "need_j_std": 204415.4,
-    "gap_j_std": -20222.6,
+    "need_j_std": 202682.3,
+    "gap_j_std": -21955.7,
     "shift_p": -11538.4,
-    "shift_j": -970.6
+    "shift_j": -2867.0
    },
    "贵州": {
     "enrol_p": 3778262.4,
-    "enrol_j": 2035867.0,
+    "enrol_j": 2018354.2,
     "need_p_std": 198855.9,
     "gap_p_std": -20047.1,
-    "need_j_std": 150805.0,
-    "gap_j_std": 11882.0,
+    "need_j_std": 149507.7,
+    "gap_j_std": 10584.7,
     "shift_p": -6986.3,
-    "shift_j": 874.2
+    "shift_j": -328.3
    },
    "云南": {
     "enrol_p": 3729197.4,
-    "enrol_j": 1922651.0,
+    "enrol_j": 1906076.3,
     "need_p_std": 196273.5,
     "gap_p_std": -33386.5,
-    "need_j_std": 142418.6,
-    "gap_j_std": 2543.6,
+    "need_j_std": 141190.8,
+    "gap_j_std": 1315.8,
     "shift_p": -6341.4,
-    "shift_j": 331.4
+    "shift_j": -877.2
    },
    "西藏": {
     "enrol_p": 381656.5,
-    "enrol_j": 167728.5,
+    "enrol_j": 166287.8,
     "need_p_std": 20087.2,
     "gap_p_std": -6994.8,
-    "need_j_std": 12424.3,
-    "gap_j_std": -918.7,
+    "need_j_std": 12317.6,
+    "gap_j_std": -1025.4,
     "shift_p": -362.8,
-    "shift_j": 192.2
+    "shift_j": 76.0
    },
    "陕西": {
     "enrol_p": 2871948.7,
-    "enrol_j": 1487825.3,
+    "enrol_j": 1475015.4,
     "need_p_std": 151155.2,
     "gap_p_std": -40499.8,
-    "need_j_std": 110209.3,
-    "gap_j_std": -2807.7,
+    "need_j_std": 109260.4,
+    "gap_j_std": -3756.6,
     "shift_p": -6821.1,
-    "shift_j": 2830.2
+    "shift_j": 1832.8
    },
    "甘肃": {
     "enrol_p": 1949913.4,
-    "enrol_j": 998575.7,
+    "enrol_j": 989965.6,
     "need_p_std": 102627.0,
     "gap_p_std": -49363.0,
-    "need_j_std": 73968.6,
-    "gap_j_std": -11676.4,
+    "need_j_std": 73330.8,
+    "gap_j_std": -12314.2,
     "shift_p": -4915.5,
-    "shift_j": 1127.3
+    "shift_j": 379.1
    },
    "青海": {
     "enrol_p": 492221.0,
-    "enrol_j": 258240.6,
+    "enrol_j": 256016.1,
     "need_p_std": 25906.4,
     "gap_p_std": -3727.6,
-    "need_j_std": 19128.9,
-    "gap_j_std": 1531.9,
+    "need_j_std": 18964.2,
+    "gap_j_std": 1367.2,
     "shift_p": -1086.2,
-    "shift_j": 469.4
+    "shift_j": 313.7
    },
    "宁夏": {
     "enrol_p": 602662.7,
-    "enrol_j": 298887.1,
+    "enrol_j": 296303.8,
     "need_p_std": 31719.1,
     "gap_p_std": -3987.9,
-    "need_j_std": 22139.8,
-    "gap_j_std": 724.8,
+    "need_j_std": 21948.4,
+    "gap_j_std": 533.4,
     "shift_p": -957.4,
-    "shift_j": 174.6
+    "shift_j": -12.0
    },
    "新疆": {
     "enrol_p": 2505663.7,
-    "enrol_j": 1424907.3,
+    "enrol_j": 1411533.0,
     "need_p_std": 131877.0,
     "gap_p_std": -27264.0,
-    "need_j_std": 105548.7,
-    "gap_j_std": 11029.7,
+    "need_j_std": 104558.0,
+    "gap_j_std": 10039.0,
     "shift_p": -15508.8,
-    "shift_j": 7683.5
+    "shift_j": 6724.2
    }
   },
   "2026": {
    "北京": {
     "enrol_p": 1135676.0,
-    "enrol_j": 493536.1,
+    "enrol_j": 479287.8,
     "need_p_std": 59772.4,
     "gap_p_std": -20688.6,
-    "need_j_std": 36558.2,
-    "gap_j_std": -4257.8,
+    "need_j_std": 35502.8,
+    "gap_j_std": -5313.2,
     "shift_p": -2327.1,
-    "shift_j": 8145.9
+    "shift_j": 6732.4
    },
    "天津": {
     "enrol_p": 774669.0,
-    "enrol_j": 430346.0,
+    "enrol_j": 423001.2,
     "need_p_std": 40772.1,
     "gap_p_std": -11333.9,
-    "need_j_std": 31877.5,
-    "gap_j_std": -1266.5,
+    "need_j_std": 31333.4,
+    "gap_j_std": -1810.6,
     "shift_p": -3427.5,
-    "shift_j": 953.6
+    "shift_j": 371.7
    },
    "河北": {
     "enrol_p": 5269500.6,
-    "enrol_j": 3407277.4,
+    "enrol_j": 3349928.9,
     "need_p_std": 277342.1,
     "gap_p_std": -117042.9,
-    "need_j_std": 252390.9,
-    "gap_j_std": 2806.9,
+    "need_j_std": 248142.9,
+    "gap_j_std": -1441.1,
     "shift_p": -56639.8,
-    "shift_j": -1980.1
+    "shift_j": -6147.6
    },
    "山西": {
     "enrol_p": 2059125.0,
-    "enrol_j": 1144183.7,
+    "enrol_j": 1124654.8,
     "need_p_std": 108375.0,
     "gap_p_std": -56692.0,
-    "need_j_std": 84754.3,
-    "gap_j_std": -18708.7,
+    "need_j_std": 83307.8,
+    "gap_j_std": -20155.2,
     "shift_p": -14963.1,
-    "shift_j": 36.2
+    "shift_j": -1730.3
    },
    "内蒙古": {
     "enrol_p": 1237070.8,
-    "enrol_j": 702712.1,
+    "enrol_j": 690626.6,
     "need_p_std": 65109.0,
     "gap_p_std": -47194.0,
-    "need_j_std": 52052.7,
-    "gap_j_std": -13687.3,
+    "need_j_std": 51157.5,
+    "gap_j_std": -14582.5,
     "shift_p": -11185.6,
-    "shift_j": 2484.5
+    "shift_j": 1311.1
    },
    "辽宁": {
     "enrol_p": 1745004.0,
-    "enrol_j": 1002775.3,
+    "enrol_j": 985693.3,
     "need_p_std": 91842.3,
     "gap_p_std": -44839.7,
-    "need_j_std": 74279.7,
-    "gap_j_std": -23006.3,
+    "need_j_std": 73014.3,
+    "gap_j_std": -24271.7,
     "shift_p": -13473.4,
-    "shift_j": 5038.0
+    "shift_j": 3295.0
    },
    "吉林": {
     "enrol_p": 905642.5,
-    "enrol_j": 569657.4,
+    "enrol_j": 560086.5,
     "need_p_std": 47665.4,
     "gap_p_std": -48551.6,
-    "need_j_std": 42196.8,
-    "gap_j_std": -22501.2,
+    "need_j_std": 41487.9,
+    "gap_j_std": -23210.1,
     "shift_p": -12392.3,
-    "shift_j": -2180.7
+    "shift_j": -3231.1
    },
    "黑龙江": {
     "enrol_p": 938837.7,
-    "enrol_j": 741704.2,
+    "enrol_j": 815501.8,
     "need_p_std": 49412.5,
     "gap_p_std": -41630.5,
-    "need_j_std": 54941.1,
-    "gap_j_std": -25769.9,
+    "need_j_std": 60407.5,
+    "gap_j_std": -20303.5,
     "shift_p": -5053.1,
-    "shift_j": -2874.5
+    "shift_j": 4870.0
    },
    "上海": {
     "enrol_p": 1040306.5,
-    "enrol_j": 517570.8,
+    "enrol_j": 671361.8,
     "need_p_std": 54753.0,
     "gap_p_std": -13057.0,
-    "need_j_std": 38338.6,
-    "gap_j_std": -12086.4,
+    "need_j_std": 49730.5,
+    "gap_j_std": -694.5,
     "shift_p": 8280.3,
-    "shift_j": -8008.1
+    "shift_j": 4595.6
    },
    "江苏": {
     "enrol_p": 5160345.9,
-    "enrol_j": 2905893.0,
+    "enrol_j": 2856960.0,
     "need_p_std": 271597.2,
     "gap_p_std": -88765.8,
-    "need_j_std": 215251.3,
-    "gap_j_std": -21563.7,
+    "need_j_std": 211626.7,
+    "gap_j_std": -25188.3,
     "shift_p": -33903.5,
-    "shift_j": 2235.1
+    "shift_j": -1790.3
    },
    "浙江": {
     "enrol_p": 4014110.9,
-    "enrol_j": 1937530.8,
+    "enrol_j": 1904535.8,
     "need_p_std": 211269.0,
     "gap_p_std": -27937.0,
-    "need_j_std": 143520.8,
-    "gap_j_std": 845.8,
+    "need_j_std": 141076.7,
+    "gap_j_std": -1598.3,
     "shift_p": -7631.6,
-    "shift_j": 8529.2
+    "shift_j": 5954.3
    },
    "安徽": {
     "enrol_p": 4247670.6,
-    "enrol_j": 2337229.9,
+    "enrol_j": 2297963.2,
     "need_p_std": 223561.6,
     "gap_p_std": -43021.4,
-    "need_j_std": 173128.1,
-    "gap_j_std": 1481.1,
+    "need_j_std": 170219.5,
+    "gap_j_std": -1427.5,
     "shift_p": -20583.7,
-    "shift_j": -1740.8
+    "shift_j": -4595.3
    },
    "福建": {
     "enrol_p": 3322292.5,
-    "enrol_j": 1795753.1,
+    "enrol_j": 1764964.8,
     "need_p_std": 174857.5,
     "gap_p_std": -33626.5,
-    "need_j_std": 133018.7,
-    "gap_j_std": 12159.7,
+    "need_j_std": 130738.1,
+    "gap_j_std": 9879.1,
     "shift_p": -17569.6,
-    "shift_j": 10342.4
+    "shift_j": 8092.9
    },
    "江西": {
     "enrol_p": 3159719.9,
-    "enrol_j": 1925231.8,
+    "enrol_j": 1904551.1,
     "need_p_std": 166301.0,
     "gap_p_std": -64566.0,
-    "need_j_std": 142609.8,
-    "gap_j_std": -14426.2,
+    "need_j_std": 141077.9,
+    "gap_j_std": -15958.1,
     "shift_p": -25182.9,
-    "shift_j": -11185.1
+    "shift_j": -12751.8
    },
    "山东": {
     "enrol_p": 8196632.3,
-    "enrol_j": 4792193.0,
+    "enrol_j": 4931552.2,
     "need_p_std": 431401.7,
     "gap_p_std": -44982.3,
-    "need_j_std": 354977.3,
-    "gap_j_std": 39401.3,
+    "need_j_std": 365300.2,
+    "gap_j_std": 49724.2,
     "shift_p": 1693.1,
-    "shift_j": 57357.3
+    "shift_j": 68202.4
    },
    "河南": {
     "enrol_p": 8066905.0,
-    "enrol_j": 4890782.0,
+    "enrol_j": 4808382.3,
     "need_p_std": 424573.9,
     "gap_p_std": -157816.1,
-    "need_j_std": 362280.2,
-    "gap_j_std": -3855.8,
+    "need_j_std": 356176.5,
+    "gap_j_std": -9959.5,
     "shift_p": -69489.1,
-    "shift_j": -13443.8
+    "shift_j": -19386.0
    },
    "湖北": {
     "enrol_p": 3571357.6,
-    "enrol_j": 1912786.4,
+    "enrol_j": 1880707.3,
     "need_p_std": 187966.2,
     "gap_p_std": -37443.8,
-    "need_j_std": 141687.9,
-    "gap_j_std": -8653.1,
+    "need_j_std": 139311.7,
+    "gap_j_std": -11029.3,
     "shift_p": -14673.1,
-    "shift_j": -1370.1
+    "shift_j": -3868.5
    },
    "湖南": {
     "enrol_p": 4465388.0,
-    "enrol_j": 2630638.5,
+    "enrol_j": 2586985.8,
     "need_p_std": 235020.4,
     "gap_p_std": -69429.6,
-    "need_j_std": 194862.1,
-    "gap_j_std": -13192.9,
+    "need_j_std": 191628.6,
+    "gap_j_std": -16426.4,
     "shift_p": -30802.0,
-    "shift_j": -9246.2
+    "shift_j": -12545.2
    },
    "广东": {
     "enrol_p": 10503238.4,
-    "enrol_j": 5269658.6,
+    "enrol_j": 5180096.5,
     "need_p_std": 552802.0,
     "gap_p_std": -62027.0,
-    "need_j_std": 390345.1,
-    "gap_j_std": 33738.1,
+    "need_j_std": 383710.9,
+    "gap_j_std": 27103.9,
     "shift_p": -30048.7,
-    "shift_j": 16783.4
+    "shift_j": 10437.3
    },
    "广西": {
     "enrol_p": 4605207.5,
-    "enrol_j": 2614813.8,
+    "enrol_j": 2569724.6,
     "need_p_std": 242379.3,
     "gap_p_std": -59376.7,
-    "need_j_std": 193689.9,
-    "gap_j_std": 22111.9,
+    "need_j_std": 190350.0,
+    "gap_j_std": 18772.0,
     "shift_p": -27587.5,
-    "shift_j": 4788.8
+    "shift_j": 1747.5
    },
    "海南": {
     "enrol_p": 789688.9,
-    "enrol_j": 445103.5,
+    "enrol_j": 437579.5,
     "need_p_std": 41562.6,
     "gap_p_std": -15550.4,
-    "need_j_std": 32970.6,
-    "gap_j_std": 322.6,
+    "need_j_std": 32413.3,
+    "gap_j_std": -234.7,
     "shift_p": -4294.5,
-    "shift_j": 891.6
+    "shift_j": 324.6
    },
    "重庆": {
     "enrol_p": 1911118.9,
-    "enrol_j": 1015115.9,
+    "enrol_j": 998051.8,
     "need_p_std": 100585.2,
     "gap_p_std": -32409.8,
-    "need_j_std": 75193.8,
-    "gap_j_std": -8825.2,
+    "need_j_std": 73929.8,
+    "gap_j_std": -10089.2,
     "shift_p": -7913.6,
-    "shift_j": -2562.1
+    "shift_j": -3931.4
    },
    "四川": {
     "enrol_p": 5077904.9,
-    "enrol_j": 2699053.2,
+    "enrol_j": 2653810.7,
     "need_p_std": 267258.2,
     "gap_p_std": -82137.8,
-    "need_j_std": 199929.9,
-    "gap_j_std": -24708.1,
+    "need_j_std": 196578.6,
+    "gap_j_std": -28059.4,
     "shift_p": -20835.3,
-    "shift_j": -5878.6
+    "shift_j": -9545.5
    },
    "贵州": {
     "enrol_p": 3684223.3,
-    "enrol_j": 1996677.0,
+    "enrol_j": 1962945.2,
     "need_p_std": 193906.5,
     "gap_p_std": -24996.5,
-    "need_j_std": 147902.0,
-    "gap_j_std": 8979.0,
+    "need_j_std": 145403.3,
+    "gap_j_std": 6480.3,
     "shift_p": -12260.8,
-    "shift_j": -1816.8
+    "shift_j": -4133.1
    },
    "云南": {
     "enrol_p": 3630766.3,
-    "enrol_j": 1913707.6,
+    "enrol_j": 1881246.5,
     "need_p_std": 191093.0,
     "gap_p_std": -38567.0,
-    "need_j_std": 141756.1,
-    "gap_j_std": 1881.1,
+    "need_j_std": 139351.6,
+    "gap_j_std": -523.4,
     "shift_p": -12235.8,
-    "shift_j": -320.7
+    "shift_j": -2687.9
    },
    "西藏": {
     "enrol_p": 373292.5,
-    "enrol_j": 169400.8,
+    "enrol_j": 166491.7,
     "need_p_std": 19647.0,
     "gap_p_std": -7435.0,
-    "need_j_std": 12548.2,
-    "gap_j_std": -794.8,
+    "need_j_std": 12332.7,
+    "gap_j_std": -1010.3,
     "shift_p": -948.4,
-    "shift_j": 327.2
+    "shift_j": 92.4
    },
    "陕西": {
     "enrol_p": 2752322.4,
-    "enrol_j": 1505381.8,
+    "enrol_j": 1479781.4,
     "need_p_std": 144859.1,
     "gap_p_std": -46795.9,
-    "need_j_std": 111509.8,
-    "gap_j_std": -1507.2,
+    "need_j_std": 109613.4,
+    "gap_j_std": -3403.6,
     "shift_p": -14520.1,
-    "shift_j": 4197.2
+    "shift_j": 2203.9
    },
    "甘肃": {
     "enrol_p": 1879727.9,
-    "enrol_j": 998558.3,
+    "enrol_j": 981465.6,
     "need_p_std": 98933.0,
     "gap_p_std": -53057.0,
-    "need_j_std": 73967.3,
-    "gap_j_std": -11677.7,
+    "need_j_std": 72701.2,
+    "gap_j_std": -12943.8,
     "shift_p": -10209.3,
-    "shift_j": 1125.8
+    "shift_j": -359.5
    },
    "青海": {
     "enrol_p": 477159.6,
-    "enrol_j": 255065.3,
+    "enrol_j": 250770.8,
     "need_p_std": 25113.7,
     "gap_p_std": -4520.3,
-    "need_j_std": 18893.7,
-    "gap_j_std": 1296.7,
+    "need_j_std": 18575.6,
+    "gap_j_std": 978.6,
     "shift_p": -1959.7,
-    "shift_j": 247.2
+    "shift_j": -53.2
    },
    "宁夏": {
     "enrol_p": 585065.9,
-    "enrol_j": 299414.9,
+    "enrol_j": 294301.8,
     "need_p_std": 30792.9,
     "gap_p_std": -4914.1,
-    "need_j_std": 22178.9,
-    "gap_j_std": 763.9,
+    "need_j_std": 21800.1,
+    "gap_j_std": 385.1,
     "shift_p": -1972.0,
-    "shift_j": 212.8
+    "shift_j": -156.6
    },
    "新疆": {
     "enrol_p": 2208095.3,
-    "enrol_j": 1526179.8,
+    "enrol_j": 1498983.9,
     "need_p_std": 116215.5,
     "gap_p_std": -42925.5,
-    "need_j_std": 113050.4,
-    "gap_j_std": 18531.4,
+    "need_j_std": 111035.8,
+    "gap_j_std": 16516.8,
     "shift_p": -32566.3,
-    "shift_j": 14947.3
+    "shift_j": 12996.7
    }
   },
   "2027": {
    "北京": {
     "enrol_p": 1112019.9,
-    "enrol_j": 498460.8,
+    "enrol_j": 480005.8,
     "need_p_std": 58527.4,
     "gap_p_std": -21933.6,
-    "need_j_std": 36923.0,
-    "gap_j_std": -3893.0,
+    "need_j_std": 35556.0,
+    "gap_j_std": -5260.0,
     "shift_p": -3954.6,
-    "shift_j": 8634.5
+    "shift_j": 6803.6
    },
    "天津": {
     "enrol_p": 753997.8,
-    "enrol_j": 415841.1,
+    "enrol_j": 406849.3,
     "need_p_std": 39684.1,
     "gap_p_std": -12421.9,
-    "need_j_std": 30803.0,
-    "gap_j_std": -2341.0,
+    "need_j_std": 30137.0,
+    "gap_j_std": -3007.0,
     "shift_p": -4726.5,
-    "shift_j": -195.7
+    "shift_j": -908.1
    },
    "河北": {
     "enrol_p": 4989601.8,
-    "enrol_j": 3154929.0,
+    "enrol_j": 3131941.3,
     "need_p_std": 262610.6,
     "gap_p_std": -131774.4,
-    "need_j_std": 233698.4,
-    "gap_j_std": -15885.6,
+    "need_j_std": 231995.6,
+    "gap_j_std": -17588.4,
     "shift_p": -74579.7,
-    "shift_j": -20318.0
+    "shift_j": -21988.5
    },
    "山西": {
     "enrol_p": 1992513.7,
-    "enrol_j": 1090524.3,
+    "enrol_j": 1075405.0,
     "need_p_std": 104869.1,
     "gap_p_std": -60197.9,
-    "need_j_std": 80779.6,
-    "gap_j_std": -22683.4,
+    "need_j_std": 79659.6,
+    "gap_j_std": -23803.4,
     "shift_p": -19818.9,
-    "shift_j": -4817.7
+    "shift_j": -6185.3
    },
    "内蒙古": {
     "enrol_p": 1156655.7,
-    "enrol_j": 708234.9,
+    "enrol_j": 690038.0,
     "need_p_std": 60876.6,
     "gap_p_std": -51426.4,
-    "need_j_std": 52461.8,
-    "gap_j_std": -13278.2,
+    "need_j_std": 51113.9,
+    "gap_j_std": -14626.1,
     "shift_p": -17758.6,
-    "shift_j": 3020.7
+    "shift_j": 1254.0
    },
    "辽宁": {
     "enrol_p": 1653488.6,
-    "enrol_j": 980538.9,
+    "enrol_j": 955345.6,
     "need_p_std": 87025.7,
     "gap_p_std": -49656.3,
-    "need_j_std": 72632.5,
-    "gap_j_std": -24653.5,
+    "need_j_std": 70766.3,
+    "gap_j_std": -26519.7,
     "shift_p": -19934.9,
-    "shift_j": 2769.0
+    "shift_j": 198.2
    },
    "吉林": {
     "enrol_p": 857596.3,
-    "enrol_j": 533797.0,
+    "enrol_j": 521944.5,
     "need_p_std": 45136.6,
     "gap_p_std": -51080.4,
-    "need_j_std": 39540.5,
-    "gap_j_std": -25157.5,
+    "need_j_std": 38662.6,
+    "gap_j_std": -26035.4,
     "shift_p": -16839.3,
-    "shift_j": -6116.2
+    "shift_j": -7417.0
    },
    "黑龙江": {
     "enrol_p": 886119.2,
-    "enrol_j": 694147.2,
+    "enrol_j": 763206.4,
     "need_p_std": 46637.9,
     "gap_p_std": -44405.1,
-    "need_j_std": 51418.3,
-    "gap_j_std": -29292.7,
+    "need_j_std": 56533.8,
+    "gap_j_std": -24177.2,
     "shift_p": -9881.7,
-    "shift_j": -7865.2
+    "shift_j": -618.0
    },
    "上海": {
     "enrol_p": 997685.9,
-    "enrol_j": 527356.5,
+    "enrol_j": 675811.8,
     "need_p_std": 52509.8,
     "gap_p_std": -15300.2,
-    "need_j_std": 39063.4,
-    "gap_j_std": -11361.6,
+    "need_j_std": 50060.1,
+    "gap_j_std": -364.9,
     "shift_p": 5162.9,
-    "shift_j": -7206.1
+    "shift_j": 4960.3
    },
    "江苏": {
     "enrol_p": 4881406.5,
-    "enrol_j": 2829950.1,
+    "enrol_j": 2757239.3,
     "need_p_std": 256916.1,
     "gap_p_std": -103446.9,
-    "need_j_std": 209625.9,
-    "gap_j_std": -27189.1,
+    "need_j_std": 204240.0,
+    "gap_j_std": -32575.0,
     "shift_p": -51550.0,
-    "shift_j": -4012.3
+    "shift_j": -9993.7
    },
    "浙江": {
     "enrol_p": 3908498.8,
-    "enrol_j": 1933833.4,
+    "enrol_j": 1884146.8,
     "need_p_std": 205710.5,
     "gap_p_std": -33495.5,
-    "need_j_std": 143246.9,
-    "gap_j_std": 571.9,
+    "need_j_std": 139566.4,
+    "gap_j_std": -3108.6,
     "shift_p": -13724.4,
-    "shift_j": 8240.7
+    "shift_j": 4363.1
    },
    "安徽": {
     "enrol_p": 4069638.7,
-    "enrol_j": 2260813.2,
+    "enrol_j": 2202725.4,
     "need_p_std": 214191.5,
     "gap_p_std": -52391.5,
-    "need_j_std": 167467.6,
-    "gap_j_std": -4179.4,
+    "need_j_std": 163164.8,
+    "gap_j_std": -8482.2,
     "shift_p": -30894.2,
-    "shift_j": -7295.9
+    "shift_j": -11518.7
    },
    "福建": {
     "enrol_p": 3142881.6,
-    "enrol_j": 1799115.8,
+    "enrol_j": 1752890.5,
     "need_p_std": 165414.8,
     "gap_p_std": -43069.2,
-    "need_j_std": 133267.8,
-    "gap_j_std": 12408.8,
+    "need_j_std": 129843.7,
+    "gap_j_std": 8984.7,
     "shift_p": -27879.4,
-    "shift_j": 10588.1
+    "shift_j": 7210.7
    },
    "江西": {
     "enrol_p": 2990357.2,
-    "enrol_j": 1795834.1,
+    "enrol_j": 1760515.3,
     "need_p_std": 157387.2,
     "gap_p_std": -73479.8,
-    "need_j_std": 133024.8,
-    "gap_j_std": -24011.2,
+    "need_j_std": 130408.5,
+    "gap_j_std": -26627.5,
     "shift_p": -36207.6,
-    "shift_j": -20988.0
+    "shift_j": -23663.6
    },
    "山东": {
     "enrol_p": 7949480.6,
-    "enrol_j": 4830963.6,
+    "enrol_j": 4935576.1,
     "need_p_std": 418393.7,
     "gap_p_std": -57990.3,
-    "need_j_std": 357849.2,
-    "gap_j_std": 42273.2,
+    "need_j_std": 365598.2,
+    "gap_j_std": 50022.2,
     "shift_p": -12722.3,
-    "shift_j": 60374.5
+    "shift_j": 68515.5
    },
    "河南": {
     "enrol_p": 7539273.0,
-    "enrol_j": 4734294.5,
+    "enrol_j": 4612654.8,
     "need_p_std": 396803.8,
     "gap_p_std": -185586.2,
-    "need_j_std": 350688.5,
-    "gap_j_std": -15447.5,
+    "need_j_std": 341678.1,
+    "gap_j_std": -24457.9,
     "shift_p": -103036.4,
-    "shift_j": -24728.7
+    "shift_j": -33500.6
    },
    "湖北": {
     "enrol_p": 3423600.1,
-    "enrol_j": 1868832.3,
+    "enrol_j": 1820815.9,
     "need_p_std": 180189.5,
     "gap_p_std": -45220.5,
-    "need_j_std": 138432.0,
-    "gap_j_std": -11909.0,
+    "need_j_std": 134875.2,
+    "gap_j_std": -15465.8,
     "shift_p": -23391.9,
-    "shift_j": -4793.3
+    "shift_j": -8532.9
    },
    "湖南": {
     "enrol_p": 4224971.2,
-    "enrol_j": 2505119.0,
+    "enrol_j": 2440754.2,
     "need_p_std": 222366.9,
     "gap_p_std": -82083.1,
-    "need_j_std": 185564.4,
-    "gap_j_std": -22490.6,
+    "need_j_std": 180796.6,
+    "gap_j_std": -27258.4,
     "shift_p": -45535.2,
-    "shift_j": -18732.2
+    "shift_j": -23596.6
    },
    "广东": {
     "enrol_p": 10183701.5,
-    "enrol_j": 5196585.7,
+    "enrol_j": 5063068.2,
     "need_p_std": 535984.3,
     "gap_p_std": -78844.7,
-    "need_j_std": 384932.3,
-    "gap_j_std": 28325.3,
+    "need_j_std": 375042.1,
+    "gap_j_std": 18435.1,
     "shift_p": -47839.3,
-    "shift_j": 11605.7
+    "shift_j": 2145.1
    },
    "广西": {
     "enrol_p": 4387301.8,
-    "enrol_j": 2583693.8,
+    "enrol_j": 2517310.1,
     "need_p_std": 230910.6,
     "gap_p_std": -70845.4,
-    "need_j_std": 191384.7,
-    "gap_j_std": 19806.7,
+    "need_j_std": 186467.4,
+    "gap_j_std": 14889.4,
     "shift_p": -40560.4,
-    "shift_j": 2689.8
+    "shift_j": -1787.8
    },
    "海南": {
     "enrol_p": 758070.5,
-    "enrol_j": 432602.9,
+    "enrol_j": 421487.9,
     "need_p_std": 39898.4,
     "gap_p_std": -17214.6,
-    "need_j_std": 32044.7,
-    "gap_j_std": -603.3,
+    "need_j_std": 31221.3,
+    "gap_j_std": -1426.7,
     "shift_p": -6409.3,
-    "shift_j": -50.4
+    "shift_j": -887.9
    },
    "重庆": {
     "enrol_p": 1833066.5,
-    "enrol_j": 999053.4,
+    "enrol_j": 973384.4,
     "need_p_std": 96477.2,
     "gap_p_std": -36517.8,
-    "need_j_std": 74004.0,
-    "gap_j_std": -10015.0,
+    "need_j_std": 72102.5,
+    "gap_j_std": -11916.5,
     "shift_p": -13022.1,
-    "shift_j": -3851.0
+    "shift_j": -5910.8
    },
    "四川": {
     "enrol_p": 4898947.8,
-    "enrol_j": 2620016.2,
+    "enrol_j": 2552699.3,
     "need_p_std": 257839.4,
     "gap_p_std": -91556.6,
-    "need_j_std": 194075.3,
-    "gap_j_std": -30562.7,
+    "need_j_std": 189088.8,
+    "gap_j_std": -35549.2,
     "shift_p": -32414.6,
-    "shift_j": -12284.6
+    "shift_j": -17740.7
    },
    "贵州": {
     "enrol_p": 3600015.8,
-    "enrol_j": 1914875.6,
+    "enrol_j": 1865676.1,
     "need_p_std": 189474.5,
     "gap_p_std": -29428.5,
-    "need_j_std": 141842.6,
-    "gap_j_std": 2919.6,
+    "need_j_std": 138198.2,
+    "gap_j_std": -724.8,
     "shift_p": -16983.9,
-    "shift_j": -7433.9
+    "shift_j": -10812.3
    },
    "云南": {
     "enrol_p": 3561658.8,
-    "enrol_j": 1834178.3,
+    "enrol_j": 1787052.2,
     "need_p_std": 187455.7,
     "gap_p_std": -42204.3,
-    "need_j_std": 135865.1,
-    "gap_j_std": -4009.9,
+    "need_j_std": 132374.2,
+    "gap_j_std": -7500.8,
     "shift_p": -16374.2,
-    "shift_j": -6120.3
+    "shift_j": -9556.9
    },
    "西藏": {
     "enrol_p": 361706.0,
-    "enrol_j": 171541.5,
+    "enrol_j": 167134.0,
     "need_p_std": 19037.2,
     "gap_p_std": -8044.8,
-    "need_j_std": 12706.8,
-    "gap_j_std": -636.2,
+    "need_j_std": 12380.3,
+    "gap_j_std": -962.7,
     "shift_p": -1759.5,
-    "shift_j": 499.9
+    "shift_j": 144.3
    },
    "陕西": {
     "enrol_p": 2646444.5,
-    "enrol_j": 1466844.2,
+    "enrol_j": 1429156.1,
     "need_p_std": 139286.6,
     "gap_p_std": -52368.4,
-    "need_j_std": 108655.1,
-    "gap_j_std": -4361.9,
+    "need_j_std": 105863.4,
+    "gap_j_std": -7153.6,
     "shift_p": -21334.2,
-    "shift_j": 1196.5
+    "shift_j": -1738.0
    },
    "甘肃": {
     "enrol_p": 1819046.2,
-    "enrol_j": 976657.7,
+    "enrol_j": 951564.1,
     "need_p_std": 95739.3,
     "gap_p_std": -56250.7,
-    "need_j_std": 72345.0,
-    "gap_j_std": -13300.0,
+    "need_j_std": 70486.2,
+    "gap_j_std": -15158.8,
     "shift_p": -14786.3,
-    "shift_j": -777.3
+    "shift_j": -2957.8
    },
    "青海": {
     "enrol_p": 458266.3,
-    "enrol_j": 249038.0,
+    "enrol_j": 242639.4,
     "need_p_std": 24119.3,
     "gap_p_std": -5514.7,
-    "need_j_std": 18447.3,
-    "gap_j_std": 850.3,
+    "need_j_std": 17973.3,
+    "gap_j_std": 376.3,
     "shift_p": -3055.5,
-    "shift_j": -174.4
+    "shift_j": -622.1
    },
    "宁夏": {
     "enrol_p": 563156.9,
-    "enrol_j": 298748.0,
+    "enrol_j": 291072.1,
     "need_p_std": 29639.8,
     "gap_p_std": -6067.2,
-    "need_j_std": 22129.5,
-    "gap_j_std": 714.5,
+    "need_j_std": 21560.9,
+    "gap_j_std": 145.9,
     "shift_p": -3235.3,
-    "shift_j": 164.6
+    "shift_j": -389.9
    },
    "新疆": {
     "enrol_p": 1910013.8,
-    "enrol_j": 1587929.4,
+    "enrol_j": 1547130.2,
     "need_p_std": 100527.0,
     "gap_p_std": -58614.0,
-    "need_j_std": 117624.4,
-    "gap_j_std": 23105.4,
+    "need_j_std": 114602.2,
+    "gap_j_std": 20083.2,
     "shift_p": -49653.2,
-    "shift_j": 19376.4
+    "shift_j": 16450.0
    }
   },
   "2028": {
    "北京": {
     "enrol_p": 1080140.1,
-    "enrol_j": 511473.6,
+    "enrol_j": 492712.4,
     "need_p_std": 56849.5,
     "gap_p_std": -23611.5,
-    "need_j_std": 37886.9,
-    "gap_j_std": -2929.1,
+    "need_j_std": 36497.2,
+    "gap_j_std": -4318.8,
     "shift_p": -6148.0,
-    "shift_j": 9925.4
+    "shift_j": 8064.2
    },
    "天津": {
     "enrol_p": 733107.5,
-    "enrol_j": 405519.0,
+    "enrol_j": 396783.9,
     "need_p_std": 38584.6,
     "gap_p_std": -13521.4,
-    "need_j_std": 30038.4,
-    "gap_j_std": -3105.6,
+    "need_j_std": 29391.4,
+    "gap_j_std": -3752.6,
     "shift_p": -6039.2,
-    "shift_j": -1013.5
+    "shift_j": -1705.6
    },
    "河北": {
     "enrol_p": 4750539.0,
-    "enrol_j": 2897871.9,
+    "enrol_j": 2899554.4,
     "need_p_std": 250028.4,
     "gap_p_std": -144356.6,
-    "need_j_std": 214657.2,
-    "gap_j_std": -34926.8,
+    "need_j_std": 214781.8,
+    "gap_j_std": -34802.2,
     "shift_p": -89902.3,
-    "shift_j": -38998.1
+    "shift_j": -38875.9
    },
    "山西": {
     "enrol_p": 1918351.7,
-    "enrol_j": 1048170.7,
+    "enrol_j": 1034075.1,
     "need_p_std": 100965.9,
     "gap_p_std": -64101.1,
-    "need_j_std": 77642.3,
-    "gap_j_std": -25820.7,
+    "need_j_std": 76598.2,
+    "gap_j_std": -26864.8,
     "shift_p": -25225.1,
-    "shift_j": -8648.8
+    "shift_j": -9923.9
    },
    "内蒙古": {
     "enrol_p": 1118945.8,
-    "enrol_j": 663273.0,
+    "enrol_j": 668192.2,
     "need_p_std": 58891.9,
     "gap_p_std": -53411.1,
-    "need_j_std": 49131.3,
-    "gap_j_std": -16608.7,
+    "need_j_std": 49495.7,
+    "gap_j_std": -16244.3,
     "shift_p": -20841.0,
-    "shift_j": -1344.6
+    "shift_j": -867.0
    },
    "辽宁": {
     "enrol_p": 1582707.7,
-    "enrol_j": 942032.8,
+    "enrol_j": 917828.8,
     "need_p_std": 83300.4,
     "gap_p_std": -53381.6,
-    "need_j_std": 69780.2,
-    "gap_j_std": -27505.8,
+    "need_j_std": 67987.3,
+    "gap_j_std": -29298.7,
     "shift_p": -24932.5,
-    "shift_j": -1160.2
+    "shift_j": -3630.0
    },
    "吉林": {
     "enrol_p": 812181.7,
-    "enrol_j": 501124.8,
+    "enrol_j": 490102.4,
     "need_p_std": 42746.4,
     "gap_p_std": -53470.6,
-    "need_j_std": 37120.4,
-    "gap_j_std": -27577.6,
+    "need_j_std": 36303.9,
+    "gap_j_std": -28394.1,
     "shift_p": -21042.8,
-    "shift_j": -9701.9
+    "shift_j": -10911.5
    },
    "黑龙江": {
     "enrol_p": 844259.8,
-    "enrol_j": 637398.8,
+    "enrol_j": 702018.3,
     "need_p_std": 44434.7,
     "gap_p_std": -46608.3,
-    "need_j_std": 47214.7,
-    "gap_j_std": -33496.3,
+    "need_j_std": 52001.4,
+    "gap_j_std": -28709.6,
     "shift_p": -13715.7,
-    "shift_j": -13820.6
+    "shift_j": -7039.2
    },
    "上海": {
     "enrol_p": 952790.1,
-    "enrol_j": 527344.9,
+    "enrol_j": 670538.1,
     "need_p_std": 50146.8,
     "gap_p_std": -17663.2,
-    "need_j_std": 39062.6,
-    "gap_j_std": -11362.4,
+    "need_j_std": 49669.5,
+    "gap_j_std": -755.5,
     "shift_p": 1879.1,
-    "shift_j": -7207.1
+    "shift_j": 4528.1
    },
    "江苏": {
     "enrol_p": 4624111.0,
-    "enrol_j": 2754096.4,
+    "enrol_j": 2683334.5,
     "need_p_std": 243374.3,
     "gap_p_std": -116988.7,
-    "need_j_std": 204007.1,
-    "gap_j_std": -32807.9,
+    "need_j_std": 198765.5,
+    "gap_j_std": -38049.5,
     "shift_p": -67827.3,
-    "shift_j": -10252.3
+    "shift_j": -16073.4
    },
    "浙江": {
     "enrol_p": 3800801.5,
-    "enrol_j": 1930051.2,
+    "enrol_j": 1880461.8,
     "need_p_std": 200042.2,
     "gap_p_std": -39163.8,
-    "need_j_std": 142966.8,
-    "gap_j_std": 291.8,
+    "need_j_std": 139293.5,
+    "gap_j_std": -3381.5,
     "shift_p": -19937.4,
-    "shift_j": 7945.5
+    "shift_j": 4075.6
    },
    "安徽": {
     "enrol_p": 3888612.2,
-    "enrol_j": 2210878.6,
+    "enrol_j": 2154073.8,
     "need_p_std": 204663.8,
     "gap_p_std": -61919.2,
-    "need_j_std": 163768.8,
-    "gap_j_std": -7878.2,
+    "need_j_std": 159561.0,
+    "gap_j_std": -12086.0,
     "shift_p": -41378.1,
-    "shift_j": -10926.0
+    "shift_j": -15055.4
    },
    "福建": {
     "enrol_p": 2994670.8,
-    "enrol_j": 1759002.7,
+    "enrol_j": 1713808.1,
     "need_p_std": 157614.3,
     "gap_p_std": -50869.7,
-    "need_j_std": 130296.5,
-    "gap_j_std": 9437.5,
+    "need_j_std": 126948.8,
+    "gap_j_std": 6089.8,
     "shift_p": -36396.3,
-    "shift_j": 7657.3
+    "shift_j": 4355.3
    },
    "江西": {
     "enrol_p": 2841554.3,
-    "enrol_j": 1699094.1,
+    "enrol_j": 1655438.8,
     "need_p_std": 149555.5,
     "gap_p_std": -81311.5,
-    "need_j_std": 125858.8,
-    "gap_j_std": -31177.2,
+    "need_j_std": 122625.1,
+    "gap_j_std": -34410.9,
     "shift_p": -45894.1,
-    "shift_j": -28316.7
+    "shift_j": -31624.0
    },
    "山东": {
     "enrol_p": 7746296.8,
-    "enrol_j": 4786697.4,
+    "enrol_j": 4858673.6,
     "need_p_std": 407699.8,
     "gap_p_std": -68684.2,
-    "need_j_std": 354570.2,
-    "gap_j_std": 38994.2,
+    "need_j_std": 359901.8,
+    "gap_j_std": 44325.8,
     "shift_p": -24573.2,
-    "shift_j": 56929.6
+    "shift_j": 62530.9
    },
    "河南": {
     "enrol_p": 7122586.7,
-    "enrol_j": 4487556.3,
+    "enrol_j": 4372256.1,
     "need_p_std": 374873.0,
     "gap_p_std": -207517.0,
-    "need_j_std": 332411.6,
-    "gap_j_std": -33724.4,
+    "need_j_std": 323870.8,
+    "gap_j_std": -42265.2,
     "shift_p": -129529.7,
-    "shift_j": -42521.9
+    "shift_j": -50836.6
    },
    "湖北": {
     "enrol_p": 3278383.5,
-    "enrol_j": 1837335.8,
+    "enrol_j": 1790128.6,
     "need_p_std": 172546.5,
     "gap_p_std": -52863.5,
-    "need_j_std": 136099.0,
-    "gap_j_std": -14242.0,
+    "need_j_std": 132602.1,
+    "gap_j_std": -17738.9,
     "shift_p": -31960.8,
-    "shift_j": -7246.3
+    "shift_j": -10922.9
    },
    "湖南": {
     "enrol_p": 3994060.8,
-    "enrol_j": 2414654.1,
+    "enrol_j": 2352613.6,
     "need_p_std": 210213.7,
     "gap_p_std": -94236.3,
-    "need_j_std": 178863.3,
-    "gap_j_std": -29191.7,
+    "need_j_std": 174267.7,
+    "gap_j_std": -33787.3,
     "shift_p": -59685.9,
-    "shift_j": -25569.0
+    "shift_j": -30257.7
    },
    "广东": {
     "enrol_p": 9896454.4,
-    "enrol_j": 5030462.9,
+    "enrol_j": 4901213.6,
     "need_p_std": 520866.0,
     "gap_p_std": -93963.0,
-    "need_j_std": 372626.9,
-    "gap_j_std": 16019.9,
+    "need_j_std": 363052.9,
+    "gap_j_std": 6445.9,
     "shift_p": -63832.2,
-    "shift_j": -165.2
+    "shift_j": -9323.4
    },
    "广西": {
     "enrol_p": 4201449.5,
-    "enrol_j": 2452400.6,
+    "enrol_j": 2389390.3,
     "need_p_std": 221128.9,
     "gap_p_std": -80627.1,
-    "need_j_std": 181659.3,
-    "gap_j_std": 10081.3,
+    "need_j_std": 176991.9,
+    "gap_j_std": 5413.9,
     "shift_p": -51625.1,
-    "shift_j": -6165.8
+    "shift_j": -10415.8
    },
    "海南": {
     "enrol_p": 730511.7,
-    "enrol_j": 415293.5,
+    "enrol_j": 404623.2,
     "need_p_std": 38448.0,
     "gap_p_std": -18665.0,
-    "need_j_std": 30762.5,
-    "gap_j_std": -1885.5,
+    "need_j_std": 29972.1,
+    "gap_j_std": -2675.9,
     "shift_p": -8252.6,
-    "shift_j": -1354.7
+    "shift_j": -2158.7
    },
    "重庆": {
     "enrol_p": 1755302.5,
-    "enrol_j": 986322.4,
+    "enrol_j": 960980.5,
     "need_p_std": 92384.3,
     "gap_p_std": -40610.7,
-    "need_j_std": 73060.9,
-    "gap_j_std": -10958.1,
+    "need_j_std": 71183.7,
+    "gap_j_std": -12835.3,
     "shift_p": -18111.7,
-    "shift_j": -4872.6
+    "shift_j": -6906.1
    },
    "四川": {
     "enrol_p": 4716639.3,
-    "enrol_j": 2560462.5,
+    "enrol_j": 2494675.7,
     "need_p_std": 248244.2,
     "gap_p_std": -101151.8,
-    "need_j_std": 189663.9,
-    "gap_j_std": -34974.1,
+    "need_j_std": 184790.8,
+    "gap_j_std": -39847.2,
     "shift_p": -44210.7,
-    "shift_j": -17111.5
+    "shift_j": -22443.5
    },
    "贵州": {
     "enrol_p": 3517655.2,
-    "enrol_j": 1824727.0,
+    "enrol_j": 1777843.7,
     "need_p_std": 185139.7,
     "gap_p_std": -33763.3,
-    "need_j_std": 135165.0,
-    "gap_j_std": -3758.0,
+    "need_j_std": 131692.1,
+    "gap_j_std": -7230.9,
     "shift_p": -21603.4,
-    "shift_j": -13624.2
+    "shift_j": -16843.5
    },
    "云南": {
     "enrol_p": 3488605.1,
-    "enrol_j": 1754992.3,
+    "enrol_j": 1709900.7,
     "need_p_std": 183610.8,
     "gap_p_std": -46049.2,
-    "need_j_std": 129999.4,
-    "gap_j_std": -9875.6,
+    "need_j_std": 126659.3,
+    "gap_j_std": -13215.7,
     "shift_p": -20749.0,
-    "shift_j": -11894.8
+    "shift_j": -15183.0
    },
    "西藏": {
     "enrol_p": 346941.9,
-    "enrol_j": 175801.2,
+    "enrol_j": 171284.3,
     "need_p_std": 18260.1,
     "gap_p_std": -8821.9,
-    "need_j_std": 13022.3,
-    "gap_j_std": -320.7,
+    "need_j_std": 12687.7,
+    "gap_j_std": -655.3,
     "shift_p": -2793.2,
-    "shift_j": 843.7
+    "shift_j": 479.2
    },
    "陕西": {
     "enrol_p": 2538156.9,
-    "enrol_j": 1435186.9,
+    "enrol_j": 1398312.2,
     "need_p_std": 133587.2,
     "gap_p_std": -58067.8,
-    "need_j_std": 106310.1,
-    "gap_j_std": -6706.9,
+    "need_j_std": 103578.7,
+    "gap_j_std": -9438.3,
     "shift_p": -28303.4,
-    "shift_j": -1268.4
+    "shift_j": -4139.6
    },
    "甘肃": {
     "enrol_p": 1761895.7,
-    "enrol_j": 945302.0,
+    "enrol_j": 921014.1,
     "need_p_std": 92731.4,
     "gap_p_std": -59258.6,
-    "need_j_std": 70022.4,
-    "gap_j_std": -15622.6,
+    "need_j_std": 68223.3,
+    "gap_j_std": -17421.7,
     "shift_p": -19097.0,
-    "shift_j": -3502.0
+    "shift_j": -5612.5
    },
    "青海": {
     "enrol_p": 442569.8,
-    "enrol_j": 240220.2,
+    "enrol_j": 234048.2,
     "need_p_std": 23293.1,
     "gap_p_std": -6340.9,
-    "need_j_std": 17794.1,
-    "gap_j_std": 197.1,
+    "need_j_std": 17336.9,
+    "gap_j_std": -260.1,
     "shift_p": -3965.9,
-    "shift_j": -791.3
+    "shift_j": -1223.1
    },
    "宁夏": {
     "enrol_p": 541555.4,
-    "enrol_j": 296290.3,
+    "enrol_j": 288677.6,
     "need_p_std": 28502.9,
     "gap_p_std": -7204.1,
-    "need_j_std": 21947.4,
-    "gap_j_std": 532.4,
+    "need_j_std": 21383.5,
+    "gap_j_std": -31.5,
     "shift_p": -4480.8,
-    "shift_j": -12.9
+    "shift_j": -562.8
    },
    "新疆": {
     "enrol_p": 1692882.6,
-    "enrol_j": 1516038.9,
+    "enrol_j": 1508704.7,
     "need_p_std": 89099.1,
     "gap_p_std": -70041.9,
-    "need_j_std": 112299.2,
-    "gap_j_std": 17780.2,
+    "need_j_std": 111755.9,
+    "gap_j_std": 17236.9,
     "shift_p": -62099.9,
-    "shift_j": 14220.0
+    "shift_j": 13693.9
    }
   },
   "2029": {
    "北京": {
     "enrol_p": 1000254.4,
-    "enrol_j": 542985.6,
+    "enrol_j": 506866.3,
     "need_p_std": 52645.0,
     "gap_p_std": -27816.0,
-    "need_j_std": 40221.2,
-    "gap_j_std": -594.8,
+    "need_j_std": 37545.6,
+    "gap_j_std": -3270.4,
     "shift_p": -11644.0,
-    "shift_j": 13051.6
+    "shift_j": 9468.4
    },
    "天津": {
     "enrol_p": 680828.7,
-    "enrol_j": 414988.7,
+    "enrol_j": 390329.7,
     "need_p_std": 35833.1,
     "gap_p_std": -16272.9,
-    "need_j_std": 30739.9,
-    "gap_j_std": -2404.1,
+    "need_j_std": 28913.3,
+    "gap_j_std": -4230.7,
     "shift_p": -9324.3,
-    "shift_j": -263.2
+    "shift_j": -2217.0
    },
    "河北": {
     "enrol_p": 4383790.7,
-    "enrol_j": 2774975.2,
+    "enrol_j": 2779434.6,
     "need_p_std": 230725.8,
     "gap_p_std": -163659.2,
-    "need_j_std": 205553.7,
-    "gap_j_std": -44030.3,
+    "need_j_std": 205884.0,
+    "gap_j_std": -43700.0,
     "shift_p": -113408.8,
-    "shift_j": -47928.9
+    "shift_j": -47604.9
    },
    "山西": {
     "enrol_p": 1794978.1,
-    "enrol_j": 1035050.6,
+    "enrol_j": 1015602.7,
     "need_p_std": 94472.5,
     "gap_p_std": -70594.5,
-    "need_j_std": 76670.4,
-    "gap_j_std": -26792.6,
+    "need_j_std": 75229.8,
+    "gap_j_std": -28233.2,
     "shift_p": -34218.6,
-    "shift_j": -9835.6
+    "shift_j": -11594.8
    },
    "内蒙古": {
     "enrol_p": 1039517.9,
-    "enrol_j": 660434.5,
+    "enrol_j": 665316.9,
     "need_p_std": 54711.5,
     "gap_p_std": -57591.5,
-    "need_j_std": 48921.1,
-    "gap_j_std": -16818.9,
+    "need_j_std": 49282.7,
+    "gap_j_std": -16457.3,
     "shift_p": -27333.4,
-    "shift_j": -1620.1
+    "shift_j": -1146.1
    },
    "辽宁": {
     "enrol_p": 1479264.1,
-    "enrol_j": 923838.1,
+    "enrol_j": 900101.6,
     "need_p_std": 77856.0,
     "gap_p_std": -58826.0,
-    "need_j_std": 68432.5,
-    "gap_j_std": -28853.5,
+    "need_j_std": 66674.2,
+    "gap_j_std": -30611.8,
     "shift_p": -32236.3,
-    "shift_j": -3016.8
+    "shift_j": -5438.9
    },
    "吉林": {
     "enrol_p": 756010.0,
-    "enrol_j": 482339.5,
+    "enrol_j": 471790.5,
     "need_p_std": 39790.0,
     "gap_p_std": -56427.0,
-    "need_j_std": 35728.8,
-    "gap_j_std": -28969.2,
+    "need_j_std": 34947.4,
+    "gap_j_std": -29750.6,
     "shift_p": -26242.0,
-    "shift_j": -11763.5
+    "shift_j": -12921.2
    },
    "黑龙江": {
     "enrol_p": 786278.8,
-    "enrol_j": 692115.6,
+    "enrol_j": 674421.5,
     "need_p_std": 41383.1,
     "gap_p_std": -49659.9,
-    "need_j_std": 51267.8,
-    "gap_j_std": -29443.2,
+    "need_j_std": 49957.1,
+    "gap_j_std": -30753.9,
     "shift_p": -19026.3,
-    "shift_j": -8078.4
+    "shift_j": -9935.3
    },
    "上海": {
     "enrol_p": 888344.9,
-    "enrol_j": 715710.0,
+    "enrol_j": 697321.0,
     "need_p_std": 46755.0,
     "gap_p_std": -21055.0,
-    "need_j_std": 53015.6,
-    "gap_j_std": 2590.6,
+    "need_j_std": 51653.4,
+    "gap_j_std": 1228.4,
     "shift_p": -2834.5,
-    "shift_j": 8230.1
+    "shift_j": 6723.1
    },
    "江苏": {
     "enrol_p": 4312028.2,
-    "enrol_j": 2744944.6,
+    "enrol_j": 2674417.9,
     "need_p_std": 226948.9,
     "gap_p_std": -133414.1,
-    "need_j_std": 203329.2,
-    "gap_j_std": -33485.8,
+    "need_j_std": 198105.0,
+    "gap_j_std": -38710.0,
     "shift_p": -87570.7,
-    "shift_j": -11005.1
+    "shift_j": -16806.9
    },
    "浙江": {
     "enrol_p": 3563243.9,
-    "enrol_j": 2040331.8,
+    "enrol_j": 1942167.9,
     "need_p_std": 187539.2,
     "gap_p_std": -51666.8,
-    "need_j_std": 151135.7,
-    "gap_j_std": 8460.7,
+    "need_j_std": 143864.3,
+    "gap_j_std": 1189.3,
     "shift_p": -33642.1,
-    "shift_j": 16551.8
+    "shift_j": 8891.1
    },
    "安徽": {
     "enrol_p": 3650943.3,
-    "enrol_j": 2221242.9,
+    "enrol_j": 2164171.8,
     "need_p_std": 192154.9,
     "gap_p_std": -74428.1,
-    "need_j_std": 164536.5,
-    "gap_j_std": -7110.5,
+    "need_j_std": 160309.0,
+    "gap_j_std": -11338.0,
     "shift_p": -55142.5,
-    "shift_j": -10172.5
+    "shift_j": -14321.3
    },
    "福建": {
     "enrol_p": 2786706.6,
-    "enrol_j": 1771579.0,
+    "enrol_j": 1726061.3,
     "need_p_std": 146668.8,
     "gap_p_std": -61815.2,
-    "need_j_std": 131228.1,
-    "gap_j_std": 10369.1,
+    "need_j_std": 127856.4,
+    "gap_j_std": 6997.4,
     "shift_p": -48346.9,
-    "shift_j": 8576.2
+    "shift_j": 5250.5
    },
    "江西": {
     "enrol_p": 2656003.0,
-    "enrol_j": 1673148.5,
+    "enrol_j": 1630159.8,
     "need_p_std": 139789.6,
     "gap_p_std": -91077.4,
-    "need_j_std": 123936.9,
-    "gap_j_std": -33099.1,
+    "need_j_std": 120752.6,
+    "gap_j_std": -36283.4,
     "shift_p": -57972.7,
-    "shift_j": -30282.3
+    "shift_j": -33539.0
    },
    "山东": {
     "enrol_p": 7036922.7,
-    "enrol_j": 5500208.8,
+    "enrol_j": 5030929.0,
     "need_p_std": 370364.4,
     "gap_p_std": -106019.6,
-    "need_j_std": 407422.9,
-    "gap_j_std": 91846.9,
+    "need_j_std": 372661.4,
+    "gap_j_std": 57085.4,
     "shift_p": -65948.1,
-    "shift_j": 112455.8
+    "shift_j": 75936.0
    },
    "河南": {
     "enrol_p": 6669922.8,
-    "enrol_j": 4337983.5,
+    "enrol_j": 4226526.3,
     "need_p_std": 351048.6,
     "gap_p_std": -231341.4,
-    "need_j_std": 321332.1,
-    "gap_j_std": -44803.9,
+    "need_j_std": 313076.0,
+    "gap_j_std": -53060.0,
     "shift_p": -158310.5,
-    "shift_j": -53308.2
+    "shift_j": -61345.8
    },
    "湖北": {
     "enrol_p": 3077081.5,
-    "enrol_j": 1878485.1,
+    "enrol_j": 1830220.6,
     "need_p_std": 161951.7,
     "gap_p_std": -63458.3,
-    "need_j_std": 139147.0,
-    "gap_j_std": -11194.0,
+    "need_j_std": 135571.9,
+    "gap_j_std": -14769.1,
     "shift_p": -43839.1,
-    "shift_j": -4041.5
+    "shift_j": -7800.5
    },
    "湖南": {
     "enrol_p": 3727563.6,
-    "enrol_j": 2398094.9,
+    "enrol_j": 2336479.9,
     "need_p_std": 196187.6,
     "gap_p_std": -108262.4,
-    "need_j_std": 177636.7,
-    "gap_j_std": -30418.3,
+    "need_j_std": 173072.6,
+    "gap_j_std": -34982.4,
     "shift_p": -76017.4,
-    "shift_j": -26820.5
+    "shift_j": -31477.0
    },
    "广东": {
     "enrol_p": 9337506.7,
-    "enrol_j": 5231534.5,
+    "enrol_j": 5044227.2,
     "need_p_std": 491447.7,
     "gap_p_std": -123381.3,
-    "need_j_std": 387521.1,
-    "gap_j_std": 30914.1,
+    "need_j_std": 373646.5,
+    "gap_j_std": 17039.5,
     "shift_p": -94952.2,
-    "shift_j": 14082.0
+    "shift_j": 810.1
    },
    "广西": {
     "enrol_p": 3975917.9,
-    "enrol_j": 2421871.6,
+    "enrol_j": 2359645.7,
     "need_p_std": 209258.8,
     "gap_p_std": -92497.2,
-    "need_j_std": 179397.9,
-    "gap_j_std": 7819.9,
+    "need_j_std": 174788.6,
+    "gap_j_std": 3210.6,
     "shift_p": -65052.0,
-    "shift_j": -8225.0
+    "shift_j": -12422.1
    },
    "海南": {
     "enrol_p": 695284.4,
-    "enrol_j": 411493.1,
+    "enrol_j": 400920.5,
     "need_p_std": 36593.9,
     "gap_p_std": -20519.1,
-    "need_j_std": 30481.0,
-    "gap_j_std": -2167.0,
+    "need_j_std": 29697.8,
+    "gap_j_std": -2950.2,
     "shift_p": -10608.8,
-    "shift_j": -1641.1
+    "shift_j": -2437.7
    },
    "重庆": {
     "enrol_p": 1653713.9,
-    "enrol_j": 1009927.5,
+    "enrol_j": 983979.2,
     "need_p_std": 87037.6,
     "gap_p_std": -45957.4,
-    "need_j_std": 74809.4,
-    "gap_j_std": -9209.6,
+    "need_j_std": 72887.3,
+    "gap_j_std": -11131.7,
     "shift_p": -24760.6,
-    "shift_j": -2978.4
+    "shift_j": -5060.6
    },
    "四川": {
     "enrol_p": 4450191.1,
-    "enrol_j": 2619006.6,
+    "enrol_j": 2551715.6,
     "need_p_std": 234220.6,
     "gap_p_std": -115175.4,
-    "need_j_std": 194000.5,
-    "gap_j_std": -30637.5,
+    "need_j_std": 189016.0,
+    "gap_j_std": -35622.0,
     "shift_p": -61450.9,
-    "shift_j": -12366.4
+    "shift_j": -17820.4
    },
    "贵州": {
     "enrol_p": 3343153.7,
-    "enrol_j": 1857228.4,
+    "enrol_j": 1793076.4,
     "need_p_std": 175955.5,
     "gap_p_std": -42947.5,
-    "need_j_std": 137572.5,
-    "gap_j_std": -1350.5,
+    "need_j_std": 132820.5,
+    "gap_j_std": -6102.5,
     "shift_p": -31390.9,
-    "shift_j": -11392.4
+    "shift_j": -15797.5
    },
    "云南": {
     "enrol_p": 3296663.5,
-    "enrol_j": 1800439.7,
+    "enrol_j": 1710845.0,
     "need_p_std": 173508.6,
     "gap_p_std": -56151.4,
-    "need_j_std": 133365.9,
-    "gap_j_std": -6509.1,
+    "need_j_std": 126729.3,
+    "gap_j_std": -13145.7,
     "shift_p": -32243.2,
-    "shift_j": -8580.6
+    "shift_j": -15114.2
    },
    "西藏": {
     "enrol_p": 331911.8,
-    "enrol_j": 177562.2,
+    "enrol_j": 173000.0,
     "need_p_std": 17469.0,
     "gap_p_std": -9613.0,
-    "need_j_std": 13152.8,
-    "gap_j_std": -190.2,
+    "need_j_std": 12814.8,
+    "gap_j_std": -528.2,
     "shift_p": -3845.4,
-    "shift_j": 985.8
+    "shift_j": 617.6
    },
    "陕西": {
     "enrol_p": 2378559.4,
-    "enrol_j": 1441924.9,
+    "enrol_j": 1404877.1,
     "need_p_std": 125187.3,
     "gap_p_std": -66467.7,
-    "need_j_std": 106809.3,
-    "gap_j_std": -6207.7,
+    "need_j_std": 104065.0,
+    "gap_j_std": -8952.0,
     "shift_p": -38574.8,
-    "shift_j": -743.8
+    "shift_j": -3628.5
    },
    "甘肃": {
     "enrol_p": 1659853.0,
-    "enrol_j": 953606.0,
+    "enrol_j": 923358.5,
     "need_p_std": 87360.7,
     "gap_p_std": -64629.3,
-    "need_j_std": 70637.5,
-    "gap_j_std": -15007.5,
+    "need_j_std": 68396.9,
+    "gap_j_std": -17248.1,
     "shift_p": -26793.7,
-    "shift_j": -2780.4
+    "shift_j": -5408.8
    },
    "青海": {
     "enrol_p": 419310.2,
-    "enrol_j": 242424.3,
+    "enrol_j": 236195.6,
     "need_p_std": 22069.0,
     "gap_p_std": -7565.0,
-    "need_j_std": 17957.4,
-    "gap_j_std": 360.4,
+    "need_j_std": 17496.0,
+    "gap_j_std": -101.0,
     "shift_p": -5314.9,
-    "shift_j": -637.1
+    "shift_j": -1072.9
    },
    "宁夏": {
     "enrol_p": 511604.8,
-    "enrol_j": 301291.6,
+    "enrol_j": 293550.4,
     "need_p_std": 26926.6,
     "gap_p_std": -8780.4,
-    "need_j_std": 22317.9,
-    "gap_j_std": 902.9,
+    "need_j_std": 21744.5,
+    "gap_j_std": 329.5,
     "shift_p": -6207.8,
-    "shift_j": 348.3
+    "shift_j": -210.8
    },
    "新疆": {
     "enrol_p": 1556133.0,
-    "enrol_j": 1339254.9,
+    "enrol_j": 1404372.4,
     "need_p_std": 81901.7,
     "gap_p_std": -77239.3,
-    "need_j_std": 99204.1,
-    "gap_j_std": 4685.1,
+    "need_j_std": 104027.6,
+    "gap_j_std": 9508.6,
     "shift_p": -69938.8,
-    "shift_j": 1540.0
+    "shift_j": 6210.6
    }
   },
   "2030": {
    "北京": {
     "enrol_p": 957641.1,
-    "enrol_j": 547622.5,
+    "enrol_j": 511495.0,
     "need_p_std": 50402.2,
     "gap_p_std": -30058.8,
-    "need_j_std": 40564.6,
-    "gap_j_std": -251.4,
+    "need_j_std": 37888.5,
+    "gap_j_std": -2927.5,
     "shift_p": -14575.8,
-    "shift_j": 13511.6
+    "shift_j": 9927.5
    },
    "天津": {
     "enrol_p": 651667.6,
-    "enrol_j": 414073.1,
+    "enrol_j": 387840.2,
     "need_p_std": 34298.3,
     "gap_p_std": -17807.7,
-    "need_j_std": 30672.1,
-    "gap_j_std": -2471.9,
+    "need_j_std": 28728.9,
+    "gap_j_std": -4415.1,
     "shift_p": -11156.7,
-    "shift_j": -335.7
+    "shift_j": -2414.2
    },
    "河北": {
     "enrol_p": 4198044.4,
-    "enrol_j": 2628546.1,
+    "enrol_j": 2670477.6,
     "need_p_std": 220949.7,
     "gap_p_std": -173435.3,
-    "need_j_std": 194707.1,
-    "gap_j_std": -54876.9,
+    "need_j_std": 197813.2,
+    "gap_j_std": -51770.8,
     "shift_p": -125314.1,
-    "shift_j": -58569.8
+    "shift_j": -55522.7
    },
    "山西": {
     "enrol_p": 1718874.9,
-    "enrol_j": 1020672.8,
+    "enrol_j": 998552.9,
     "need_p_std": 90467.1,
     "gap_p_std": -74599.9,
-    "need_j_std": 75605.4,
-    "gap_j_std": -27857.6,
+    "need_j_std": 73966.9,
+    "gap_j_std": -29496.1,
     "shift_p": -39766.3,
-    "shift_j": -11136.2
+    "shift_j": -13137.1
    },
    "内蒙古": {
     "enrol_p": 995259.7,
-    "enrol_j": 611569.9,
+    "enrol_j": 633066.8,
     "need_p_std": 52382.1,
     "gap_p_std": -59920.9,
-    "need_j_std": 45301.5,
-    "gap_j_std": -20438.5,
+    "need_j_std": 46893.8,
+    "gap_j_std": -18846.2,
     "shift_p": -30951.1,
-    "shift_j": -6364.3
+    "shift_j": -4277.2
    },
    "辽宁": {
     "enrol_p": 1416568.9,
-    "enrol_j": 876250.7,
+    "enrol_j": 867788.1,
     "need_p_std": 74556.3,
     "gap_p_std": -62125.7,
-    "need_j_std": 64907.5,
-    "gap_j_std": -32378.5,
+    "need_j_std": 64280.6,
+    "gap_j_std": -33005.4,
     "shift_p": -36663.0,
-    "shift_j": -7872.7
+    "shift_j": -8736.2
    },
    "吉林": {
     "enrol_p": 723968.0,
-    "enrol_j": 456953.5,
+    "enrol_j": 455156.3,
     "need_p_std": 38103.6,
     "gap_p_std": -58113.4,
-    "need_j_std": 33848.4,
-    "gap_j_std": -30849.6,
+    "need_j_std": 33715.3,
+    "gap_j_std": -30982.7,
     "shift_p": -29207.7,
-    "shift_j": -14549.5
+    "shift_j": -14746.7
    },
    "黑龙江": {
     "enrol_p": 752964.7,
-    "enrol_j": 643773.9,
+    "enrol_j": 637366.3,
     "need_p_std": 39629.7,
     "gap_p_std": -51413.3,
-    "need_j_std": 47687.0,
-    "gap_j_std": -33024.0,
+    "need_j_std": 47212.3,
+    "gap_j_std": -33498.7,
     "shift_p": -22077.6,
-    "shift_j": -13151.6
+    "shift_j": -13824.0
    },
    "上海": {
     "enrol_p": 850455.2,
-    "enrol_j": 700823.6,
+    "enrol_j": 692918.8,
     "need_p_std": 44760.8,
     "gap_p_std": -23049.2,
-    "need_j_std": 51912.9,
-    "gap_j_std": 1487.9,
+    "need_j_std": 51327.3,
+    "gap_j_std": 902.3,
     "shift_p": -5605.8,
-    "shift_j": 7010.1
+    "shift_j": 6362.3
    },
    "江苏": {
     "enrol_p": 4129312.1,
-    "enrol_j": 2595476.3,
+    "enrol_j": 2578461.9,
     "need_p_std": 217332.2,
     "gap_p_std": -143030.8,
-    "need_j_std": 192257.5,
-    "gap_j_std": -44557.5,
+    "need_j_std": 190997.2,
+    "gap_j_std": -45817.8,
     "shift_p": -99129.9,
-    "shift_j": -23301.0
+    "shift_j": -24700.7
    },
    "浙江": {
     "enrol_p": 3412157.2,
-    "enrol_j": 2036705.6,
+    "enrol_j": 1938863.7,
     "need_p_std": 179587.2,
     "gap_p_std": -59618.8,
-    "need_j_std": 150867.1,
-    "gap_j_std": 8192.1,
+    "need_j_std": 143619.5,
+    "gap_j_std": 944.5,
     "shift_p": -42358.3,
-    "shift_j": 16268.8
+    "shift_j": 8633.2
    },
    "安徽": {
     "enrol_p": 3496175.5,
-    "enrol_j": 2150091.1,
+    "enrol_j": 2114391.0,
     "need_p_std": 184009.2,
     "gap_p_std": -82573.8,
-    "need_j_std": 159266.0,
-    "gap_j_std": -12381.0,
+    "need_j_std": 156621.6,
+    "gap_j_std": -15025.4,
     "shift_p": -64105.7,
-    "shift_j": -15344.9
+    "shift_j": -17940.2
    },
    "福建": {
     "enrol_p": 2668167.3,
-    "enrol_j": 1675717.0,
+    "enrol_j": 1669877.9,
     "need_p_std": 140429.9,
     "gap_p_std": -68054.1,
-    "need_j_std": 124127.2,
-    "gap_j_std": 3268.2,
+    "need_j_std": 123694.7,
+    "gap_j_std": 2835.7,
     "shift_p": -55158.7,
-    "shift_j": 1572.3
+    "shift_j": 1145.7
    },
    "江西": {
     "enrol_p": 2542062.8,
-    "enrol_j": 1584755.1,
+    "enrol_j": 1567666.1,
     "need_p_std": 133792.8,
     "gap_p_std": -97074.2,
-    "need_j_std": 117389.3,
-    "gap_j_std": -39646.7,
+    "need_j_std": 116123.4,
+    "gap_j_std": -40912.6,
     "shift_p": -65389.7,
-    "shift_j": -36978.8
+    "shift_j": -38273.4
    },
    "山东": {
     "enrol_p": 6738671.0,
-    "enrol_j": 5528282.3,
+    "enrol_j": 5059921.0,
     "need_p_std": 354666.9,
     "gap_p_std": -121717.1,
-    "need_j_std": 409502.4,
-    "gap_j_std": 93926.4,
+    "need_j_std": 374809.0,
+    "gap_j_std": 59233.0,
     "shift_p": -83344.0,
-    "shift_j": 114640.5
+    "shift_j": 78192.2
    },
    "河南": {
     "enrol_p": 6387545.3,
-    "enrol_j": 4013490.2,
+    "enrol_j": 3962014.0,
     "need_p_std": 336186.6,
     "gap_p_std": -246203.4,
-    "need_j_std": 297295.6,
-    "gap_j_std": -68840.4,
+    "need_j_std": 293482.5,
+    "gap_j_std": -72653.5,
     "shift_p": -176264.3,
-    "shift_j": -76708.6
+    "shift_j": -80420.7
    },
    "湖北": {
     "enrol_p": 2945824.9,
-    "enrol_j": 1821077.1,
+    "enrol_j": 1790970.0,
     "need_p_std": 155043.4,
     "gap_p_std": -70366.6,
-    "need_j_std": 134894.6,
-    "gap_j_std": -15446.4,
+    "need_j_std": 132664.4,
+    "gap_j_std": -17676.6,
     "shift_p": -51584.3,
-    "shift_j": -8512.6
+    "shift_j": -10857.4
    },
    "湖南": {
     "enrol_p": 3569613.9,
-    "enrol_j": 2268440.7,
+    "enrol_j": 2250658.6,
     "need_p_std": 187874.4,
     "gap_p_std": -116575.6,
-    "need_j_std": 168032.6,
-    "gap_j_std": -40022.4,
+    "need_j_std": 166715.5,
+    "gap_j_std": -41339.5,
     "shift_p": -85696.8,
-    "shift_j": -36619.0
+    "shift_j": -37962.9
    },
    "广东": {
     "enrol_p": 8941634.1,
-    "enrol_j": 5181650.9,
+    "enrol_j": 4995889.7,
     "need_p_std": 470612.3,
     "gap_p_std": -144216.7,
-    "need_j_std": 383826.0,
-    "gap_j_std": 27219.0,
+    "need_j_std": 370065.9,
+    "gap_j_std": 13458.9,
     "shift_p": -116992.9,
-    "shift_j": 10547.5
+    "shift_j": -2615.0
    },
    "广西": {
     "enrol_p": 3806432.6,
-    "enrol_j": 2321164.0,
+    "enrol_j": 2261525.6,
     "need_p_std": 200338.6,
     "gap_p_std": -101417.4,
-    "need_j_std": 171938.1,
-    "gap_j_std": 360.1,
+    "need_j_std": 167520.4,
+    "gap_j_std": -4057.6,
     "shift_p": -75142.2,
-    "shift_j": -15017.6
+    "shift_j": -19040.2
    },
    "海南": {
     "enrol_p": 665840.5,
-    "enrol_j": 399921.9,
+    "enrol_j": 389646.5,
     "need_p_std": 35044.2,
     "gap_p_std": -22068.8,
-    "need_j_std": 29623.8,
-    "gap_j_std": -3024.2,
+    "need_j_std": 28862.7,
+    "gap_j_std": -3785.3,
     "shift_p": -12578.2,
-    "shift_j": -2513.0
+    "shift_j": -3287.2
    },
    "重庆": {
     "enrol_p": 1583472.6,
-    "enrol_j": 979849.2,
+    "enrol_j": 958267.7,
     "need_p_std": 83340.7,
     "gap_p_std": -49654.3,
-    "need_j_std": 72581.4,
-    "gap_j_std": -11437.6,
+    "need_j_std": 70982.8,
+    "gap_j_std": -13036.2,
     "shift_p": -29357.8,
-    "shift_j": -5392.0
+    "shift_j": -7123.8
    },
    "四川": {
     "enrol_p": 4261325.3,
-    "enrol_j": 2569074.3,
+    "enrol_j": 2506815.3,
     "need_p_std": 224280.3,
     "gap_p_std": -125115.7,
-    "need_j_std": 190301.8,
-    "gap_j_std": -34336.2,
+    "need_j_std": 185690.0,
+    "gap_j_std": -38948.0,
     "shift_p": -73671.3,
-    "shift_j": -16413.5
+    "shift_j": -21459.6
    },
    "贵州": {
     "enrol_p": 3201090.1,
-    "enrol_j": 1868630.5,
+    "enrol_j": 1804267.7,
     "need_p_std": 168478.4,
     "gap_p_std": -50424.6,
-    "need_j_std": 138417.1,
-    "gap_j_std": -505.9,
+    "need_j_std": 133649.5,
+    "gap_j_std": -5273.5,
     "shift_p": -39359.0,
-    "shift_j": -10609.4
+    "shift_j": -15029.0
    },
    "云南": {
     "enrol_p": 3156797.5,
-    "enrol_j": 1824675.0,
+    "enrol_j": 1734674.4,
     "need_p_std": 166147.2,
     "gap_p_std": -63512.8,
-    "need_j_std": 135161.1,
-    "gap_j_std": -4713.9,
+    "need_j_std": 128494.4,
+    "gap_j_std": -11380.6,
     "shift_p": -40618.9,
-    "shift_j": -6813.3
+    "shift_j": -13376.5
    },
    "西藏": {
     "enrol_p": 317800.7,
-    "enrol_j": 175698.7,
+    "enrol_j": 171184.4,
     "need_p_std": 16726.4,
     "gap_p_std": -10355.6,
-    "need_j_std": 13014.7,
-    "gap_j_std": -328.3,
+    "need_j_std": 12680.3,
+    "gap_j_std": -662.7,
     "shift_p": -4833.3,
-    "shift_j": 835.4
+    "shift_j": 471.1
    },
    "陕西": {
     "enrol_p": 2277633.9,
-    "enrol_j": 1405185.1,
+    "enrol_j": 1385900.0,
     "need_p_std": 119875.5,
     "gap_p_std": -71779.5,
-    "need_j_std": 104087.8,
-    "gap_j_std": -8929.2,
+    "need_j_std": 102659.3,
+    "gap_j_std": -10357.7,
     "shift_p": -45070.2,
-    "shift_j": -3604.5
+    "shift_j": -5106.1
    },
    "甘肃": {
     "enrol_p": 1589430.9,
-    "enrol_j": 940959.0,
+    "enrol_j": 911065.2,
     "need_p_std": 83654.3,
     "gap_p_std": -68335.7,
-    "need_j_std": 69700.7,
-    "gap_j_std": -15944.3,
+    "need_j_std": 67486.3,
+    "gap_j_std": -18158.7,
     "shift_p": -32105.3,
-    "shift_j": -3879.4
+    "shift_j": -6477.0
    },
    "青海": {
     "enrol_p": 401267.4,
-    "enrol_j": 236077.2,
+    "enrol_j": 230011.6,
     "need_p_std": 21119.3,
     "gap_p_std": -8514.7,
-    "need_j_std": 17487.2,
-    "gap_j_std": -109.8,
+    "need_j_std": 17037.9,
+    "gap_j_std": -559.1,
     "shift_p": -6361.3,
-    "shift_j": -1081.2
+    "shift_j": -1505.5
    },
    "宁夏": {
     "enrol_p": 489817.9,
-    "enrol_j": 294355.6,
+    "enrol_j": 286792.7,
     "need_p_std": 25779.9,
     "gap_p_std": -9927.1,
-    "need_j_std": 21804.1,
-    "gap_j_std": 389.1,
+    "need_j_std": 21243.9,
+    "gap_j_std": -171.1,
     "shift_p": -7464.0,
-    "shift_j": -152.7
+    "shift_j": -699.0
    },
    "新疆": {
     "enrol_p": 1490007.3,
-    "enrol_j": 1092986.6,
+    "enrol_j": 1263935.2,
     "need_p_std": 78421.4,
     "gap_p_std": -80719.6,
-    "need_j_std": 80962.0,
-    "gap_j_std": -13557.0,
+    "need_j_std": 93624.8,
+    "gap_j_std": -894.2,
     "shift_p": -73729.3,
-    "shift_j": -16123.7
+    "shift_j": -3862.3
    }
   }
  },
@@ -4687,1873 +4687,1873 @@
   "2025": {
    "北京": {
     "enrol_p": 1166913.3,
-    "enrol_j": 449708.8,
+    "enrol_j": 445688.7,
     "need_p_std": 61416.5,
     "gap_p_std": -19044.5,
-    "need_j_std": 33311.8,
-    "gap_j_std": -7504.2,
+    "need_j_std": 33014.0,
+    "gap_j_std": -7802.0,
     "shift_p": -178.0,
-    "shift_j": 3798.0
+    "shift_j": 3399.1
    },
    "天津": {
     "enrol_p": 808205.3,
-    "enrol_j": 416731.7,
+    "enrol_j": 413170.1,
     "need_p_std": 42537.1,
     "gap_p_std": -9568.9,
-    "need_j_std": 30869.0,
-    "gap_j_std": -2275.0,
+    "need_j_std": 30605.2,
+    "gap_j_std": -2538.8,
     "shift_p": -1320.2,
-    "shift_j": -125.1
+    "shift_j": -407.3
    },
    "河北": {
     "enrol_p": 5706317.9,
-    "enrol_j": 3447500.6,
+    "enrol_j": 3418373.4,
     "need_p_std": 300332.5,
     "gap_p_std": -94052.5,
-    "need_j_std": 255370.4,
-    "gap_j_std": 5786.4,
+    "need_j_std": 253212.8,
+    "gap_j_std": 3628.8,
     "shift_p": -28642.3,
-    "shift_j": 942.9
+    "shift_j": -1173.8
    },
    "山西": {
     "enrol_p": 2171581.2,
-    "enrol_j": 1137025.3,
+    "enrol_j": 1127368.3,
     "need_p_std": 114293.7,
     "gap_p_std": -50773.3,
-    "need_j_std": 84224.1,
-    "gap_j_std": -19238.9,
+    "need_j_std": 83508.8,
+    "gap_j_std": -19954.2,
     "shift_p": -6765.4,
-    "shift_j": -611.3
+    "shift_j": -1484.9
    },
    "内蒙古": {
     "enrol_p": 1305143.8,
-    "enrol_j": 686948.9,
+    "enrol_j": 680817.6,
     "need_p_std": 68691.8,
     "gap_p_std": -43611.2,
-    "need_j_std": 50885.1,
-    "gap_j_std": -14854.9,
+    "need_j_std": 50430.9,
+    "gap_j_std": -15309.1,
     "shift_p": -5621.3,
-    "shift_j": 954.1
+    "shift_j": 358.8
    },
    "辽宁": {
     "enrol_p": 1846798.3,
-    "enrol_j": 968967.0,
+    "enrol_j": 960474.4,
     "need_p_std": 97199.9,
     "gap_p_std": -39482.1,
-    "need_j_std": 71775.3,
-    "gap_j_std": -25510.7,
+    "need_j_std": 71146.3,
+    "gap_j_std": -26139.7,
     "shift_p": -6286.0,
-    "shift_j": 1588.2
+    "shift_j": 721.6
    },
    "吉林": {
     "enrol_p": 970968.6,
-    "enrol_j": 575253.1,
+    "enrol_j": 570370.2,
     "need_p_std": 51103.6,
     "gap_p_std": -45113.4,
-    "need_j_std": 42611.3,
-    "gap_j_std": -22086.7,
+    "need_j_std": 42249.6,
+    "gap_j_std": -22448.4,
     "shift_p": -6345.8,
-    "shift_j": -1566.6
+    "shift_j": -2102.5
    },
    "黑龙江": {
     "enrol_p": 1007676.6,
-    "enrol_j": 783669.0,
+    "enrol_j": 862819.3,
     "need_p_std": 53035.6,
     "gap_p_std": -38007.4,
-    "need_j_std": 58049.6,
-    "gap_j_std": -22661.4,
+    "need_j_std": 63912.5,
+    "gap_j_std": -16798.5,
     "shift_p": 1252.0,
-    "shift_j": 1529.4
+    "shift_j": 9835.7
    },
    "上海": {
     "enrol_p": 1077170.9,
-    "enrol_j": 484403.8,
+    "enrol_j": 643521.1,
     "need_p_std": 56693.2,
     "gap_p_std": -11116.8,
-    "need_j_std": 35881.8,
-    "gap_j_std": -14543.2,
+    "need_j_std": 47668.2,
+    "gap_j_std": -2756.8,
     "shift_p": 10976.6,
-    "shift_j": -10726.3
+    "shift_j": 2314.0
    },
    "江苏": {
     "enrol_p": 5422418.9,
-    "enrol_j": 2918631.7,
+    "enrol_j": 2893688.8,
     "need_p_std": 285390.5,
     "gap_p_std": -74972.5,
-    "need_j_std": 216194.9,
-    "gap_j_std": -20620.1,
+    "need_j_std": 214347.3,
+    "gap_j_std": -22467.7,
     "shift_p": -17323.9,
-    "shift_j": 3283.0
+    "shift_j": 1231.1
    },
    "浙江": {
     "enrol_p": 4087877.2,
-    "enrol_j": 1899286.5,
+    "enrol_j": 1882709.1,
     "need_p_std": 215151.4,
     "gap_p_std": -24054.6,
-    "need_j_std": 140687.9,
-    "gap_j_std": -1987.1,
+    "need_j_std": 139459.9,
+    "gap_j_std": -3215.1,
     "shift_p": -3376.0,
-    "shift_j": 5544.6
+    "shift_j": 4250.9
    },
    "安徽": {
     "enrol_p": 4423781.2,
-    "enrol_j": 2372533.1,
+    "enrol_j": 2352579.6,
     "need_p_std": 232830.6,
     "gap_p_std": -33752.4,
-    "need_j_std": 175743.2,
-    "gap_j_std": 4096.2,
+    "need_j_std": 174265.2,
+    "gap_j_std": 2618.2,
     "shift_p": -10384.4,
-    "shift_j": 825.6
+    "shift_j": -624.9
    },
    "福建": {
     "enrol_p": 3478838.6,
-    "enrol_j": 1730582.2,
+    "enrol_j": 1715067.7,
     "need_p_std": 183096.8,
     "gap_p_std": -25387.2,
-    "need_j_std": 128191.3,
-    "gap_j_std": 7332.3,
+    "need_j_std": 127042.0,
+    "gap_j_std": 6183.0,
     "shift_p": -8573.7,
-    "shift_j": 5580.9
+    "shift_j": 4447.3
    },
    "江西": {
     "enrol_p": 3335539.7,
-    "enrol_j": 2018794.9,
+    "enrol_j": 2013304.9,
     "need_p_std": 175554.7,
     "gap_p_std": -55312.3,
-    "need_j_std": 149540.4,
-    "gap_j_std": -7495.6,
+    "need_j_std": 149133.7,
+    "gap_j_std": -7902.3,
     "shift_p": -13737.7,
-    "shift_j": -4097.0
+    "shift_j": -4512.9
    },
    "山东": {
     "enrol_p": 8333416.0,
-    "enrol_j": 4803035.3,
+    "enrol_j": 4975418.9,
     "need_p_std": 438600.8,
     "gap_p_std": -37783.2,
-    "need_j_std": 355780.4,
-    "gap_j_std": 40204.4,
+    "need_j_std": 368549.6,
+    "gap_j_std": 52973.6,
     "shift_p": 9671.2,
-    "shift_j": 58201.1
+    "shift_j": 71616.1
    },
    "河南": {
     "enrol_p": 8582529.8,
-    "enrol_j": 5027927.1,
+    "enrol_j": 4985449.4,
     "need_p_std": 451712.1,
     "gap_p_std": -130677.9,
-    "need_j_std": 372439.0,
-    "gap_j_std": 6303.0,
+    "need_j_std": 369292.6,
+    "gap_j_std": 3156.6,
     "shift_p": -36705.2,
-    "shift_j": -3553.8
+    "shift_j": -6617.0
    },
    "湖北": {
     "enrol_p": 3687569.3,
-    "enrol_j": 1941390.1,
+    "enrol_j": 1924906.8,
     "need_p_std": 194082.6,
     "gap_p_std": -31327.4,
-    "need_j_std": 143806.7,
-    "gap_j_std": -6534.3,
+    "need_j_std": 142585.7,
+    "gap_j_std": -7755.3,
     "shift_p": -7815.8,
-    "shift_j": 857.6
+    "shift_j": -426.1
    },
    "湖南": {
     "enrol_p": 4697468.1,
-    "enrol_j": 2714461.7,
+    "enrol_j": 2691863.8,
     "need_p_std": 247235.2,
     "gap_p_std": -57214.8,
-    "need_j_std": 201071.2,
-    "gap_j_std": -6983.8,
+    "need_j_std": 199397.3,
+    "gap_j_std": -8657.7,
     "shift_p": -16579.7,
-    "shift_j": -2911.3
+    "shift_j": -4619.1
    },
    "广东": {
     "enrol_p": 10719128.5,
-    "enrol_j": 5252670.2,
+    "enrol_j": 5205860.0,
     "need_p_std": 564164.7,
     "gap_p_std": -50664.3,
-    "need_j_std": 389086.7,
-    "gap_j_std": 32479.7,
+    "need_j_std": 385619.3,
+    "gap_j_std": 29012.3,
     "shift_p": -18028.8,
-    "shift_j": 15579.7
+    "shift_j": 12262.8
    },
    "广西": {
     "enrol_p": 4806227.2,
-    "enrol_j": 2628223.3,
+    "enrol_j": 2604593.4,
     "need_p_std": 252959.3,
     "gap_p_std": -48796.7,
-    "need_j_std": 194683.2,
-    "gap_j_std": 23105.2,
+    "need_j_std": 192932.8,
+    "gap_j_std": 21354.8,
     "shift_p": -15620.0,
-    "shift_j": 5693.2
+    "shift_j": 4099.4
    },
    "海南": {
     "enrol_p": 818955.0,
-    "enrol_j": 446166.8,
+    "enrol_j": 442278.4,
     "need_p_std": 43102.9,
     "gap_p_std": -14010.1,
-    "need_j_std": 33049.4,
-    "gap_j_std": 401.4,
+    "need_j_std": 32761.4,
+    "gap_j_std": 113.4,
     "shift_p": -2337.1,
-    "shift_j": 971.7
+    "shift_j": 678.7
    },
    "重庆": {
     "enrol_p": 1965539.3,
-    "enrol_j": 1035728.1,
+    "enrol_j": 1026913.1,
     "need_p_std": 103449.4,
     "gap_p_std": -29545.6,
-    "need_j_std": 76720.6,
-    "gap_j_std": -7298.4,
+    "need_j_std": 76067.6,
+    "gap_j_std": -7951.4,
     "shift_p": -4351.8,
-    "shift_j": -908.1
+    "shift_j": -1615.4
    },
    "四川": {
     "enrol_p": 5221589.5,
-    "enrol_j": 2759608.6,
+    "enrol_j": 2736210.6,
     "need_p_std": 274820.5,
     "gap_p_std": -74575.5,
-    "need_j_std": 204415.4,
-    "gap_j_std": -20222.6,
+    "need_j_std": 202682.3,
+    "gap_j_std": -21955.7,
     "shift_p": -11538.4,
-    "shift_j": -970.6
+    "shift_j": -2867.0
    },
    "贵州": {
     "enrol_p": 3778262.4,
-    "enrol_j": 2035867.0,
+    "enrol_j": 2018354.2,
     "need_p_std": 198855.9,
     "gap_p_std": -20047.1,
-    "need_j_std": 150805.0,
-    "gap_j_std": 11882.0,
+    "need_j_std": 149507.7,
+    "gap_j_std": 10584.7,
     "shift_p": -6986.3,
-    "shift_j": 874.2
+    "shift_j": -328.3
    },
    "云南": {
     "enrol_p": 3729197.4,
-    "enrol_j": 1922651.0,
+    "enrol_j": 1906076.3,
     "need_p_std": 196273.5,
     "gap_p_std": -33386.5,
-    "need_j_std": 142418.6,
-    "gap_j_std": 2543.6,
+    "need_j_std": 141190.8,
+    "gap_j_std": 1315.8,
     "shift_p": -6341.4,
-    "shift_j": 331.4
+    "shift_j": -877.2
    },
    "西藏": {
     "enrol_p": 381656.5,
-    "enrol_j": 167728.5,
+    "enrol_j": 166287.8,
     "need_p_std": 20087.2,
     "gap_p_std": -6994.8,
-    "need_j_std": 12424.3,
-    "gap_j_std": -918.7,
+    "need_j_std": 12317.6,
+    "gap_j_std": -1025.4,
     "shift_p": -362.8,
-    "shift_j": 192.2
+    "shift_j": 76.0
    },
    "陕西": {
     "enrol_p": 2871948.7,
-    "enrol_j": 1487825.3,
+    "enrol_j": 1475015.4,
     "need_p_std": 151155.2,
     "gap_p_std": -40499.8,
-    "need_j_std": 110209.3,
-    "gap_j_std": -2807.7,
+    "need_j_std": 109260.4,
+    "gap_j_std": -3756.6,
     "shift_p": -6821.1,
-    "shift_j": 2830.2
+    "shift_j": 1832.8
    },
    "甘肃": {
     "enrol_p": 1949913.4,
-    "enrol_j": 998575.7,
+    "enrol_j": 989965.6,
     "need_p_std": 102627.0,
     "gap_p_std": -49363.0,
-    "need_j_std": 73968.6,
-    "gap_j_std": -11676.4,
+    "need_j_std": 73330.8,
+    "gap_j_std": -12314.2,
     "shift_p": -4915.5,
-    "shift_j": 1127.3
+    "shift_j": 379.1
    },
    "青海": {
     "enrol_p": 492221.0,
-    "enrol_j": 258240.6,
+    "enrol_j": 256016.1,
     "need_p_std": 25906.4,
     "gap_p_std": -3727.6,
-    "need_j_std": 19128.9,
-    "gap_j_std": 1531.9,
+    "need_j_std": 18964.2,
+    "gap_j_std": 1367.2,
     "shift_p": -1086.2,
-    "shift_j": 469.4
+    "shift_j": 313.7
    },
    "宁夏": {
     "enrol_p": 602662.7,
-    "enrol_j": 298887.1,
+    "enrol_j": 296303.8,
     "need_p_std": 31719.1,
     "gap_p_std": -3987.9,
-    "need_j_std": 22139.8,
-    "gap_j_std": 724.8,
+    "need_j_std": 21948.4,
+    "gap_j_std": 533.4,
     "shift_p": -957.4,
-    "shift_j": 174.6
+    "shift_j": -12.0
    },
    "新疆": {
     "enrol_p": 2505663.7,
-    "enrol_j": 1424907.3,
+    "enrol_j": 1411533.0,
     "need_p_std": 131877.0,
     "gap_p_std": -27264.0,
-    "need_j_std": 105548.7,
-    "gap_j_std": 11029.7,
+    "need_j_std": 104558.0,
+    "gap_j_std": 10039.0,
     "shift_p": -15508.8,
-    "shift_j": 7683.5
+    "shift_j": 6724.2
    }
   },
   "2026": {
    "北京": {
     "enrol_p": 1125221.4,
-    "enrol_j": 493536.1,
+    "enrol_j": 479287.8,
     "need_p_std": 59222.2,
     "gap_p_std": -21238.8,
-    "need_j_std": 36558.2,
-    "gap_j_std": -4257.8,
+    "need_j_std": 35502.8,
+    "gap_j_std": -5313.2,
     "shift_p": -3046.4,
-    "shift_j": 8145.9
+    "shift_j": 6732.4
    },
    "天津": {
     "enrol_p": 767554.7,
-    "enrol_j": 430346.0,
+    "enrol_j": 423001.2,
     "need_p_std": 40397.6,
     "gap_p_std": -11708.4,
-    "need_j_std": 31877.5,
-    "gap_j_std": -1266.5,
+    "need_j_std": 31333.4,
+    "gap_j_std": -1810.6,
     "shift_p": -3874.6,
-    "shift_j": 953.6
+    "shift_j": 371.7
    },
    "河北": {
     "enrol_p": 5223670.6,
-    "enrol_j": 3407277.4,
+    "enrol_j": 3349928.9,
     "need_p_std": 274930.0,
     "gap_p_std": -119455.0,
-    "need_j_std": 252390.9,
-    "gap_j_std": 2806.9,
+    "need_j_std": 248142.9,
+    "gap_j_std": -1441.1,
     "shift_p": -59577.2,
-    "shift_j": -1980.1
+    "shift_j": -6147.6
    },
    "山西": {
     "enrol_p": 2040360.1,
-    "enrol_j": 1144183.7,
+    "enrol_j": 1124654.8,
     "need_p_std": 107387.4,
     "gap_p_std": -57679.6,
-    "need_j_std": 84754.3,
-    "gap_j_std": -18708.7,
+    "need_j_std": 83307.8,
+    "gap_j_std": -20155.2,
     "shift_p": -16331.0,
-    "shift_j": 36.2
+    "shift_j": -1730.3
    },
    "内蒙古": {
     "enrol_p": 1226205.5,
-    "enrol_j": 702712.1,
+    "enrol_j": 690626.6,
     "need_p_std": 64537.1,
     "gap_p_std": -47765.9,
-    "need_j_std": 52052.7,
-    "gap_j_std": -13687.3,
+    "need_j_std": 51157.5,
+    "gap_j_std": -14582.5,
     "shift_p": -12073.7,
-    "shift_j": 2484.5
+    "shift_j": 1311.1
    },
    "辽宁": {
     "enrol_p": 1729539.4,
-    "enrol_j": 1002775.3,
+    "enrol_j": 985693.3,
     "need_p_std": 91028.4,
     "gap_p_std": -45653.6,
-    "need_j_std": 74279.7,
-    "gap_j_std": -23006.3,
+    "need_j_std": 73014.3,
+    "gap_j_std": -24271.7,
     "shift_p": -14565.3,
-    "shift_j": 5038.0
+    "shift_j": 3295.0
    },
    "吉林": {
     "enrol_p": 897738.9,
-    "enrol_j": 569657.4,
+    "enrol_j": 560086.5,
     "need_p_std": 47249.4,
     "gap_p_std": -48967.6,
-    "need_j_std": 42196.8,
-    "gap_j_std": -22501.2,
+    "need_j_std": 41487.9,
+    "gap_j_std": -23210.1,
     "shift_p": -13123.8,
-    "shift_j": -2180.7
+    "shift_j": -3231.1
    },
    "黑龙江": {
     "enrol_p": 930617.6,
-    "enrol_j": 741704.2,
+    "enrol_j": 815501.8,
     "need_p_std": 48979.9,
     "gap_p_std": -42063.1,
-    "need_j_std": 54941.1,
-    "gap_j_std": -25769.9,
+    "need_j_std": 60407.5,
+    "gap_j_std": -20303.5,
     "shift_p": -5806.0,
-    "shift_j": -2874.5
+    "shift_j": 4870.0
    },
    "上海": {
     "enrol_p": 1031022.0,
-    "enrol_j": 517570.8,
+    "enrol_j": 671361.8,
     "need_p_std": 54264.3,
     "gap_p_std": -13545.7,
-    "need_j_std": 38338.6,
-    "gap_j_std": -12086.4,
+    "need_j_std": 49730.5,
+    "gap_j_std": -694.5,
     "shift_p": 7601.2,
-    "shift_j": -8008.1
+    "shift_j": 4595.6
    },
    "江苏": {
     "enrol_p": 5115266.2,
-    "enrol_j": 2905893.0,
+    "enrol_j": 2856960.0,
     "need_p_std": 269224.5,
     "gap_p_std": -91138.5,
-    "need_j_std": 215251.3,
-    "gap_j_std": -21563.7,
+    "need_j_std": 211626.7,
+    "gap_j_std": -25188.3,
     "shift_p": -36755.3,
-    "shift_j": 2235.1
+    "shift_j": -1790.3
    },
    "浙江": {
     "enrol_p": 3976860.4,
-    "enrol_j": 1937530.8,
+    "enrol_j": 1904535.8,
     "need_p_std": 209308.4,
     "gap_p_std": -29897.6,
-    "need_j_std": 143520.8,
-    "gap_j_std": 845.8,
+    "need_j_std": 141076.7,
+    "gap_j_std": -1598.3,
     "shift_p": -9780.6,
-    "shift_j": 8529.2
+    "shift_j": 5954.3
    },
    "安徽": {
     "enrol_p": 4209502.8,
-    "enrol_j": 2337229.9,
+    "enrol_j": 2297963.2,
     "need_p_std": 221552.8,
     "gap_p_std": -45030.2,
-    "need_j_std": 173128.1,
-    "gap_j_std": 1481.1,
+    "need_j_std": 170219.5,
+    "gap_j_std": -1427.5,
     "shift_p": -22794.1,
-    "shift_j": -1740.8
+    "shift_j": -4595.3
    },
    "福建": {
     "enrol_p": 3293164.1,
-    "enrol_j": 1795753.1,
+    "enrol_j": 1764964.8,
     "need_p_std": 173324.4,
     "gap_p_std": -35159.6,
-    "need_j_std": 133018.7,
-    "gap_j_std": 12159.7,
+    "need_j_std": 130738.1,
+    "gap_j_std": 9879.1,
     "shift_p": -19243.4,
-    "shift_j": 10342.4
+    "shift_j": 8092.9
    },
    "江西": {
     "enrol_p": 3131968.2,
-    "enrol_j": 1925231.8,
+    "enrol_j": 1904551.1,
     "need_p_std": 164840.4,
     "gap_p_std": -66026.6,
-    "need_j_std": 142609.8,
-    "gap_j_std": -14426.2,
+    "need_j_std": 141077.9,
+    "gap_j_std": -15958.1,
     "shift_p": -26989.4,
-    "shift_j": -11185.1
+    "shift_j": -12751.8
    },
    "山东": {
     "enrol_p": 8123066.3,
-    "enrol_j": 4792193.0,
+    "enrol_j": 4931552.2,
     "need_p_std": 427529.8,
     "gap_p_std": -48854.2,
-    "need_j_std": 354977.3,
-    "gap_j_std": 39401.3,
+    "need_j_std": 365300.2,
+    "gap_j_std": 49724.2,
     "shift_p": -2597.7,
-    "shift_j": 57357.3
+    "shift_j": 68202.4
    },
    "河南": {
     "enrol_p": 7997172.3,
-    "enrol_j": 4890782.0,
+    "enrol_j": 4808382.3,
     "need_p_std": 420903.8,
     "gap_p_std": -161486.2,
-    "need_j_std": 362280.2,
-    "gap_j_std": -3855.8,
+    "need_j_std": 356176.5,
+    "gap_j_std": -9959.5,
     "shift_p": -73922.8,
-    "shift_j": -13443.8
+    "shift_j": -19386.0
    },
    "湖北": {
     "enrol_p": 3539198.0,
-    "enrol_j": 1912786.4,
+    "enrol_j": 1880707.3,
     "need_p_std": 186273.6,
     "gap_p_std": -39136.4,
-    "need_j_std": 141687.9,
-    "gap_j_std": -8653.1,
+    "need_j_std": 139311.7,
+    "gap_j_std": -11029.3,
     "shift_p": -16570.8,
-    "shift_j": -1370.1
+    "shift_j": -3868.5
    },
    "湖南": {
     "enrol_p": 4426418.6,
-    "enrol_j": 2630638.5,
+    "enrol_j": 2586985.8,
     "need_p_std": 232969.4,
     "gap_p_std": -71480.6,
-    "need_j_std": 194862.1,
-    "gap_j_std": -13192.9,
+    "need_j_std": 191628.6,
+    "gap_j_std": -16426.4,
     "shift_p": -33190.1,
-    "shift_j": -9246.2
+    "shift_j": -12545.2
    },
    "广东": {
     "enrol_p": 10405622.7,
-    "enrol_j": 5269658.6,
+    "enrol_j": 5180096.5,
     "need_p_std": 547664.4,
     "gap_p_std": -67164.6,
-    "need_j_std": 390345.1,
-    "gap_j_std": 33738.1,
+    "need_j_std": 383710.9,
+    "gap_j_std": 27103.9,
     "shift_p": -35483.6,
-    "shift_j": 16783.4
+    "shift_j": 10437.3
    },
    "广西": {
     "enrol_p": 4563652.7,
-    "enrol_j": 2614813.8,
+    "enrol_j": 2569724.6,
     "need_p_std": 240192.2,
     "gap_p_std": -61563.8,
-    "need_j_std": 193689.9,
-    "gap_j_std": 22111.9,
+    "need_j_std": 190350.0,
+    "gap_j_std": 18772.0,
     "shift_p": -30061.5,
-    "shift_j": 4788.8
+    "shift_j": 1747.5
    },
    "海南": {
     "enrol_p": 782420.0,
-    "enrol_j": 445103.5,
+    "enrol_j": 437579.5,
     "need_p_std": 41180.0,
     "gap_p_std": -15933.0,
-    "need_j_std": 32970.6,
-    "gap_j_std": 322.6,
+    "need_j_std": 32413.3,
+    "gap_j_std": -234.7,
     "shift_p": -4780.7,
-    "shift_j": 891.6
+    "shift_j": 324.6
    },
    "重庆": {
     "enrol_p": 1893832.1,
-    "enrol_j": 1015115.9,
+    "enrol_j": 998051.8,
     "need_p_std": 99675.4,
     "gap_p_std": -33319.6,
-    "need_j_std": 75193.8,
-    "gap_j_std": -8825.2,
+    "need_j_std": 73929.8,
+    "gap_j_std": -10089.2,
     "shift_p": -9045.0,
-    "shift_j": -2562.1
+    "shift_j": -3931.4
    },
    "四川": {
     "enrol_p": 5031384.1,
-    "enrol_j": 2699053.2,
+    "enrol_j": 2653810.7,
     "need_p_std": 264809.7,
     "gap_p_std": -84586.3,
-    "need_j_std": 199929.9,
-    "gap_j_std": -24708.1,
+    "need_j_std": 196578.6,
+    "gap_j_std": -28059.4,
     "shift_p": -23845.4,
-    "shift_j": -5878.6
+    "shift_j": -9545.5
    },
    "贵州": {
     "enrol_p": 3649277.0,
-    "enrol_j": 1996677.0,
+    "enrol_j": 1962945.2,
     "need_p_std": 192067.2,
     "gap_p_std": -26835.8,
-    "need_j_std": 147902.0,
-    "gap_j_std": 8979.0,
+    "need_j_std": 145403.3,
+    "gap_j_std": 6480.3,
     "shift_p": -14220.9,
-    "shift_j": -1816.8
+    "shift_j": -4133.1
    },
    "云南": {
     "enrol_p": 3596303.6,
-    "enrol_j": 1913707.6,
+    "enrol_j": 1881246.5,
     "need_p_std": 189279.1,
     "gap_p_std": -40380.9,
-    "need_j_std": 141756.1,
-    "gap_j_std": 1881.1,
+    "need_j_std": 139351.6,
+    "gap_j_std": -523.4,
     "shift_p": -14299.6,
-    "shift_j": -320.7
+    "shift_j": -2687.9
    },
    "西藏": {
     "enrol_p": 369823.0,
-    "enrol_j": 169400.8,
+    "enrol_j": 166491.7,
     "need_p_std": 19464.4,
     "gap_p_std": -7617.6,
-    "need_j_std": 12548.2,
-    "gap_j_std": -794.8,
+    "need_j_std": 12332.7,
+    "gap_j_std": -1010.3,
     "shift_p": -1191.3,
-    "shift_j": 327.2
+    "shift_j": 92.4
    },
    "陕西": {
     "enrol_p": 2727457.5,
-    "enrol_j": 1505381.8,
+    "enrol_j": 1479781.4,
     "need_p_std": 143550.4,
     "gap_p_std": -48104.6,
-    "need_j_std": 111509.8,
-    "gap_j_std": -1507.2,
+    "need_j_std": 109613.4,
+    "gap_j_std": -3403.6,
     "shift_p": -16120.3,
-    "shift_j": 4197.2
+    "shift_j": 2203.9
    },
    "甘肃": {
     "enrol_p": 1862376.1,
-    "enrol_j": 998558.3,
+    "enrol_j": 981465.6,
     "need_p_std": 98019.8,
     "gap_p_std": -53970.2,
-    "need_j_std": 73967.3,
-    "gap_j_std": -11677.7,
+    "need_j_std": 72701.2,
+    "gap_j_std": -12943.8,
     "shift_p": -11518.1,
-    "shift_j": 1125.8
+    "shift_j": -359.5
    },
    "青海": {
     "enrol_p": 472779.0,
-    "enrol_j": 255065.3,
+    "enrol_j": 250770.8,
     "need_p_std": 24883.1,
     "gap_p_std": -4750.9,
-    "need_j_std": 18893.7,
-    "gap_j_std": 1296.7,
+    "need_j_std": 18575.6,
+    "gap_j_std": 978.6,
     "shift_p": -2213.8,
-    "shift_j": 247.2
+    "shift_j": -53.2
    },
    "宁夏": {
     "enrol_p": 579718.6,
-    "enrol_j": 299414.9,
+    "enrol_j": 294301.8,
     "need_p_std": 30511.5,
     "gap_p_std": -5195.5,
-    "need_j_std": 22178.9,
-    "gap_j_std": 763.9,
+    "need_j_std": 21800.1,
+    "gap_j_std": 385.1,
     "shift_p": -2280.3,
-    "shift_j": 212.8
+    "shift_j": -156.6
    },
    "新疆": {
     "enrol_p": 2191828.9,
-    "enrol_j": 1526179.8,
+    "enrol_j": 1498983.9,
     "need_p_std": 115359.4,
     "gap_p_std": -43781.6,
-    "need_j_std": 113050.4,
-    "gap_j_std": 18531.4,
+    "need_j_std": 111035.8,
+    "gap_j_std": 16516.8,
     "shift_p": -33498.8,
-    "shift_j": 14947.3
+    "shift_j": 12996.7
    }
   },
   "2027": {
    "北京": {
     "enrol_p": 1081963.0,
-    "enrol_j": 498460.8,
+    "enrol_j": 480005.8,
     "need_p_std": 56945.4,
     "gap_p_std": -23515.6,
-    "need_j_std": 36923.0,
-    "gap_j_std": -3893.0,
+    "need_j_std": 35556.0,
+    "gap_j_std": -5260.0,
     "shift_p": -6022.5,
-    "shift_j": 8634.5
+    "shift_j": 6803.6
    },
    "天津": {
     "enrol_p": 733544.3,
-    "enrol_j": 415841.1,
+    "enrol_j": 406849.3,
     "need_p_std": 38607.6,
     "gap_p_std": -13498.4,
-    "need_j_std": 30803.0,
-    "gap_j_std": -2341.0,
+    "need_j_std": 30137.0,
+    "gap_j_std": -3007.0,
     "shift_p": -6011.7,
-    "shift_j": -195.7
+    "shift_j": -908.1
    },
    "河北": {
     "enrol_p": 4857840.5,
-    "enrol_j": 3154929.0,
+    "enrol_j": 3131941.3,
     "need_p_std": 255675.8,
     "gap_p_std": -138709.2,
-    "need_j_std": 233698.4,
-    "gap_j_std": -15885.6,
+    "need_j_std": 231995.6,
+    "gap_j_std": -17588.4,
     "shift_p": -83024.9,
-    "shift_j": -20318.0
+    "shift_j": -21988.5
    },
    "山西": {
     "enrol_p": 1938564.5,
-    "enrol_j": 1090524.3,
+    "enrol_j": 1075405.0,
     "need_p_std": 102029.7,
     "gap_p_std": -63037.3,
-    "need_j_std": 80779.6,
-    "gap_j_std": -22683.4,
+    "need_j_std": 79659.6,
+    "gap_j_std": -23803.4,
     "shift_p": -23751.6,
-    "shift_j": -4817.7
+    "shift_j": -6185.3
    },
    "内蒙古": {
     "enrol_p": 1125418.2,
-    "enrol_j": 708234.9,
+    "enrol_j": 690038.0,
     "need_p_std": 59232.5,
     "gap_p_std": -53070.5,
-    "need_j_std": 52461.8,
-    "gap_j_std": -13278.2,
+    "need_j_std": 51113.9,
+    "gap_j_std": -14626.1,
     "shift_p": -20312.0,
-    "shift_j": 3020.7
+    "shift_j": 1254.0
    },
    "辽宁": {
     "enrol_p": 1609027.6,
-    "enrol_j": 980538.9,
+    "enrol_j": 955345.6,
     "need_p_std": 84685.7,
     "gap_p_std": -51996.3,
-    "need_j_std": 72632.5,
-    "gap_j_std": -24653.5,
+    "need_j_std": 70766.3,
+    "gap_j_std": -26519.7,
     "shift_p": -23074.2,
-    "shift_j": 2769.0
+    "shift_j": 198.2
    },
    "吉林": {
     "enrol_p": 834873.6,
-    "enrol_j": 533797.0,
+    "enrol_j": 521944.5,
     "need_p_std": 43940.7,
     "gap_p_std": -52276.3,
-    "need_j_std": 39540.5,
-    "gap_j_std": -25157.5,
+    "need_j_std": 38662.6,
+    "gap_j_std": -26035.4,
     "shift_p": -18942.5,
-    "shift_j": -6116.2
+    "shift_j": -7417.0
    },
    "黑龙江": {
     "enrol_p": 862486.4,
-    "enrol_j": 694147.2,
+    "enrol_j": 763206.4,
     "need_p_std": 45394.0,
     "gap_p_std": -45649.0,
-    "need_j_std": 51418.3,
-    "gap_j_std": -29292.7,
+    "need_j_std": 56533.8,
+    "gap_j_std": -24177.2,
     "shift_p": -12046.3,
-    "shift_j": -7865.2
+    "shift_j": -618.0
    },
    "上海": {
     "enrol_p": 970993.2,
-    "enrol_j": 527356.5,
+    "enrol_j": 675811.8,
     "need_p_std": 51104.9,
     "gap_p_std": -16705.1,
-    "need_j_std": 39063.4,
-    "gap_j_std": -11361.6,
+    "need_j_std": 50060.1,
+    "gap_j_std": -364.9,
     "shift_p": 3210.6,
-    "shift_j": -7206.1
+    "shift_j": 4960.3
    },
    "江苏": {
     "enrol_p": 4751802.5,
-    "enrol_j": 2829950.1,
+    "enrol_j": 2757239.3,
     "need_p_std": 250094.9,
     "gap_p_std": -110268.1,
-    "need_j_std": 209625.9,
-    "gap_j_std": -27189.1,
+    "need_j_std": 204240.0,
+    "gap_j_std": -32575.0,
     "shift_p": -59749.2,
-    "shift_j": -4012.3
+    "shift_j": -9993.7
    },
    "浙江": {
     "enrol_p": 3801403.6,
-    "enrol_j": 1933833.4,
+    "enrol_j": 1884146.8,
     "need_p_std": 200073.9,
     "gap_p_std": -39132.1,
-    "need_j_std": 143246.9,
-    "gap_j_std": 571.9,
+    "need_j_std": 139566.4,
+    "gap_j_std": -3108.6,
     "shift_p": -19902.7,
-    "shift_j": 8240.7
+    "shift_j": 4363.1
    },
    "安徽": {
     "enrol_p": 3959906.6,
-    "enrol_j": 2260813.2,
+    "enrol_j": 2202725.4,
     "need_p_std": 208416.1,
     "gap_p_std": -58166.9,
-    "need_j_std": 167467.6,
-    "gap_j_std": -4179.4,
+    "need_j_std": 163164.8,
+    "gap_j_std": -8482.2,
     "shift_p": -37249.2,
-    "shift_j": -7295.9
+    "shift_j": -11518.7
    },
    "福建": {
     "enrol_p": 3059137.6,
-    "enrol_j": 1799115.8,
+    "enrol_j": 1752890.5,
     "need_p_std": 161007.2,
     "gap_p_std": -47476.8,
-    "need_j_std": 133267.8,
-    "gap_j_std": 12408.8,
+    "need_j_std": 129843.7,
+    "gap_j_std": 8984.7,
     "shift_p": -32691.7,
-    "shift_j": 10588.1
+    "shift_j": 7210.7
    },
    "江西": {
     "enrol_p": 2910571.1,
-    "enrol_j": 1795834.1,
+    "enrol_j": 1760515.3,
     "need_p_std": 153188.0,
     "gap_p_std": -77679.0,
-    "need_j_std": 133024.8,
-    "gap_j_std": -24011.2,
+    "need_j_std": 130408.5,
+    "gap_j_std": -26627.5,
     "shift_p": -41401.4,
-    "shift_j": -20988.0
+    "shift_j": -23663.6
    },
    "山东": {
     "enrol_p": 7737978.3,
-    "enrol_j": 4830963.6,
+    "enrol_j": 4935576.1,
     "need_p_std": 407262.0,
     "gap_p_std": -69122.0,
-    "need_j_std": 357849.2,
-    "gap_j_std": 42273.2,
+    "need_j_std": 365598.2,
+    "gap_j_std": 50022.2,
     "shift_p": -25058.3,
-    "shift_j": 60374.5
+    "shift_j": 68515.5
    },
    "河南": {
     "enrol_p": 7338791.3,
-    "enrol_j": 4734294.5,
+    "enrol_j": 4612654.8,
     "need_p_std": 386252.2,
     "gap_p_std": -196137.8,
-    "need_j_std": 350688.5,
-    "gap_j_std": -15447.5,
+    "need_j_std": 341678.1,
+    "gap_j_std": -24457.9,
     "shift_p": -115783.2,
-    "shift_j": -24728.7
+    "shift_j": -33500.6
    },
    "湖北": {
     "enrol_p": 3331141.5,
-    "enrol_j": 1868832.3,
+    "enrol_j": 1820815.9,
     "need_p_std": 175323.2,
     "gap_p_std": -50086.8,
-    "need_j_std": 138432.0,
-    "gap_j_std": -11909.0,
+    "need_j_std": 134875.2,
+    "gap_j_std": -15465.8,
     "shift_p": -28847.7,
-    "shift_j": -4793.3
+    "shift_j": -8532.9
    },
    "湖南": {
     "enrol_p": 4112934.1,
-    "enrol_j": 2505119.0,
+    "enrol_j": 2440754.2,
     "need_p_std": 216470.2,
     "gap_p_std": -87979.8,
-    "need_j_std": 185564.4,
-    "gap_j_std": -22490.6,
+    "need_j_std": 180796.6,
+    "gap_j_std": -27258.4,
     "shift_p": -52401.1,
-    "shift_j": -18732.2
+    "shift_j": -23596.6
    },
    "广东": {
     "enrol_p": 9903056.3,
-    "enrol_j": 5196585.7,
+    "enrol_j": 5063068.2,
     "need_p_std": 521213.5,
     "gap_p_std": -93615.5,
-    "need_j_std": 384932.3,
-    "gap_j_std": 28325.3,
+    "need_j_std": 375042.1,
+    "gap_j_std": 18435.1,
     "shift_p": -63464.6,
-    "shift_j": 11605.7
+    "shift_j": 2145.1
    },
    "广西": {
     "enrol_p": 4267831.8,
-    "enrol_j": 2583693.8,
+    "enrol_j": 2517310.1,
     "need_p_std": 224622.7,
     "gap_p_std": -77133.3,
-    "need_j_std": 191384.7,
-    "gap_j_std": 19806.7,
+    "need_j_std": 186467.4,
+    "gap_j_std": 14889.4,
     "shift_p": -47673.0,
-    "shift_j": 2689.8
+    "shift_j": -1787.8
    },
    "海南": {
     "enrol_p": 737172.2,
-    "enrol_j": 432602.9,
+    "enrol_j": 421487.9,
     "need_p_std": 38798.5,
     "gap_p_std": -18314.5,
-    "need_j_std": 32044.7,
-    "gap_j_std": -603.3,
+    "need_j_std": 31221.3,
+    "gap_j_std": -1426.7,
     "shift_p": -7807.1,
-    "shift_j": -50.4
+    "shift_j": -887.9
    },
    "重庆": {
     "enrol_p": 1783367.1,
-    "enrol_j": 999053.4,
+    "enrol_j": 973384.4,
     "need_p_std": 93861.4,
     "gap_p_std": -39133.6,
-    "need_j_std": 74004.0,
-    "gap_j_std": -10015.0,
+    "need_j_std": 72102.5,
+    "gap_j_std": -11916.5,
     "shift_p": -16274.9,
-    "shift_j": -3851.0
+    "shift_j": -5910.8
    },
    "四川": {
     "enrol_p": 4765200.3,
-    "enrol_j": 2620016.2,
+    "enrol_j": 2552699.3,
     "need_p_std": 250800.0,
     "gap_p_std": -98596.0,
-    "need_j_std": 194075.3,
-    "gap_j_std": -30562.7,
+    "need_j_std": 189088.8,
+    "gap_j_std": -35549.2,
     "shift_p": -41068.6,
-    "shift_j": -12284.6
+    "shift_j": -17740.7
    },
    "贵州": {
     "enrol_p": 3499545.3,
-    "enrol_j": 1914875.6,
+    "enrol_j": 1865676.1,
     "need_p_std": 184186.6,
     "gap_p_std": -34716.4,
-    "need_j_std": 141842.6,
-    "gap_j_std": 2919.6,
+    "need_j_std": 138198.2,
+    "gap_j_std": -724.8,
     "shift_p": -22619.1,
-    "shift_j": -7433.9
+    "shift_j": -10812.3
    },
    "云南": {
     "enrol_p": 3462578.4,
-    "enrol_j": 1834178.3,
+    "enrol_j": 1787052.2,
     "need_p_std": 182241.0,
     "gap_p_std": -47419.0,
-    "need_j_std": 135865.1,
-    "gap_j_std": -4009.9,
+    "need_j_std": 132374.2,
+    "gap_j_std": -7500.8,
     "shift_p": -22307.6,
-    "shift_j": -6120.3
+    "shift_j": -9556.9
    },
    "西藏": {
     "enrol_p": 351731.4,
-    "enrol_j": 171541.5,
+    "enrol_j": 167134.0,
     "need_p_std": 18512.2,
     "gap_p_std": -8569.8,
-    "need_j_std": 12706.8,
-    "gap_j_std": -636.2,
+    "need_j_std": 12380.3,
+    "gap_j_std": -962.7,
     "shift_p": -2457.8,
-    "shift_j": 499.9
+    "shift_j": 144.3
    },
    "陕西": {
     "enrol_p": 2574957.9,
-    "enrol_j": 1466844.2,
+    "enrol_j": 1429156.1,
     "need_p_std": 135524.1,
     "gap_p_std": -56130.9,
-    "need_j_std": 108655.1,
-    "gap_j_std": -4361.9,
+    "need_j_std": 105863.4,
+    "gap_j_std": -7153.6,
     "shift_p": -25935.0,
-    "shift_j": 1196.5
+    "shift_j": -1738.0
    },
    "甘肃": {
     "enrol_p": 1769159.8,
-    "enrol_j": 976657.7,
+    "enrol_j": 951564.1,
     "need_p_std": 93113.7,
     "gap_p_std": -58876.3,
-    "need_j_std": 72345.0,
-    "gap_j_std": -13300.0,
+    "need_j_std": 70486.2,
+    "gap_j_std": -15158.8,
     "shift_p": -18549.1,
-    "shift_j": -777.3
+    "shift_j": -2957.8
    },
    "青海": {
     "enrol_p": 445672.0,
-    "enrol_j": 249038.0,
+    "enrol_j": 242639.4,
     "need_p_std": 23456.4,
     "gap_p_std": -6177.6,
-    "need_j_std": 18447.3,
-    "gap_j_std": 850.3,
+    "need_j_std": 17973.3,
+    "gap_j_std": 376.3,
     "shift_p": -3786.0,
-    "shift_j": -174.4
+    "shift_j": -622.1
    },
    "宁夏": {
     "enrol_p": 547783.3,
-    "enrol_j": 298748.0,
+    "enrol_j": 291072.1,
     "need_p_std": 28830.7,
     "gap_p_std": -6876.3,
-    "need_j_std": 22129.5,
-    "gap_j_std": 714.5,
+    "need_j_std": 21560.9,
+    "gap_j_std": 145.9,
     "shift_p": -4121.7,
-    "shift_j": 164.6
+    "shift_j": -389.9
    },
    "新疆": {
     "enrol_p": 1863248.0,
-    "enrol_j": 1587929.4,
+    "enrol_j": 1547130.2,
     "need_p_std": 98065.7,
     "gap_p_std": -61075.3,
-    "need_j_std": 117624.4,
-    "gap_j_std": 23105.4,
+    "need_j_std": 114602.2,
+    "gap_j_std": 20083.2,
     "shift_p": -52334.0,
-    "shift_j": 19376.4
+    "shift_j": 16450.0
    }
   },
   "2028": {
    "北京": {
     "enrol_p": 1022511.1,
-    "enrol_j": 511473.6,
+    "enrol_j": 492712.4,
     "need_p_std": 53816.4,
     "gap_p_std": -26644.6,
-    "need_j_std": 37886.9,
-    "gap_j_std": -2929.1,
+    "need_j_std": 36497.2,
+    "gap_j_std": -4318.8,
     "shift_p": -10112.8,
-    "shift_j": 9925.4
+    "shift_j": 8064.2
    },
    "天津": {
     "enrol_p": 693891.5,
-    "enrol_j": 405519.0,
+    "enrol_j": 396783.9,
     "need_p_std": 36520.6,
     "gap_p_std": -15585.4,
-    "need_j_std": 30038.4,
-    "gap_j_std": -3105.6,
+    "need_j_std": 29391.4,
+    "gap_j_std": -3752.6,
     "shift_p": -8503.4,
-    "shift_j": -1013.5
+    "shift_j": -1705.6
    },
    "河北": {
     "enrol_p": 4497909.1,
-    "enrol_j": 2897871.9,
+    "enrol_j": 2899554.4,
     "need_p_std": 236732.1,
     "gap_p_std": -157652.9,
-    "need_j_std": 214657.2,
-    "gap_j_std": -34926.8,
+    "need_j_std": 214781.8,
+    "gap_j_std": -34802.2,
     "shift_p": -106094.5,
-    "shift_j": -38998.1
+    "shift_j": -38875.9
    },
    "山西": {
     "enrol_p": 1814913.3,
-    "enrol_j": 1048170.7,
+    "enrol_j": 1034075.1,
     "need_p_std": 95521.8,
     "gap_p_std": -69545.2,
-    "need_j_std": 77642.3,
-    "gap_j_std": -25820.7,
+    "need_j_std": 76598.2,
+    "gap_j_std": -26864.8,
     "shift_p": -32765.4,
-    "shift_j": -8648.8
+    "shift_j": -9923.9
    },
    "内蒙古": {
     "enrol_p": 1059053.0,
-    "enrol_j": 663273.0,
+    "enrol_j": 668192.2,
     "need_p_std": 55739.6,
     "gap_p_std": -56563.4,
-    "need_j_std": 49131.3,
-    "gap_j_std": -16608.7,
+    "need_j_std": 49495.7,
+    "gap_j_std": -16244.3,
     "shift_p": -25736.6,
-    "shift_j": -1344.6
+    "shift_j": -867.0
    },
    "辽宁": {
     "enrol_p": 1497461.5,
-    "enrol_j": 942032.8,
+    "enrol_j": 917828.8,
     "need_p_std": 78813.8,
     "gap_p_std": -57868.2,
-    "need_j_std": 69780.2,
-    "gap_j_std": -27505.8,
+    "need_j_std": 67987.3,
+    "gap_j_std": -29298.7,
     "shift_p": -30951.5,
-    "shift_j": -1160.2
+    "shift_j": -3630.0
    },
    "吉林": {
     "enrol_p": 768614.8,
-    "enrol_j": 501124.8,
+    "enrol_j": 490102.4,
     "need_p_std": 40453.4,
     "gap_p_std": -55763.6,
-    "need_j_std": 37120.4,
-    "gap_j_std": -27577.6,
+    "need_j_std": 36303.9,
+    "gap_j_std": -28394.1,
     "shift_p": -25075.3,
-    "shift_j": -9701.9
+    "shift_j": -10911.5
    },
    "黑龙江": {
     "enrol_p": 798947.9,
-    "enrol_j": 637398.8,
+    "enrol_j": 702018.3,
     "need_p_std": 42049.9,
     "gap_p_std": -48993.1,
-    "need_j_std": 47214.7,
-    "gap_j_std": -33496.3,
+    "need_j_std": 52001.4,
+    "gap_j_std": -28709.6,
     "shift_p": -17865.9,
-    "shift_j": -13820.6
+    "shift_j": -7039.2
    },
    "上海": {
     "enrol_p": 901611.4,
-    "enrol_j": 527344.9,
+    "enrol_j": 670538.1,
     "need_p_std": 47453.2,
     "gap_p_std": -20356.8,
-    "need_j_std": 39062.6,
-    "gap_j_std": -11362.4,
+    "need_j_std": 49669.5,
+    "gap_j_std": -755.5,
     "shift_p": -1864.2,
-    "shift_j": -7207.1
+    "shift_j": 4528.1
    },
    "江苏": {
     "enrol_p": 4375617.3,
-    "enrol_j": 2754096.4,
+    "enrol_j": 2683334.5,
     "need_p_std": 230295.6,
     "gap_p_std": -130067.4,
-    "need_j_std": 204007.1,
-    "gap_j_std": -32807.9,
+    "need_j_std": 198765.5,
+    "gap_j_std": -38049.5,
     "shift_p": -83547.8,
-    "shift_j": -10252.3
+    "shift_j": -16073.4
    },
    "浙江": {
     "enrol_p": 3595464.7,
-    "enrol_j": 1930051.2,
+    "enrol_j": 1880461.8,
     "need_p_std": 189235.0,
     "gap_p_std": -49971.0,
-    "need_j_std": 142966.8,
-    "gap_j_std": 291.8,
+    "need_j_std": 139293.5,
+    "gap_j_std": -3381.5,
     "shift_p": -31783.3,
-    "shift_j": 7945.5
+    "shift_j": 4075.6
    },
    "安徽": {
     "enrol_p": 3678219.4,
-    "enrol_j": 2210878.6,
+    "enrol_j": 2154073.8,
     "need_p_std": 193590.5,
     "gap_p_std": -72992.5,
-    "need_j_std": 163768.8,
-    "gap_j_std": -7878.2,
+    "need_j_std": 159561.0,
+    "gap_j_std": -12086.0,
     "shift_p": -53562.8,
-    "shift_j": -10926.0
+    "shift_j": -15055.4
    },
    "福建": {
     "enrol_p": 2834105.8,
-    "enrol_j": 1759002.7,
+    "enrol_j": 1713808.1,
     "need_p_std": 149163.5,
     "gap_p_std": -59320.5,
-    "need_j_std": 130296.5,
-    "gap_j_std": 9437.5,
+    "need_j_std": 126948.8,
+    "gap_j_std": 6089.8,
     "shift_p": -45623.1,
-    "shift_j": 7657.3
+    "shift_j": 4355.3
    },
    "江西": {
     "enrol_p": 2688578.1,
-    "enrol_j": 1699094.1,
+    "enrol_j": 1655438.8,
     "need_p_std": 141504.1,
     "gap_p_std": -89362.9,
-    "need_j_std": 125858.8,
-    "gap_j_std": -31177.2,
+    "need_j_std": 122625.1,
+    "gap_j_std": -34410.9,
     "shift_p": -55852.2,
-    "shift_j": -28316.7
+    "shift_j": -31624.0
    },
    "山东": {
     "enrol_p": 7340777.0,
-    "enrol_j": 4786697.4,
+    "enrol_j": 4858673.6,
     "need_p_std": 386356.7,
     "gap_p_std": -90027.3,
-    "need_j_std": 354570.2,
-    "gap_j_std": 38994.2,
+    "need_j_std": 359901.8,
+    "gap_j_std": 44325.8,
     "shift_p": -48225.5,
-    "shift_j": 56929.6
+    "shift_j": 62530.9
    },
    "河南": {
     "enrol_p": 6738197.0,
-    "enrol_j": 4487556.3,
+    "enrol_j": 4372256.1,
     "need_p_std": 354641.9,
     "gap_p_std": -227748.1,
-    "need_j_std": 332411.6,
-    "gap_j_std": -33724.4,
+    "need_j_std": 323870.8,
+    "gap_j_std": -42265.2,
     "shift_p": -153969.5,
-    "shift_j": -42521.9
+    "shift_j": -50836.6
    },
    "湖北": {
     "enrol_p": 3101109.6,
-    "enrol_j": 1837335.8,
+    "enrol_j": 1790128.6,
     "need_p_std": 163216.3,
     "gap_p_std": -62193.7,
-    "need_j_std": 136099.0,
-    "gap_j_std": -14242.0,
+    "need_j_std": 132602.1,
+    "gap_j_std": -17738.9,
     "shift_p": -42421.3,
-    "shift_j": -7246.3
+    "shift_j": -10922.9
    },
    "湖南": {
     "enrol_p": 3779248.6,
-    "enrol_j": 2414654.1,
+    "enrol_j": 2352613.6,
     "need_p_std": 198907.8,
     "gap_p_std": -105542.2,
-    "need_j_std": 178863.3,
-    "gap_j_std": -29191.7,
+    "need_j_std": 174267.7,
+    "gap_j_std": -33787.3,
     "shift_p": -72850.0,
-    "shift_j": -25569.0
+    "shift_j": -30257.7
    },
    "广东": {
     "enrol_p": 9358364.7,
-    "enrol_j": 5030462.9,
+    "enrol_j": 4901213.6,
     "need_p_std": 492545.5,
     "gap_p_std": -122283.5,
-    "need_j_std": 372626.9,
-    "gap_j_std": 16019.9,
+    "need_j_std": 363052.9,
+    "gap_j_std": 6445.9,
     "shift_p": -93790.9,
-    "shift_j": -165.2
+    "shift_j": -9323.4
    },
    "广西": {
     "enrol_p": 3972386.0,
-    "enrol_j": 2452400.6,
+    "enrol_j": 2389390.3,
     "need_p_std": 209072.9,
     "gap_p_std": -92683.1,
-    "need_j_std": 181659.3,
-    "gap_j_std": 10081.3,
+    "need_j_std": 176991.9,
+    "gap_j_std": 5413.9,
     "shift_p": -65262.2,
-    "shift_j": -6165.8
+    "shift_j": -10415.8
    },
    "海南": {
     "enrol_p": 690442.8,
-    "enrol_j": 415293.5,
+    "enrol_j": 404623.2,
     "need_p_std": 36339.1,
     "gap_p_std": -20773.9,
-    "need_j_std": 30762.5,
-    "gap_j_std": -1885.5,
+    "need_j_std": 29972.1,
+    "gap_j_std": -2675.9,
     "shift_p": -10932.6,
-    "shift_j": -1354.7
+    "shift_j": -2158.7
    },
    "重庆": {
     "enrol_p": 1660012.3,
-    "enrol_j": 986322.4,
+    "enrol_j": 960980.5,
     "need_p_std": 87369.1,
     "gap_p_std": -45625.9,
-    "need_j_std": 73060.9,
-    "gap_j_std": -10958.1,
+    "need_j_std": 71183.7,
+    "gap_j_std": -12835.3,
     "shift_p": -24348.3,
-    "shift_j": -4872.6
+    "shift_j": -6906.1
    },
    "四川": {
     "enrol_p": 4460201.3,
-    "enrol_j": 2560462.5,
+    "enrol_j": 2494675.7,
     "need_p_std": 234747.4,
     "gap_p_std": -114648.6,
-    "need_j_std": 189663.9,
-    "gap_j_std": -34974.1,
+    "need_j_std": 184790.8,
+    "gap_j_std": -39847.2,
     "shift_p": -60803.2,
-    "shift_j": -17111.5
+    "shift_j": -22443.5
    },
    "贵州": {
     "enrol_p": 3325020.0,
-    "enrol_j": 1824727.0,
+    "enrol_j": 1777843.7,
     "need_p_std": 175001.1,
     "gap_p_std": -43901.9,
-    "need_j_std": 135165.0,
-    "gap_j_std": -3758.0,
+    "need_j_std": 131692.1,
+    "gap_j_std": -7230.9,
     "shift_p": -32408.0,
-    "shift_j": -13624.2
+    "shift_j": -16843.5
    },
    "云南": {
     "enrol_p": 3298635.4,
-    "enrol_j": 1754992.3,
+    "enrol_j": 1709900.7,
     "need_p_std": 173612.4,
     "gap_p_std": -56047.6,
-    "need_j_std": 129999.4,
-    "gap_j_std": -9875.6,
+    "need_j_std": 126659.3,
+    "gap_j_std": -13215.7,
     "shift_p": -32125.1,
-    "shift_j": -11894.8
+    "shift_j": -15183.0
    },
    "西藏": {
     "enrol_p": 327817.3,
-    "enrol_j": 175801.2,
+    "enrol_j": 171284.3,
     "need_p_std": 17253.5,
     "gap_p_std": -9828.5,
-    "need_j_std": 13022.3,
-    "gap_j_std": -320.7,
+    "need_j_std": 12687.7,
+    "gap_j_std": -655.3,
     "shift_p": -4132.0,
-    "shift_j": 843.7
+    "shift_j": 479.2
    },
    "陕西": {
     "enrol_p": 2401093.4,
-    "enrol_j": 1435186.9,
+    "enrol_j": 1398312.2,
     "need_p_std": 126373.3,
     "gap_p_std": -65281.7,
-    "need_j_std": 106310.1,
-    "gap_j_std": -6706.9,
+    "need_j_std": 103578.7,
+    "gap_j_std": -9438.3,
     "shift_p": -37124.6,
-    "shift_j": -1268.4
+    "shift_j": -4139.6
    },
    "甘肃": {
     "enrol_p": 1666247.0,
-    "enrol_j": 945302.0,
+    "enrol_j": 921014.1,
     "need_p_std": 87697.2,
     "gap_p_std": -64292.8,
-    "need_j_std": 70022.4,
-    "gap_j_std": -15622.6,
+    "need_j_std": 68223.3,
+    "gap_j_std": -17421.7,
     "shift_p": -26311.4,
-    "shift_j": -3502.0
+    "shift_j": -5612.5
    },
    "青海": {
     "enrol_p": 418422.3,
-    "enrol_j": 240220.2,
+    "enrol_j": 234048.2,
     "need_p_std": 22022.2,
     "gap_p_std": -7611.8,
-    "need_j_std": 17794.1,
-    "gap_j_std": 197.1,
+    "need_j_std": 17336.9,
+    "gap_j_std": -260.1,
     "shift_p": -5366.4,
-    "shift_j": -791.3
+    "shift_j": -1223.1
    },
    "宁夏": {
     "enrol_p": 512079.2,
-    "enrol_j": 296290.3,
+    "enrol_j": 288677.6,
     "need_p_std": 26951.5,
     "gap_p_std": -8755.5,
-    "need_j_std": 21947.4,
-    "gap_j_std": 532.4,
+    "need_j_std": 21383.5,
+    "gap_j_std": -31.5,
     "shift_p": -6180.4,
-    "shift_j": -12.9
+    "shift_j": -562.8
    },
    "新疆": {
     "enrol_p": 1603216.9,
-    "enrol_j": 1516038.9,
+    "enrol_j": 1508704.7,
     "need_p_std": 84379.8,
     "gap_p_std": -74761.2,
-    "need_j_std": 112299.2,
-    "gap_j_std": 17780.2,
+    "need_j_std": 111755.9,
+    "gap_j_std": 17236.9,
     "shift_p": -67239.8,
-    "shift_j": 14220.0
+    "shift_j": 13693.9
    }
   },
   "2029": {
    "北京": {
     "enrol_p": 908144.7,
-    "enrol_j": 542985.6,
+    "enrol_j": 506866.3,
     "need_p_std": 47797.1,
     "gap_p_std": -32663.9,
-    "need_j_std": 40221.2,
-    "gap_j_std": -594.8,
+    "need_j_std": 37545.6,
+    "gap_j_std": -3270.4,
     "shift_p": -17981.1,
-    "shift_j": 13051.6
+    "shift_j": 9468.4
    },
    "天津": {
     "enrol_p": 618148.8,
-    "enrol_j": 414988.7,
+    "enrol_j": 390329.7,
     "need_p_std": 32534.1,
     "gap_p_std": -19571.9,
-    "need_j_std": 30739.9,
-    "gap_j_std": -2404.1,
+    "need_j_std": 28913.3,
+    "gap_j_std": -4230.7,
     "shift_p": -13262.9,
-    "shift_j": -263.2
+    "shift_j": -2217.0
    },
    "河北": {
     "enrol_p": 3980006.1,
-    "enrol_j": 2774975.2,
+    "enrol_j": 2779434.6,
     "need_p_std": 209474.0,
     "gap_p_std": -184911.0,
-    "need_j_std": 205553.7,
-    "gap_j_std": -44030.3,
+    "need_j_std": 205884.0,
+    "gap_j_std": -43700.0,
     "shift_p": -139289.1,
-    "shift_j": -47928.9
+    "shift_j": -47604.9
    },
    "山西": {
     "enrol_p": 1629649.9,
-    "enrol_j": 1035050.6,
+    "enrol_j": 1015602.7,
     "need_p_std": 85771.0,
     "gap_p_std": -79296.0,
-    "need_j_std": 76670.4,
-    "gap_j_std": -26792.6,
+    "need_j_std": 75229.8,
+    "gap_j_std": -28233.2,
     "shift_p": -46270.5,
-    "shift_j": -9835.6
+    "shift_j": -11594.8
    },
    "内蒙古": {
     "enrol_p": 943789.9,
-    "enrol_j": 660434.5,
+    "enrol_j": 665316.9,
     "need_p_std": 49673.2,
     "gap_p_std": -62629.8,
-    "need_j_std": 48921.1,
-    "gap_j_std": -16818.9,
+    "need_j_std": 49282.7,
+    "gap_j_std": -16457.3,
     "shift_p": -35158.2,
-    "shift_j": -1620.1
+    "shift_j": -1146.1
    },
    "辽宁": {
     "enrol_p": 1343012.9,
-    "enrol_j": 923838.1,
+    "enrol_j": 900101.6,
     "need_p_std": 70684.9,
     "gap_p_std": -65997.1,
-    "need_j_std": 68432.5,
-    "gap_j_std": -28853.5,
+    "need_j_std": 66674.2,
+    "gap_j_std": -30611.8,
     "shift_p": -41856.5,
-    "shift_j": -3016.8
+    "shift_j": -5438.9
    },
    "吉林": {
     "enrol_p": 686375.9,
-    "enrol_j": 482339.5,
+    "enrol_j": 471790.5,
     "need_p_std": 36125.0,
     "gap_p_std": -60092.0,
-    "need_j_std": 35728.8,
-    "gap_j_std": -28969.2,
+    "need_j_std": 34947.4,
+    "gap_j_std": -29750.6,
     "shift_p": -32687.2,
-    "shift_j": -11763.5
+    "shift_j": -12921.2
    },
    "黑龙江": {
     "enrol_p": 713855.7,
-    "enrol_j": 692115.6,
+    "enrol_j": 674421.5,
     "need_p_std": 37571.4,
     "gap_p_std": -53471.6,
-    "need_j_std": 51267.8,
-    "gap_j_std": -29443.2,
+    "need_j_std": 49957.1,
+    "gap_j_std": -30753.9,
     "shift_p": -25659.6,
-    "shift_j": -8078.4
+    "shift_j": -9935.3
    },
    "上海": {
     "enrol_p": 806544.7,
-    "enrol_j": 715710.0,
+    "enrol_j": 697321.0,
     "need_p_std": 42449.7,
     "gap_p_std": -25360.3,
-    "need_j_std": 53015.6,
-    "gap_j_std": 2590.6,
+    "need_j_std": 51653.4,
+    "gap_j_std": 1228.4,
     "shift_p": -8817.6,
-    "shift_j": 8230.1
+    "shift_j": 6723.1
    },
    "江苏": {
     "enrol_p": 3914854.6,
-    "enrol_j": 2744944.6,
+    "enrol_j": 2674417.9,
     "need_p_std": 206045.0,
     "gap_p_std": -154318.0,
-    "need_j_std": 203329.2,
-    "gap_j_std": -33485.8,
+    "need_j_std": 198105.0,
+    "gap_j_std": -38710.0,
     "shift_p": -112697.1,
-    "shift_j": -11005.1
+    "shift_j": -16806.9
    },
    "浙江": {
     "enrol_p": 3235049.1,
-    "enrol_j": 2040331.8,
+    "enrol_j": 1942167.9,
     "need_p_std": 170265.7,
     "gap_p_std": -68940.3,
-    "need_j_std": 151135.7,
-    "gap_j_std": 8460.7,
+    "need_j_std": 143864.3,
+    "gap_j_std": 1189.3,
     "shift_p": -52575.7,
-    "shift_j": 16551.8
+    "shift_j": 8891.1
    },
    "安徽": {
     "enrol_p": 3314667.3,
-    "enrol_j": 2221242.9,
+    "enrol_j": 2164171.8,
     "need_p_std": 174456.2,
     "gap_p_std": -92126.8,
-    "need_j_std": 164536.5,
-    "gap_j_std": -7110.5,
+    "need_j_std": 160309.0,
+    "gap_j_std": -11338.0,
     "shift_p": -74617.6,
-    "shift_j": -10172.5
+    "shift_j": -14321.3
    },
    "福建": {
     "enrol_p": 2530071.7,
-    "enrol_j": 1771579.0,
+    "enrol_j": 1726061.3,
     "need_p_std": 133161.7,
     "gap_p_std": -75322.3,
-    "need_j_std": 131228.1,
-    "gap_j_std": 10369.1,
+    "need_j_std": 127856.4,
+    "gap_j_std": 6997.4,
     "shift_p": -63094.3,
-    "shift_j": 8576.2
+    "shift_j": 5250.5
    },
    "江西": {
     "enrol_p": 2411497.3,
-    "enrol_j": 1673148.5,
+    "enrol_j": 1630159.8,
     "need_p_std": 126920.9,
     "gap_p_std": -103946.1,
-    "need_j_std": 123936.9,
-    "gap_j_std": -33099.1,
+    "need_j_std": 120752.6,
+    "gap_j_std": -36283.4,
     "shift_p": -73888.9,
-    "shift_j": -30282.3
+    "shift_j": -33539.0
    },
    "山东": {
     "enrol_p": 6388770.6,
-    "enrol_j": 5500208.8,
+    "enrol_j": 5030929.0,
     "need_p_std": 336251.1,
     "gap_p_std": -140132.9,
-    "need_j_std": 407422.9,
-    "gap_j_std": 91846.9,
+    "need_j_std": 372661.4,
+    "gap_j_std": 57085.4,
     "shift_p": -103752.3,
-    "shift_j": 112455.8
+    "shift_j": 75936.0
    },
    "河南": {
     "enrol_p": 6055543.4,
-    "enrol_j": 4337983.5,
+    "enrol_j": 4226526.3,
     "need_p_std": 318712.8,
     "gap_p_std": -263677.2,
-    "need_j_std": 321332.1,
-    "gap_j_std": -44803.9,
+    "need_j_std": 313076.0,
+    "gap_j_std": -53060.0,
     "shift_p": -197373.3,
-    "shift_j": -53308.2
+    "shift_j": -61345.8
    },
    "湖北": {
     "enrol_p": 2793740.3,
-    "enrol_j": 1878485.1,
+    "enrol_j": 1830220.6,
     "need_p_std": 147039.0,
     "gap_p_std": -78371.0,
-    "need_j_std": 139147.0,
-    "gap_j_std": -11194.0,
+    "need_j_std": 135571.9,
+    "gap_j_std": -14769.1,
     "shift_p": -60558.4,
-    "shift_j": -4041.5
+    "shift_j": -7800.5
    },
    "湖南": {
     "enrol_p": 3384223.9,
-    "enrol_j": 2398094.9,
+    "enrol_j": 2336479.9,
     "need_p_std": 178117.0,
     "gap_p_std": -126333.0,
-    "need_j_std": 177636.7,
-    "gap_j_std": -30418.3,
+    "need_j_std": 173072.6,
+    "gap_j_std": -34982.4,
     "shift_p": -97057.9,
-    "shift_j": -26820.5
+    "shift_j": -31477.0
    },
    "广东": {
     "enrol_p": 8477464.9,
-    "enrol_j": 5231534.5,
+    "enrol_j": 5044227.2,
     "need_p_std": 446182.4,
     "gap_p_std": -168646.6,
-    "need_j_std": 387521.1,
-    "gap_j_std": 30914.1,
+    "need_j_std": 373646.5,
+    "gap_j_std": 17039.5,
     "shift_p": -142836.1,
-    "shift_j": 14082.0
+    "shift_j": 810.1
    },
    "广西": {
     "enrol_p": 3609800.1,
-    "enrol_j": 2421871.6,
+    "enrol_j": 2359645.7,
     "need_p_std": 189989.5,
     "gap_p_std": -111766.5,
-    "need_j_std": 179397.9,
-    "gap_j_std": 7819.9,
+    "need_j_std": 174788.6,
+    "gap_j_std": 3210.6,
     "shift_p": -86848.6,
-    "shift_j": -8225.0
+    "shift_j": -12422.1
    },
    "海南": {
     "enrol_p": 631241.2,
-    "enrol_j": 411493.1,
+    "enrol_j": 400920.5,
     "need_p_std": 33223.2,
     "gap_p_std": -23889.8,
-    "need_j_std": 30481.0,
-    "gap_j_std": -2167.0,
+    "need_j_std": 29697.8,
+    "gap_j_std": -2950.2,
     "shift_p": -14892.3,
-    "shift_j": -1641.1
+    "shift_j": -2437.7
    },
    "重庆": {
     "enrol_p": 1501409.2,
-    "enrol_j": 1009927.5,
+    "enrol_j": 983979.2,
     "need_p_std": 79021.5,
     "gap_p_std": -53973.5,
-    "need_j_std": 74809.4,
-    "gap_j_std": -9209.6,
+    "need_j_std": 72887.3,
+    "gap_j_std": -11131.7,
     "shift_p": -34728.8,
-    "shift_j": -2978.4
+    "shift_j": -5060.6
    },
    "四川": {
     "enrol_p": 4040320.0,
-    "enrol_j": 2619006.6,
+    "enrol_j": 2551715.6,
     "need_p_std": 212648.4,
     "gap_p_std": -136747.6,
-    "need_j_std": 194000.5,
-    "gap_j_std": -30637.5,
+    "need_j_std": 189016.0,
+    "gap_j_std": -35622.0,
     "shift_p": -87971.2,
-    "shift_j": -12366.4
+    "shift_j": -17820.4
    },
    "贵州": {
     "enrol_p": 3035260.1,
-    "enrol_j": 1857228.4,
+    "enrol_j": 1793076.4,
     "need_p_std": 159750.5,
     "gap_p_std": -59152.5,
-    "need_j_std": 137572.5,
-    "gap_j_std": -1350.5,
+    "need_j_std": 132820.5,
+    "gap_j_std": -6102.5,
     "shift_p": -48660.1,
-    "shift_j": -11392.4
+    "shift_j": -15797.5
    },
    "云南": {
     "enrol_p": 2993030.2,
-    "enrol_j": 1800439.7,
+    "enrol_j": 1710845.0,
     "need_p_std": 157527.9,
     "gap_p_std": -72132.1,
-    "need_j_std": 133365.9,
-    "gap_j_std": -6509.1,
+    "need_j_std": 126729.3,
+    "gap_j_std": -13145.7,
     "shift_p": -50425.9,
-    "shift_j": -8580.6
+    "shift_j": -15114.2
    },
    "西藏": {
     "enrol_p": 301344.4,
-    "enrol_j": 177562.2,
+    "enrol_j": 173000.0,
     "need_p_std": 15860.2,
     "gap_p_std": -11221.8,
-    "need_j_std": 13152.8,
-    "gap_j_std": -190.2,
+    "need_j_std": 12814.8,
+    "gap_j_std": -528.2,
     "shift_p": -5985.4,
-    "shift_j": 985.8
+    "shift_j": 617.6
    },
    "陕西": {
     "enrol_p": 2159487.6,
-    "enrol_j": 1441924.9,
+    "enrol_j": 1404877.1,
     "need_p_std": 113657.2,
     "gap_p_std": -77997.8,
-    "need_j_std": 106809.3,
-    "gap_j_std": -6207.7,
+    "need_j_std": 104065.0,
+    "gap_j_std": -8952.0,
     "shift_p": -52673.9,
-    "shift_j": -743.8
+    "shift_j": -3628.5
    },
    "甘肃": {
     "enrol_p": 1506975.2,
-    "enrol_j": 953606.0,
+    "enrol_j": 923358.5,
     "need_p_std": 79314.5,
     "gap_p_std": -72675.5,
-    "need_j_std": 70637.5,
-    "gap_j_std": -15007.5,
+    "need_j_std": 68396.9,
+    "gap_j_std": -17248.1,
     "shift_p": -38324.7,
-    "shift_j": -2780.4
+    "shift_j": -5408.8
    },
    "青海": {
     "enrol_p": 380714.7,
-    "enrol_j": 242424.3,
+    "enrol_j": 236195.6,
     "need_p_std": 20037.6,
     "gap_p_std": -9596.4,
-    "need_j_std": 17957.4,
-    "gap_j_std": 360.4,
+    "need_j_std": 17496.0,
+    "gap_j_std": -101.0,
     "shift_p": -7553.3,
-    "shift_j": -637.1
+    "shift_j": -1072.9
    },
    "宁夏": {
     "enrol_p": 464492.2,
-    "enrol_j": 301291.6,
+    "enrol_j": 293550.4,
     "need_p_std": 24447.0,
     "gap_p_std": -11260.0,
-    "need_j_std": 22317.9,
-    "gap_j_std": 902.9,
+    "need_j_std": 21744.5,
+    "gap_j_std": 329.5,
     "shift_p": -8924.3,
-    "shift_j": 348.3
+    "shift_j": -210.8
    },
    "新疆": {
     "enrol_p": 1412818.2,
-    "enrol_j": 1339254.9,
+    "enrol_j": 1404372.4,
     "need_p_std": 74358.9,
     "gap_p_std": -84782.1,
-    "need_j_std": 99204.1,
-    "gap_j_std": 4685.1,
+    "need_j_std": 104027.6,
+    "gap_j_std": 9508.6,
     "shift_p": -78154.0,
-    "shift_j": 1540.0
+    "shift_j": 6210.6
    }
   },
   "2030": {
    "北京": {
     "enrol_p": 825096.8,
-    "enrol_j": 547622.5,
+    "enrol_j": 511495.0,
     "need_p_std": 43426.1,
     "gap_p_std": -37034.9,
-    "need_j_std": 40564.6,
-    "gap_j_std": -251.4,
+    "need_j_std": 37888.5,
+    "gap_j_std": -2927.5,
     "shift_p": -23694.8,
-    "shift_j": 13511.6
+    "shift_j": 9927.5
    },
    "天津": {
     "enrol_p": 561472.2,
-    "enrol_j": 414073.1,
+    "enrol_j": 387840.2,
     "need_p_std": 29551.2,
     "gap_p_std": -22554.8,
-    "need_j_std": 30672.1,
-    "gap_j_std": -2471.9,
+    "need_j_std": 28728.9,
+    "gap_j_std": -4415.1,
     "shift_p": -16824.3,
-    "shift_j": -335.7
+    "shift_j": -2414.2
    },
    "河北": {
     "enrol_p": 3617005.6,
-    "enrol_j": 2628546.1,
+    "enrol_j": 2670477.6,
     "need_p_std": 190368.7,
     "gap_p_std": -204016.3,
-    "need_j_std": 194707.1,
-    "gap_j_std": -54876.9,
+    "need_j_std": 197813.2,
+    "gap_j_std": -51770.8,
     "shift_p": -162555.4,
-    "shift_j": -58569.8
+    "shift_j": -55522.7
    },
    "山西": {
     "enrol_p": 1480970.6,
-    "enrol_j": 1020672.8,
+    "enrol_j": 998552.9,
     "need_p_std": 77945.8,
     "gap_p_std": -87121.2,
-    "need_j_std": 75605.4,
-    "gap_j_std": -27857.6,
+    "need_j_std": 73966.9,
+    "gap_j_std": -29496.1,
     "shift_p": -57108.8,
-    "shift_j": -11136.2
+    "shift_j": -13137.1
    },
    "内蒙古": {
     "enrol_p": 857508.8,
-    "enrol_j": 611569.9,
+    "enrol_j": 633066.8,
     "need_p_std": 45132.0,
     "gap_p_std": -67171.0,
-    "need_j_std": 45301.5,
-    "gap_j_std": -20438.5,
+    "need_j_std": 46893.8,
+    "gap_j_std": -18846.2,
     "shift_p": -42210.7,
-    "shift_j": -6364.3
+    "shift_j": -4277.2
    },
    "辽宁": {
     "enrol_p": 1220505.8,
-    "enrol_j": 876250.7,
+    "enrol_j": 867788.1,
     "need_p_std": 64237.1,
     "gap_p_std": -72444.9,
-    "need_j_std": 64907.5,
-    "gap_j_std": -32378.5,
+    "need_j_std": 64280.6,
+    "gap_j_std": -33005.4,
     "shift_p": -50506.3,
-    "shift_j": -7872.7
+    "shift_j": -8736.2
    },
    "吉林": {
     "enrol_p": 623765.8,
-    "enrol_j": 456953.5,
+    "enrol_j": 455156.3,
     "need_p_std": 32829.8,
     "gap_p_std": -63387.2,
-    "need_j_std": 33848.4,
-    "gap_j_std": -30849.6,
+    "need_j_std": 33715.3,
+    "gap_j_std": -30982.7,
     "shift_p": -38482.3,
-    "shift_j": -14549.5
+    "shift_j": -14746.7
    },
    "黑龙江": {
     "enrol_p": 648749.1,
-    "enrol_j": 643773.9,
+    "enrol_j": 637366.3,
     "need_p_std": 34144.7,
     "gap_p_std": -56898.3,
-    "need_j_std": 47687.0,
-    "gap_j_std": -33024.0,
+    "need_j_std": 47212.3,
+    "gap_j_std": -33498.7,
     "shift_p": -31622.9,
-    "shift_j": -13151.6
+    "shift_j": -13824.0
    },
    "上海": {
     "enrol_p": 732746.2,
-    "enrol_j": 700823.6,
+    "enrol_j": 692918.8,
     "need_p_std": 38565.6,
     "gap_p_std": -29244.4,
-    "need_j_std": 51912.9,
-    "gap_j_std": 1487.9,
+    "need_j_std": 51327.3,
+    "gap_j_std": 902.3,
     "shift_p": -14215.3,
-    "shift_j": 7010.1
+    "shift_j": 6362.3
    },
    "江苏": {
     "enrol_p": 3557786.3,
-    "enrol_j": 2595476.3,
+    "enrol_j": 2578461.9,
     "need_p_std": 187251.9,
     "gap_p_std": -173111.1,
-    "need_j_std": 192257.5,
-    "gap_j_std": -44557.5,
+    "need_j_std": 190997.2,
+    "gap_j_std": -45817.8,
     "shift_p": -135286.4,
-    "shift_j": -23301.0
+    "shift_j": -24700.7
    },
    "浙江": {
     "enrol_p": 2939890.7,
-    "enrol_j": 2036705.6,
+    "enrol_j": 1938863.7,
     "need_p_std": 154731.1,
     "gap_p_std": -84474.9,
-    "need_j_std": 150867.1,
-    "gap_j_std": 8192.1,
+    "need_j_std": 143619.5,
+    "gap_j_std": 944.5,
     "shift_p": -69603.4,
-    "shift_j": 16268.8
+    "shift_j": 8633.2
    },
    "安徽": {
     "enrol_p": 3012280.3,
-    "enrol_j": 2150091.1,
+    "enrol_j": 2114391.0,
     "need_p_std": 158541.1,
     "gap_p_std": -108041.9,
-    "need_j_std": 159266.0,
-    "gap_j_std": -12381.0,
+    "need_j_std": 156621.6,
+    "gap_j_std": -15025.4,
     "shift_p": -92130.0,
-    "shift_j": -15344.9
+    "shift_j": -17940.2
    },
    "福建": {
     "enrol_p": 2298874.2,
-    "enrol_j": 1675717.0,
+    "enrol_j": 1669877.9,
     "need_p_std": 120993.4,
     "gap_p_std": -87490.6,
-    "need_j_std": 124127.2,
-    "gap_j_std": 3268.2,
+    "need_j_std": 123694.7,
+    "gap_j_std": 2835.7,
     "shift_p": -76380.0,
-    "shift_j": 1572.3
+    "shift_j": 1145.7
    },
    "江西": {
     "enrol_p": 2190223.5,
-    "enrol_j": 1584755.1,
+    "enrol_j": 1567666.1,
     "need_p_std": 115274.9,
     "gap_p_std": -115592.1,
-    "need_j_std": 117389.3,
-    "gap_j_std": -39646.7,
+    "need_j_std": 116123.4,
+    "gap_j_std": -40912.6,
     "shift_p": -88292.9,
-    "shift_j": -36978.8
+    "shift_j": -38273.4
    },
    "山东": {
     "enrol_p": 5805991.7,
-    "enrol_j": 5528282.3,
+    "enrol_j": 5059921.0,
     "need_p_std": 305578.5,
     "gap_p_std": -170805.5,
-    "need_j_std": 409502.4,
-    "gap_j_std": 93926.4,
+    "need_j_std": 374809.0,
+    "gap_j_std": 59233.0,
     "shift_p": -137743.5,
-    "shift_j": 114640.5
+    "shift_j": 78192.2
    },
    "河南": {
     "enrol_p": 5503464.2,
-    "enrol_j": 4013490.2,
+    "enrol_j": 3962014.0,
     "need_p_std": 289656.0,
     "gap_p_std": -292734.0,
-    "need_j_std": 297295.6,
-    "gap_j_std": -68840.4,
+    "need_j_std": 293482.5,
+    "gap_j_std": -72653.5,
     "shift_p": -232474.9,
-    "shift_j": -76708.6
+    "shift_j": -80420.7
    },
    "湖北": {
     "enrol_p": 2538102.0,
-    "enrol_j": 1821077.1,
+    "enrol_j": 1790970.0,
     "need_p_std": 133584.3,
     "gap_p_std": -91825.7,
-    "need_j_std": 134894.6,
-    "gap_j_std": -15446.4,
+    "need_j_std": 132664.4,
+    "gap_j_std": -17676.6,
     "shift_p": -75643.0,
-    "shift_j": -8512.6
+    "shift_j": -10857.4
    },
    "湖南": {
     "enrol_p": 3075554.3,
-    "enrol_j": 2268440.7,
+    "enrol_j": 2250658.6,
     "need_p_std": 161871.3,
     "gap_p_std": -142578.7,
-    "need_j_std": 168032.6,
-    "gap_j_std": -40022.4,
+    "need_j_std": 166715.5,
+    "gap_j_std": -41339.5,
     "shift_p": -115973.8,
-    "shift_j": -36619.0
+    "shift_j": -37962.9
    },
    "广东": {
     "enrol_p": 7704049.2,
-    "enrol_j": 5181650.9,
+    "enrol_j": 4995889.7,
     "need_p_std": 405476.3,
     "gap_p_std": -209352.7,
-    "need_j_std": 383826.0,
-    "gap_j_std": 27219.0,
+    "need_j_std": 370065.9,
+    "gap_j_std": 13458.9,
     "shift_p": -185896.9,
-    "shift_j": 10547.5
+    "shift_j": -2615.0
    },
    "广西": {
     "enrol_p": 3279595.7,
-    "enrol_j": 2321164.0,
+    "enrol_j": 2261525.6,
     "need_p_std": 172610.3,
     "gap_p_std": -129145.7,
-    "need_j_std": 171938.1,
-    "gap_j_std": 360.1,
+    "need_j_std": 167520.4,
+    "gap_j_std": -4057.6,
     "shift_p": -106507.1,
-    "shift_j": -15017.6
+    "shift_j": -19040.2
    },
    "海南": {
     "enrol_p": 573683.5,
-    "enrol_j": 399921.9,
+    "enrol_j": 389646.5,
     "need_p_std": 30193.9,
     "gap_p_std": -26919.1,
-    "need_j_std": 29623.8,
-    "gap_j_std": -3024.2,
+    "need_j_std": 28862.7,
+    "gap_j_std": -3785.3,
     "shift_p": -18742.1,
-    "shift_j": -2513.0
+    "shift_j": -3287.2
    },
    "重庆": {
     "enrol_p": 1364308.8,
-    "enrol_j": 979849.2,
+    "enrol_j": 958267.7,
     "need_p_std": 71805.7,
     "gap_p_std": -61189.3,
-    "need_j_std": 72581.4,
-    "gap_j_std": -11437.6,
+    "need_j_std": 70982.8,
+    "gap_j_std": -13036.2,
     "shift_p": -43701.9,
-    "shift_j": -5392.0
+    "shift_j": -7123.8
    },
    "四川": {
     "enrol_p": 3671528.0,
-    "enrol_j": 2569074.3,
+    "enrol_j": 2506815.3,
     "need_p_std": 193238.3,
     "gap_p_std": -156157.7,
-    "need_j_std": 190301.8,
-    "gap_j_std": -34336.2,
+    "need_j_std": 185690.0,
+    "gap_j_std": -38948.0,
     "shift_p": -111833.5,
-    "shift_j": -16413.5
+    "shift_j": -21459.6
    },
    "贵州": {
     "enrol_p": 2758036.8,
-    "enrol_j": 1868630.5,
+    "enrol_j": 1804267.7,
     "need_p_std": 145159.8,
     "gap_p_std": -73743.2,
-    "need_j_std": 138417.1,
-    "gap_j_std": -505.9,
+    "need_j_std": 133649.5,
+    "gap_j_std": -5273.5,
     "shift_p": -64209.1,
-    "shift_j": -10609.4
+    "shift_j": -15029.0
    },
    "云南": {
     "enrol_p": 2719874.6,
-    "enrol_j": 1824675.0,
+    "enrol_j": 1734674.4,
     "need_p_std": 143151.3,
     "gap_p_std": -86508.7,
-    "need_j_std": 135161.1,
-    "gap_j_std": -4713.9,
+    "need_j_std": 128494.4,
+    "gap_j_std": -11380.6,
     "shift_p": -66783.5,
-    "shift_j": -6813.3
+    "shift_j": -13376.5
    },
    "西藏": {
     "enrol_p": 273814.9,
-    "enrol_j": 175698.7,
+    "enrol_j": 171184.4,
     "need_p_std": 14411.3,
     "gap_p_std": -12670.7,
-    "need_j_std": 13014.7,
-    "gap_j_std": -328.3,
+    "need_j_std": 12680.3,
+    "gap_j_std": -662.7,
     "shift_p": -7912.7,
-    "shift_j": 835.4
+    "shift_j": 471.1
    },
    "陕西": {
     "enrol_p": 1962393.4,
-    "enrol_j": 1405185.1,
+    "enrol_j": 1385900.0,
     "need_p_std": 103283.9,
     "gap_p_std": -88371.1,
-    "need_j_std": 104087.8,
-    "gap_j_std": -8929.2,
+    "need_j_std": 102659.3,
+    "gap_j_std": -10357.7,
     "shift_p": -65358.6,
-    "shift_j": -3604.5
+    "shift_j": -5106.1
    },
    "甘肃": {
     "enrol_p": 1369442.5,
-    "enrol_j": 940959.0,
+    "enrol_j": 911065.2,
     "need_p_std": 72075.9,
     "gap_p_std": -79914.1,
-    "need_j_std": 69700.7,
-    "gap_j_std": -15944.3,
+    "need_j_std": 67486.3,
+    "gap_j_std": -18158.7,
     "shift_p": -48698.2,
-    "shift_j": -3879.4
+    "shift_j": -6477.0
    },
    "青海": {
     "enrol_p": 345729.2,
-    "enrol_j": 236077.2,
+    "enrol_j": 230011.6,
     "need_p_std": 18196.3,
     "gap_p_std": -11437.7,
-    "need_j_std": 17487.2,
-    "gap_j_std": -109.8,
+    "need_j_std": 17037.9,
+    "gap_j_std": -559.1,
     "shift_p": -9582.4,
-    "shift_j": -1081.2
+    "shift_j": -1505.5
    },
    "宁夏": {
     "enrol_p": 422023.7,
-    "enrol_j": 294355.6,
+    "enrol_j": 286792.7,
     "need_p_std": 22211.8,
     "gap_p_std": -13495.2,
-    "need_j_std": 21804.1,
-    "gap_j_std": 389.1,
+    "need_j_std": 21243.9,
+    "gap_j_std": -171.1,
     "shift_p": -11373.1,
-    "shift_j": -152.7
+    "shift_j": -699.0
    },
    "新疆": {
     "enrol_p": 1283779.8,
-    "enrol_j": 1092986.6,
+    "enrol_j": 1263935.2,
     "need_p_std": 67567.4,
     "gap_p_std": -91573.6,
-    "need_j_std": 80962.0,
-    "gap_j_std": -13557.0,
+    "need_j_std": 93624.8,
+    "gap_j_std": -894.2,
     "shift_p": -85550.9,
-    "shift_j": -16123.7
+    "shift_j": -3862.3
    }
   }
  }

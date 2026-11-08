@@ -28,7 +28,8 @@ RATIO_STD = {"primary": 19.0, "junior": 13.5}   # 国家基本编制标准生师
 ANCHOR = {"primary_entrants_2025": 14_617_400, "primary_enrol_2025": 101_782_900,
           "junior_entrants_2025": 18_528_100, "junior_enrol_2025": 55_093_400}
 SCENARIOS = {"基准": -0.06, "温和": -0.03, "加速": -0.09}   # 2026 起小学招生年变化
-JUNIOR_CALIB = 0.9808   # 初中招生总量校准：使 2025 年全国预测精确对齐公报 5,509.3 万
+INTAKE_CAP = 0.10   # 单省初一招生年变化上限（源数据年级结构偶有混报，需限幅）
+JUNIOR_CALIB = 0.9556   # 初中招生总量校准：使 2025 年全国预测精确对齐公报 5,509.3 万
 
 
 def load_all() -> dict:
@@ -68,6 +69,8 @@ def baseline(d: dict) -> dict:
             "grad_p": gp.get("graduates", 0.0),
             "junior_intake_rate": (gj.get("entrants", 0) / gp.get("graduates", 1.0)
                                    if gp.get("graduates") else None),
+            "junior_share": gj.get("entrants", 0.0),
+            "j1_2024": jgrades[0],
             "pre_leavers": d["pre"].get(p, {}).get("leavers", 0.0),
         }
     return out
@@ -83,6 +86,9 @@ def project(base: dict, delta: float, years=range(2025, 2031)) -> dict:
     nat_entry = {2024: nat_2024, 2025: ANCHOR["primary_entrants_2025"]}
     for y in range(2026, (max(years) if years else 2030) + 1):
         nat_entry[y] = nat_entry[y - 1] * (1 + delta)
+
+    # 全国初一招生路径：2025 锚定公报；2026 起 = 上一年全国小学毕业生 × 招生率 × 校准
+    grad_nat = {2024: sum(b["grades_p"][5] for b in base.values()) / 1e4}
 
     res = {}
     # 2024 基线
@@ -105,6 +111,8 @@ def project(base: dict, delta: float, years=range(2025, 2031)) -> dict:
             grad_p = gp[5] * SURVIVE
             rate = (b["junior_intake_rate"] or 1.0) * JUNIOR_CALIB
             j1 = grad_p * rate
+            prev_j1 = prev[p]["grades_j"][0] or b["j1_2024"]
+            j1 = max(prev_j1 * (1 - INTAKE_CAP), min(prev_j1 * (1 + INTAKE_CAP), j1))
             if b.get("n_jun", 3) == 4:
                 new_gj = [j1, gj[0] * SURVIVE, gj[1] * SURVIVE, gj[2] * SURVIVE]
             else:
@@ -112,6 +120,7 @@ def project(base: dict, delta: float, years=range(2025, 2031)) -> dict:
             cur[p] = {"enrol_p": sum(new_gp), "enrol_j": sum(new_gj),
                       "grades_p": new_gp, "grades_j": new_gj}
         res[y] = cur
+        grad_nat[y] = sum(cur[p]["grades_p"][5] for p in base) / 1e4
         prev = {p: {"grades_p": cur[p]["grades_p"], "grades_j": cur[p]["grades_j"]} for p in base}
     return res
 

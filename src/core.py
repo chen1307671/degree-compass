@@ -22,9 +22,9 @@ SCENARIOS = ["温和", "基准", "加速"]
 STAGES = {"primary": "小学", "junior": "初中"}
 
 PROMPTS = [
-    "广东省 2030 年初中教师够不够？缺口主要来自哪里？",
-    "河南小学教师富余多少？该怎么安置？",
-    "按基准情景，全国小学在校生到 2030 年减少多少？",
+    "广东 2030 年初中教师够不够？",
+    "广东和河南哪个小学富余更多？",
+    "河南小学老师富余这么多，该怎么办？",
 ]
 
 
@@ -106,7 +106,7 @@ class Planner:
         actions = self._actions(verdict, stage, prov)
 
         trace = [
-            {"step": 1, "action": "定位", "action_source": "规则解析",
+            {"step": 1, "action": "解析", "action_source": "规则 NLU",
              "observation": f"{prov} · {STAGES[stage]} · {year} 年 · {scenario} 情景"},
             {"step": 2, "action": "推演", "action_source": "队列递推模型",
              "observation": f"在校生 {enrol / 1e4:.1f} 万（较 2024 年 {change:+.1%}）"},
@@ -146,6 +146,72 @@ class Planner:
             "evidence": evidence,
             "elapsed_ms": round((time.perf_counter() - t0) * 1000, 2),
         }
+
+    # ---------- 对话式入口 ----------
+    def answer(self, question: str, defaults: dict) -> dict:
+        """解析自然语言 → 分派（缺口/归因/措施/转岗/对比）。"""
+        import nlu
+        p = nlu.parse(question, defaults)
+        stage_cn = "小学" if p["stage"] == "primary" else "初中"
+
+        # 多省对比
+        if p["intent"] == "compare" and len(p["provinces"]) > 1:
+            rows = []
+            for prov in p["provinces"][:3]:
+                r = self.run(prov, p["stage"], p["year"], p["scenario"], question)
+                s = r["summary"]
+                rows.append({"province": prov, "enrol_wan": s["enrol_wan"],
+                             "gap_wan": s["gap_wan"], "verdict": s["verdict"],
+                             "shift_wan": s["shift_wan"], "ratio": s["ratio"]})
+            worst = max(rows, key=lambda x: x["gap_wan"])
+            best = min(rows, key=lambda x: x["gap_wan"])
+            names = "、".join(r["province"] for r in rows)
+            if worst["gap_wan"] > 0:
+                text = (f"{p['year']} 年{stage_cn}，{names}中，{worst['province']}缺口最大"
+                        f"（{worst['gap_wan']} 万），{best['province']}相对宽松（{best['gap_wan']} 万）。")
+            else:
+                text = (f"{p['year']} 年{stage_cn}，{names}均为富余：{best['province']}富余最多"
+                        f"（{abs(best['gap_wan'])} 万），{worst['province']}相对最紧（{abs(worst['gap_wan'])} 万）。")
+            return {"answer_type": "compare", "parsed": p, "parsed_text": nlu.describe(p),
+                    "rows": rows, "answer_text": text, "query": p,
+                    "summary": rows[0], "actions": [], "trace": [
+                        {"step": 1, "action": "解析问句", "action_source": "规则 NLU",
+                         "observation": nlu.describe(p)},
+                        {"step": 2, "action": "逐省推演", "action_source": "队列递推",
+                         "observation": "；".join(f"{r['province']} {r['enrol_wan']} 万" for r in rows)},
+                        {"step": 3, "action": "对比排序", "action_source": "缺口绝对值",
+                         "observation": text},
+                    ], "evidence": {"provinces": [r["province"] for r in rows],
+                                   "stage": stage_cn, "year": p["year"]}}
+
+        base = self.run(p["provinces"][0] if p["provinces"] else "",
+                        p["stage"], p["year"], p["scenario"], question)
+        s = base["summary"]
+        gap = s["gap_wan"]
+        word = "缺口" if gap > 0 else "富余"
+        text = (f"{p['provinces'][0] if p['provinces'] else ''}{p['year']} 年{stage_cn}在校生 {s['enrol_wan']} 万，"
+                f"按标准编制{word} {abs(gap)} 万，判定为「{s['verdict']}」。")
+
+        if p["intent"] == "why":
+            reasons = [
+                f"在校生较 2024 年 {'+' if s['change_pct'] >= 0 else ''}{s['change_pct']}%，"
+                f"直接改变教师需求 {round(s['enrol_wan']/ (19 if p['stage']=='primary' else 13.5), 1)} 万量级；",
+                f"现有教师 {s['teachers_wan']} 万，生师比 {s['ratio']}，与标准 "
+                f"{'19:1' if p['stage']=='primary' else '13.5:1'} 的差距决定{word}幅度；",
+                f"全国同阶段{('缺口' if s['national_gap_wan']>0 else '富余')} "
+                f"{abs(s['national_gap_wan'])} 万，本省占全国在校生 {round(s['share_national']*100,1)}%。",
+            ]
+            base["reasons"] = reasons
+            text += " 主要成因见下方三条。"
+        elif p["intent"] == "shift":
+            text = (f"{p['provinces'][0] if p['provinces'] else ''}{p['year']} 年{stage_cn}按现状生师比需"
+                    f"{'增' if s['shift_wan'] >= 0 else '减'} {abs(s['shift_wan'])} 万教师。")
+
+        base["parsed"] = p
+        base["parsed_text"] = nlu.describe(p)
+        base["answer_type"] = p["intent"]
+        base["answer_text"] = text
+        return base
 
     # ---------- 措施库 ----------
     def _actions(self, verdict: str, stage: str, prov: str) -> list[dict]:

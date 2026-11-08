@@ -1,9 +1,9 @@
 {
   "resolution": "1280x720",
   "codec": "h264+aac",
-  "duration_seconds": 354.0,
+  "duration_seconds": 353.1,
   "n_slides": 20,
-  "script_chars": 1624,
+  "script_chars": 1445,
   "subtitles": "学位罗盘_演示字幕.srt",
   "muxed": "学位罗盘_演示视频_含字幕.mp4"
 }

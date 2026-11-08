@@ -83,13 +83,23 @@ async function ask(){const q=document.getElementById('q').value;
  document.getElementById('out').innerHTML='<div class="card">推演中…</div>';
  const r=await(await fetch('/api/ask',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)})).json();
  if(r.error){document.getElementById('out').innerHTML='<div class="card">'+esc(r.error)+'</div>';return}
+ if(r.answer_type==='compare'){
+  const rows=r.rows.map(x=>`<tr><td>${esc(x.province)}</td><td>${x.enrol_wan}</td><td>${x.gap_wan}</td><td>${esc(x.verdict)}</td><td>${x.shift_wan}</td></tr>`).join('');
+  document.getElementById('out').innerHTML=`
+   <div class="concl">${esc(r.answer_text)}</div>
+   <div class="card"><div class="sec">已解析</div><div>${esc(r.parsed_text)}</div>
+   <div class="sec">对比</div><table><tr><th>省</th><th>在校生（万）</th><th>缺口（万）</th><th>判定</th><th>需转岗（万）</th></tr>${rows}</table></div>
+   <div class="card"><details><summary>展开完整 JSON</summary><pre>${esc(JSON.stringify(r,null,1))}</pre></details></div>`;
+  return;
+ }
  const s=r.summary,gap=s.gap_wan;
  const cls=s.verdict==='紧缺'?'warn':(s.verdict==='富余'?'ok':'');
  const rows=r.structure.map(x=>`<tr><td>${esc(x.grade)}</td><td>${x.students}</td></tr>`).join('');
  const steps=r.trace.map(t=>`<div class="ev"><b>${t.step}. ${esc(t.action)}</b> <span style="color:#8b97a8">(${esc(t.action_source)})</span><br>${esc(t.observation)}</div>`).join('');
  const acts=r.actions.map(m=>`<li><b>${esc(m.name)}</b>（${esc(m.owner)}，${esc(m.evidence)} 级）：${esc(m.action)}<br><span style="color:#8b97a8">前提：${esc(m.precondition)}；禁忌：${esc(m.taboo)}；指标：${esc(m.metric)}</span></li>`).join('');
  document.getElementById('out').innerHTML=`
- <div class="concl">判定：<b>${esc(s.verdict)}</b> · ${esc(s.verdict_note)}</div>
+ ${r.parsed_text?`<div class="card" style="padding:8px 12px"><span style="color:#8b97a8;font-size:12px">已解析：</span>${esc(r.parsed_text)}</div>`:''}
+ <div class="concl">${esc(r.answer_text||('判定：'+s.verdict))}</div>
  <div class="card"><div class="kv"><span class="${cls}">${esc(s.verdict)}</span>
  <span>${esc(r.query.province)} · ${esc(r.query.stage==='junior'?'初中':'小学')} · ${r.query.year} 年 · ${esc(r.query.scenario)}情景</span>
  <span>在校生 ${s.enrol_wan} 万</span><span>较 2024 年 ${s.change_pct}%</span><span>生师比 ${s.ratio}</span></div>
@@ -99,6 +109,7 @@ async function ask(){const q=document.getElementById('q').value;
  <div class="sec">全国对标</div>
  <div>全国同阶段${s.national_gap_wan>=0?'缺口':'富余'} ${Math.abs(s.national_gap_wan)} 万；本省占全国在校生 ${(s.share_national*100).toFixed(1)}%</div></div>
  <div class="card"><div class="sec">2024 年分年级结构</div><table><tr><th>年级</th><th>在校生（人）</th></tr>${rows}</table>
+ ${r.reasons?`<div class="sec">成因</div><ul>${r.reasons.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}
  <div class="sec">推演轨迹</div>${steps}
  <div class="sec">建议动作（措施库，${r.actions.length} 条）</div><ul>${acts}</ul></div>
  <div class="card"><details><summary>展开完整 JSON</summary><pre>${esc(JSON.stringify(r,null,1))}</pre></details></div>`;
@@ -288,7 +299,8 @@ class Handler(BaseHTTPRequestHandler):
             if key in RESULT_CACHE:
                 return self._json({**RESULT_CACHE[key], "cached": True})
             try:
-                res = STATE["planner"].run(prov, stage, year, scen, qtext.strip())
+                res = STATE["planner"].answer(qtext.strip(), {
+                    "province": prov, "stage": stage, "year": year, "scenario": scen})
             except Exception as exc:  # noqa: BLE001
                 return self._json({"error": "execution failed", "detail": type(exc).__name__}, 500)
             try:
