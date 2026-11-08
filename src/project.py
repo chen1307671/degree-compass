@@ -24,13 +24,13 @@ import regdata as rd
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 REP = ROOT / "reports"
 
-SURVIVE = 0.995                 # 年级递推存活率
-RATIO_STD = {"primary": 19.0, "junior": 13.5}   # 国家基本编制标准生师比
+SURVIVE = 0.995                 # grade-to-grade survival rate
+RATIO_STD = {"primary": 19.0, "junior": 13.5}   # national standard staffing ratios
 ANCHOR = {"primary_entrants_2025": 14_617_400, "primary_enrol_2025": 101_782_900,
           "junior_entrants_2025": 18_528_100, "junior_enrol_2025": 55_093_400}
-SCENARIOS = {"基准": -0.06, "温和": -0.03, "加速": -0.09}   # 2026 起小学招生年变化
-INTAKE_CAP = 0.10   # 单省初一招生年变化上限（源数据年级结构偶有混报，需限幅）
-JUNIOR_CALIB = 0.9556   # 初中招生总量校准：使 2025 年全国预测精确对齐公报 5,509.3 万
+SCENARIOS = {"基准": -0.06, "温和": -0.03, "加速": -0.09}   # yearly change of primary intake from 2026
+INTAKE_CAP = 0.10   # cap on the year-on-year change of junior intake (source grade mix is noisy)
+JUNIOR_CALIB = 0.9556   # junior intake calibration: 2025 equals the bulletin value of 55.093 million
 
 
 def load_all() -> dict:
@@ -79,11 +79,10 @@ def baseline(d: dict) -> dict:
 
 def project(base: dict, delta: float, years=range(2025, 2031)) -> dict:
     """Project by scenario; returns {year: {province: {...}}}."""
-    nat_entry = {2024: sum(b["enrol_p"] for b in base.values()) * 0}  # 占位
     # Reconstruct the 2024 national intake from provincial shares
     shares = {p: b["entry_share"] for p, b in base.items()}
     total_share = sum(shares.values()) or 1.0
-    nat_2024 = ANCHOR["primary_entrants_2025"] / (1 + delta)   # 由 2025 锚点与增速反推 2024
+    nat_2024 = ANCHOR["primary_entrants_2025"] / (1 + delta)   # back out 2024 from the 2025 anchor and the growth rate
     nat_entry = {2024: nat_2024, 2025: ANCHOR["primary_entrants_2025"]}
     for y in range(2026, (max(years) if years else 2030) + 1):
         nat_entry[y] = nat_entry[y - 1] * (1 + delta)

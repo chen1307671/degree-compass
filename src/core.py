@@ -48,13 +48,6 @@ class RegionData:
         self.base = d["baseline_2024"]
         self.scen = d["scenarios"]
 
-    def cell(self, prov: str, year: int, scen: str) -> dict | None:
-        s = self.scen.get(scen)
-        if not s:
-            return None
-        # Scenario summary holds 2030 by province; yearly detail is read from the cached file
-        return s["summary"]["provinces_2030"].__class__ and None  # 占位
-
     def series(self, prov: str, stage: str, scen: str) -> dict:
         """Yearly series for one province and stage (enrolment and gap) for the frontend charts."""
         p = HERE / "reports" / "by_province.json"
@@ -118,7 +111,7 @@ class Planner:
         # national benchmark
         nat_enrol = nat[f"enrol_{k}"]
         nat_gap = nat[f"gap_{k}_std"]
-        share = (enrol / 1e4) / nat_enrol if nat_enrol else 0.0   # 分子换成万人，与 nat_enrol 同单位
+        share = (enrol / 1e4) / nat_enrol if nat_enrol else 0.0   # numerator in 10k, same unit as nat_enrol
         change = (enrol - enrol24) / enrol24 if enrol24 else 0.0
 
         # grade structure (2024)
@@ -145,11 +138,12 @@ class Planner:
         ]
 
         evidence = {
-            "province": prov, "stage": STAGES[stage], "year": year,
+            "province": prov, "province_en": en(prov),
+            "stage": STAGES[stage], "stage_en": STAGE_EN[stage], "year": year,
             "enrol_wan": round(enrol / 1e4, 1), "change_pct": round(change * 100, 1),
             "teachers_wan": round(teachers / 1e4, 1), "ratio": ratio_now,
             "gap_wan": round(gap / 1e4, 1), "shift_wan": round(shift / 1e4, 1),
-            "verdict": verdict,
+            "verdict": verdict, "verdict_en": VERDICT_EN.get(verdict, verdict),
         }
 
         return {
@@ -185,7 +179,7 @@ class Planner:
             for prov in p["provinces"][:6]:
                 r = self.run(prov, p["stage"], p["year"], p["scenario"], question)
                 s = r["summary"]
-                rows.append({"province": prov, "enrol_wan": s["enrol_wan"],
+                rows.append({"province": prov, "province_en": en(prov), "enrol_wan": s["enrol_wan"],
                              "gap_wan": s["gap_wan"], "verdict": s["verdict"],
                              "shift_wan": s["shift_wan"], "ratio": s["ratio"]})
             worst = max(rows, key=lambda x: x["gap_wan"])
@@ -201,11 +195,11 @@ class Planner:
             return {"answer_type": "compare", "parsed": p, "parsed_text": nlu.describe(p),
                     "rows": rows, "answer_text": text, "query": p,
                     "summary": rows[0], "actions": [], "trace": [
-                        {"step": 1, "action": "解析问句", "action_source": "规则 NLU",
+                        {"step": 1, "action": "Parse", "action_source": "rule-based NLU",
                          "observation": nlu.describe(p)},
-                        {"step": 2, "action": "逐省推演", "action_source": "队列递推",
-                         "observation": "；".join(f"{r['province']} {r['enrol_wan']} 万" for r in rows)},
-                        {"step": 3, "action": "对比排序", "action_source": "缺口绝对值",
+                        {"step": 2, "action": "Project", "action_source": "cohort progression",
+                         "observation": "; ".join(f"{en(r['province'])} {r['enrol_wan']} (10k)" for r in rows)},
+                        {"step": 3, "action": "Rank", "action_source": "gap magnitude",
                          "observation": text},
                     ], "evidence": {"provinces": [r["province"] for r in rows],
                                    "stage": stage_cn, "year": p["year"]}}
@@ -215,7 +209,6 @@ class Planner:
                         migration=float(defaults.get("migration", 0.0) or 0.0))
         s = base["summary"]
         gap = s["gap_wan"]
-        word = "缺口" if gap > 0 else "富余"
         st = STAGE_EN[p["stage"]]
         text = (f"{en(p['provinces'][0]) if p['provinces'] else 'The province'} has {s['enrol_wan']} 万 "
                 f"{st} students in {p['year']}; against the standard staffing ratio it faces a "

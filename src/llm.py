@@ -40,8 +40,8 @@ PRESETS = {
 _CACHE: dict[str, dict] = {}
 _STATE = {"fail": 0, "open_until": 0.0, "calls": 0, "fallbacks": 0, "last_error": ""}
 CACHE_MAX = 128
-BREAKER_THRESHOLD = 5       # 连续失败 5 次即熔断
-BREAKER_COOLDOWN = 120.0    # 熔断 2 分钟
+BREAKER_THRESHOLD = 5       # open the breaker after 5 consecutive failures
+BREAKER_COOLDOWN = 120.0    # keep it open for 2 minutes
 
 
 def _cfg() -> dict:
@@ -102,18 +102,35 @@ def _template(ev: dict) -> str:
     return "".join(parts)
 
 
+_EN_KEYS = ("province_en", "stage_en", "year", "enrol_wan", "change_pct",
+            "teachers_wan", "ratio", "gap_wan", "shift_wan", "verdict_en")
+
+
 def _prompt(ev: dict) -> str:
+    """English-only view of the evidence: Chinese labels must never reach the model."""
+    slim = {k: ev[k] for k in _EN_KEYS if ev.get(k) is not None}
     return (
         "You are an education-planning analyst. Using ONLY the structured evidence below, write at most "
         "two sentences in English for a provincial planner: name the main driver of the gap, then one "
         "practical next step.\n"
         "Hard rules: use no number that is absent from the evidence; do not recommend dismissing "
-        "individual teachers; keep a neutral, factual tone; answer in English only.\n"
-        f"Evidence: {json.dumps(ev, ensure_ascii=False)}"
+        "individual teachers; keep a neutral, factual tone; answer in English only, with no Chinese "
+        "characters at all.\n"
+        f"Evidence: {json.dumps(slim, ensure_ascii=False)}"
     )
 
 
 _NUM = re.compile(r"\d+(?:\.\d+)?")
+
+
+_CJK = re.compile(r"[\u4e00-\u9fff]")
+
+
+def _is_english(text: str) -> bool:
+    """Reject replies that drift into Chinese while the interface is English."""
+    if not text:
+        return False
+    return len(_CJK.findall(text)) == 0
 
 
 def _guardrail(text: str, ev: dict) -> tuple[bool, str]:
@@ -189,7 +206,7 @@ def generate(evidence: dict) -> dict:
         except urllib.error.HTTPError as e:
             last_err = f"HTTP {e.code}"
             if e.code in (401, 403):
-                break                      # 鉴权错误不重试
+                break                      # do not retry on auth errors
             if e.code == 429:
                 time.sleep(min(2.0, 0.4 * (attempt + 1)))
         except Exception as e:  # noqa: BLE001
@@ -213,6 +230,13 @@ def generate(evidence: dict) -> dict:
         return {**base_res, "source": "fallback", "text": _template(evidence),
                 "latency_ms": round((time.perf_counter() - t0) * 1000, 1),
                 "retries": attempts - 1, "guardrail": why}
+
+    if not _is_english(text):
+        _STATE["fallbacks"] += 1
+        _STATE["last_error"] = "non-English reply"
+        return {**base_res, "source": "fallback", "text": _template(evidence),
+                "latency_ms": round((time.perf_counter() - t0) * 1000, 1),
+                "retries": attempts - 1, "guardrail": "non-English reply"}
 
     _STATE["fail"] = 0
     out = {**base_res, "source": "api", "text": text,

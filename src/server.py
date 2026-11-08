@@ -346,7 +346,11 @@ class Handler(BaseHTTPRequestHandler):
                 return self._json({"error": "execution failed", "detail": type(exc).__name__}, 500)
             try:
                 from llm import generate
-                res["llm"] = generate(res["evidence"])
+                if res.get("answer_type") == "compare" or "gap_wan" not in res.get("evidence", {}):
+                    res["llm"] = {"source": "skipped", "text": "",
+                                  "error": "comparison mode returns a table, no single-case explanation"}
+                else:
+                    res["llm"] = generate(res["evidence"])
             except Exception as exc:  # noqa: BLE001
                 res["llm"] = {"source": "fallback", "text": "", "error": type(exc).__name__}
             if len(RESULT_CACHE) >= CACHE_MAX:
