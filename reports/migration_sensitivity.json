@@ -1,0 +1,26 @@
+{
+ "广东-gap_j_std": {
+  "enrol_wan": 528.3,
+  "gap_wan": 3.5,
+  "mig5pct_wan": 1.96,
+  "share_of_gap": 56.0
+ },
+ "广东-gap_p_std": {
+  "enrol_wan": 829.7,
+  "gap_wan": -17.8,
+  "mig5pct_wan": 2.18,
+  "share_of_gap": 12.0
+ },
+ "浙江-gap_j_std": {
+  "enrol_wan": 207.7,
+  "gap_wan": 1.1,
+  "mig5pct_wan": 0.77,
+  "share_of_gap": 70.0
+ },
+ "河南-gap_p_std": {
+  "enrol_wan": 592.7,
+  "gap_wan": -27.0,
+  "mig5pct_wan": 1.56,
+  "share_of_gap": 6.0
+ }
+}

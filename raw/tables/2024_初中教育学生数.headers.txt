@@ -1,0 +1,3 @@
+初中教育学生数 Number of Students in Junior Secondary Education |  |  |  |  |  |  |  |  | 
+地区 Region | 毕业生数 Graduates | 招生数 Entrants | 在校生数 Enrolment |  |  |  |  |  | 预计毕业生数 Estimated Graduates for Next Year
+地区 Region | 毕业生数 Graduates | 招生数 Entrants | 在校生数 Enrolment | #女 Female | 一年级 Grade 1 | 二年级 Grade 2 | 三年级 Grade 3 | 四年级 Grade 4 | 预计毕业生数 Estimated Graduates for Next Year

@@ -1,0 +1,2 @@
+# 演示服务仅用 Python 标准库（http.server / json / csv / urllib）
+# 无需第三方依赖；若启用大模型，也只用 urllib 调用 OpenAI 兼容接口

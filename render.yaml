@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: degree-compass
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: AGENT_ACCOUNT
+        value: judge
+      - key: AGENT_PASSWORD
+        value: learn2026
+      - key: MAX_CONCURRENCY
+        value: "16"

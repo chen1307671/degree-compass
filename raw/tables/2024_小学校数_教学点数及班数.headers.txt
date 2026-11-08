@@ -1,0 +1,2 @@
+小学校数、教学点数及班数 Number of Schools, External Teaching Sites and Classes in Primary Schools |  | 学校数 （所） Schools (unit) | 教学点数 （个） External Teaching Sites (unit) | 班数 （个） Classes (unit) |  |  |  |  |  |  | 
+一年级 Grade 1 | 二年级 Grade 2 | 学校数 （所） Schools (unit) | 教学点数 （个） External Teaching Sites (unit) | 班数 （个） Classes (unit) | 三年级 Grade 3 | 四年级 Grade 4 | 五年级 Grade 5 | 六年级 Grade 6 | 复式班 Multiple-grade Classes |  | 

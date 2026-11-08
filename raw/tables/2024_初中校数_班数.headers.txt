@@ -1,0 +1,2 @@
+初中校数、班数 Number of Schools, Classes of Junior Secondary Schools |  | 学校数 （所） Schools (unit) |  |  |  | 班数 （个） Classes (unit) |  |  |  | 
+初级中学 Regular Junior Secondary Schools | 九年一贯制学校 9-Year Schools | 学校数 （所） Schools (unit) | 职业初中 Vocational Junior Secondary Schools | 一年级 Grade 1 | 二年级 Grade 2 | 班数 （个） Classes (unit) | 三年级 Grade 3 | 四年级 Grade 4 |  | 

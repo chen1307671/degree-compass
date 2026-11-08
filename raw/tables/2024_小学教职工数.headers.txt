@@ -1,0 +1,3 @@
+小学教职工数 Number of Educational Personnel in Primary Schools |  |  |  |  |  |  |  | 
+地区 Region | 教职工数 Educational Personnel |  |  |  |  |  | 校外教师 Part-time Teachers | 
+地区 Region | 教职工数 Educational Personnel | 专任教师 Full-time Teachers | 行政人员 Adm. Personnel | 教辅人员 Supporting Staff | 工勤人员 Workers | 其他 Others | 校外教师 Part-time Teachers | #教学岗银龄教师 Re-employed External Retired Teachers

@@ -1,0 +1,1372 @@
+{
+  "anchor": {
+    "primary_entrants_2025": 14617400,
+    "primary_enrol_2025": 101782900,
+    "junior_entrants_2025": 18528100,
+    "junior_enrol_2025": 55093400
+  },
+  "assumptions": {
+    "survive": 0.995,
+    "ratio_std": {
+      "primary": 19.0,
+      "junior": 13.5
+    }
+  },
+  "baseline_2024": {
+    "北京": {
+      "enrol_p": 1169475.0,
+      "enrol_j": 411444.0,
+      "teachers_p": 80461.0,
+      "teachers_j": 40816.0,
+      "ratio_p": 14.54,
+      "ratio_j": 10.08,
+      "entry_share": 0.01,
+      "grad_p": 172894.0,
+      "junior_intake_rate": 0.93,
+      "pre_leavers": 172776.0
+    },
+    "天津": {
+      "enrol_p": 829190.0,
+      "enrol_j": 418314.0,
+      "teachers_p": 52106.0,
+      "teachers_j": 33144.0,
+      "ratio_p": 15.91,
+      "ratio_j": 12.62,
+      "entry_share": 0.01,
+      "grad_p": 139698.0,
+      "junior_intake_rate": 1.04,
+      "pre_leavers": 103102.0
+    },
+    "河北": {
+      "enrol_p": 6153256.0,
+      "enrol_j": 3434615.0,
+      "teachers_p": 394385.0,
+      "teachers_j": 249584.0,
+      "ratio_p": 15.6,
+      "ratio_j": 13.76,
+      "entry_share": 0.05,
+      "grad_p": 1211885.0,
+      "junior_intake_rate": 0.98,
+      "pre_leavers": 783982.0
+    },
+    "山西": {
+      "enrol_p": 2264379.0,
+      "enrol_j": 1143831.0,
+      "teachers_p": 165067.0,
+      "teachers_j": 103463.0,
+      "ratio_p": 13.72,
+      "ratio_j": 11.05,
+      "entry_share": 0.02,
+      "grad_p": 399062.0,
+      "junior_intake_rate": 0.97,
+      "pre_leavers": 325725.0
+    },
+    "内蒙古": {
+      "enrol_p": 1373933.0,
+      "enrol_j": 677149.0,
+      "teachers_p": 112303.0,
+      "teachers_j": 65740.0,
+      "ratio_p": 12.23,
+      "ratio_j": 10.3,
+      "entry_share": 0.01,
+      "grad_p": 233760.0,
+      "junior_intake_rate": 1.0,
+      "pre_leavers": 187965.0
+    },
+    "辽宁": {
+      "enrol_p": 1935778.0,
+      "enrol_j": 953399.0,
+      "teachers_p": 136682.0,
+      "teachers_j": 97286.0,
+      "ratio_p": 14.16,
+      "ratio_j": 9.8,
+      "entry_share": 0.02,
+      "grad_p": 341349.0,
+      "junior_intake_rate": 1.0,
+      "pre_leavers": 247958.0
+    },
+    "吉林": {
+      "enrol_p": 1039495.0,
+      "enrol_j": 589528.0,
+      "teachers_p": 96217.0,
+      "teachers_j": 64698.0,
+      "ratio_p": 10.8,
+      "ratio_j": 9.11,
+      "entry_share": 0.01,
+      "grad_p": 200378.0,
+      "junior_intake_rate": 0.99,
+      "pre_leavers": 139520.0
+    },
+    "黑龙江": {
+      "enrol_p": 994007.0,
+      "enrol_j": 769059.0,
+      "teachers_p": 91043.0,
+      "teachers_j": 80711.0,
+      "ratio_p": 10.92,
+      "ratio_j": 9.53,
+      "entry_share": 0.01,
+      "grad_p": 215354.0,
+      "junior_intake_rate": 1.0,
+      "pre_leavers": 147320.0
+    },
+    "上海": {
+      "enrol_p": 927066.0,
+      "enrol_j": 615311.0,
+      "teachers_p": 67810.0,
+      "teachers_j": 50425.0,
+      "ratio_p": 13.67,
+      "ratio_j": 12.2,
+      "entry_share": 0.01,
+      "grad_p": 178156.0,
+      "junior_intake_rate": 0.99,
+      "pre_leavers": 166455.0
+    },
+    "江苏": {
+      "enrol_p": 5696416.0,
+      "enrol_j": 2878612.0,
+      "teachers_p": 360363.0,
+      "teachers_j": 236815.0,
+      "ratio_p": 15.81,
+      "ratio_j": 12.16,
+      "entry_share": 0.05,
+      "grad_p": 1018647.0,
+      "junior_intake_rate": 0.99,
+      "pre_leavers": 791350.0
+    },
+    "浙江": {
+      "enrol_p": 4146368.0,
+      "enrol_j": 1828243.0,
+      "teachers_p": 239206.0,
+      "teachers_j": 142675.0,
+      "ratio_p": 17.33,
+      "ratio_j": 12.81,
+      "entry_share": 0.04,
+      "grad_p": 660630.0,
+      "junior_intake_rate": 1.0,
+      "pre_leavers": 647278.0
+    },
+    "安徽": {
+      "enrol_p": 4603174.0,
+      "enrol_j": 2361215.0,
+      "teachers_p": 266583.0,
+      "teachers_j": 171647.0,
+      "ratio_p": 17.27,
+      "ratio_j": 13.76,
+      "entry_share": 0.04,
+      "grad_p": 817402.0,
+      "junior_intake_rate": 1.0,
+      "pre_leavers": 711195.0
+    },
+    "福建": {
+      "enrol_p": 3628055.0,
+      "enrol_j": 1654188.0,
+      "teachers_p": 208484.0,
+      "teachers_j": 120859.0,
+      "ratio_p": 17.4,
+      "ratio_j": 13.69,
+      "entry_share": 0.03,
+      "grad_p": 604190.0,
+      "junior_intake_rate": 1.0,
+      "pre_leavers": 529138.0
+    },
+    "江西": {
+      "enrol_p": 3546577.0,
+      "enrol_j": 2072887.0,
+      "teachers_p": 230867.0,
+      "teachers_j": 157036.0,
+      "ratio_p": 15.36,
+      "ratio_j": 13.2,
+      "entry_share": 0.03,
+      "grad_p": 705573.0,
+      "junior_intake_rate": 0.99,
+      "pre_leavers": 484662.0
+    },
+    "山东": {
+      "enrol_p": 8167818.0,
+      "enrol_j": 4055035.0,
+      "teachers_p": 476384.0,
+      "teachers_j": 315576.0,
+      "ratio_p": 17.14,
+      "ratio_j": 12.85,
+      "entry_share": 0.08,
+      "grad_p": 1303882.0,
+      "junior_intake_rate": 0.99,
+      "pre_leavers": 1244631.0
+    },
+    "河南": {
+      "enrol_p": 9159594.0,
+      "enrol_j": 5077253.0,
+      "teachers_p": 582390.0,
+      "teachers_j": 366136.0,
+      "ratio_p": 15.73,
+      "ratio_j": 13.87,
+      "entry_share": 0.08,
+      "grad_p": 1708606.0,
+      "junior_intake_rate": 1.0,
+      "pre_leavers": 1223097.0
+    },
+    "湖北": {
+      "enrol_p": 3820078.0,
+      "enrol_j": 1930337.0,
+      "teachers_p": 225410.0,
+      "teachers_j": 150341.0,
+      "ratio_p": 16.95,
+      "ratio_j": 12.84,
+      "entry_share": 0.04,
+      "grad_p": 664896.0,
+      "junior_intake_rate": 1.01,
+      "pre_leavers": 592936.0
+    },
+    "湖南": {
+      "enrol_p": 4968071.0,
+      "enrol_j": 2753017.0,
+      "teachers_p": 304450.0,
+      "teachers_j": 208055.0,
+      "ratio_p": 16.32,
+      "ratio_j": 13.23,
+      "entry_share": 0.04,
+      "grad_p": 939417.0,
+      "junior_intake_rate": 1.0,
+      "pre_leavers": 773685.0
+    },
+    "广东": {
+      "enrol_p": 11042666.0,
+      "enrol_j": 5032962.0,
+      "teachers_p": 614829.0,
+      "teachers_j": 356607.0,
+      "ratio_p": 17.96,
+      "ratio_j": 14.11,
+      "entry_share": 0.11,
+      "grad_p": 1838008.0,
+      "junior_intake_rate": 0.98,
+      "pre_leavers": 1788187.0
+    },
+    "广西": {
+      "enrol_p": 5068519.0,
+      "enrol_j": 2543772.0,
+      "teachers_p": 301756.0,
+      "teachers_j": 171578.0,
+      "ratio_p": 16.8,
+      "ratio_j": 14.83,
+      "entry_share": 0.05,
+      "grad_p": 860588.0,
+      "junior_intake_rate": 1.01,
+      "pre_leavers": 714573.0
+    },
+    "海南": {
+      "enrol_p": 853871.0,
+      "enrol_j": 433287.0,
+      "teachers_p": 57113.0,
+      "teachers_j": 32648.0,
+      "ratio_p": 14.95,
+      "ratio_j": 13.27,
+      "entry_share": 0.01,
+      "grad_p": 151271.0,
+      "junior_intake_rate": 1.02,
+      "pre_leavers": 130794.0
+    },
+    "重庆": {
+      "enrol_p": 2032046.0,
+      "enrol_j": 1047057.0,
+      "teachers_p": 132995.0,
+      "teachers_j": 84019.0,
+      "ratio_p": 15.28,
+      "ratio_j": 12.46,
+      "entry_share": 0.02,
+      "grad_p": 348846.0,
+      "junior_intake_rate": 1.02,
+      "pre_leavers": 316300.0
+    },
+    "四川": {
+      "enrol_p": 5399786.0,
+      "enrol_j": 2771618.0,
+      "teachers_p": 349396.0,
+      "teachers_j": 224638.0,
+      "ratio_p": 15.46,
+      "ratio_j": 12.34,
+      "entry_share": 0.05,
+      "grad_p": 945245.0,
+      "junior_intake_rate": 1.0,
+      "pre_leavers": 866704.0
+    },
+    "贵州": {
+      "enrol_p": 3902801.0,
+      "enrol_j": 2023131.0,
+      "teachers_p": 218903.0,
+      "teachers_j": 138923.0,
+      "ratio_p": 17.83,
+      "ratio_j": 14.56,
+      "entry_share": 0.04,
+      "grad_p": 682786.0,
+      "junior_intake_rate": 1.01,
+      "pre_leavers": 618708.0
+    },
+    "云南": {
+      "enrol_p": 3835076.0,
+      "enrol_j": 1918151.0,
+      "teachers_p": 229660.0,
+      "teachers_j": 139875.0,
+      "ratio_p": 16.7,
+      "ratio_j": 13.71,
+      "entry_share": 0.04,
+      "grad_p": 659949.0,
+      "junior_intake_rate": 0.99,
+      "pre_leavers": 641389.0
+    },
+    "西藏": {
+      "enrol_p": 386835.0,
+      "enrol_j": 165340.0,
+      "teachers_p": 27082.0,
+      "teachers_j": 13343.0,
+      "ratio_p": 14.28,
+      "ratio_j": 12.39,
+      "entry_share": 0.0,
+      "grad_p": 60601.0,
+      "junior_intake_rate": 0.94,
+      "pre_leavers": 59747.0
+    },
+    "陕西": {
+      "enrol_p": 2977909.0,
+      "enrol_j": 1451467.0,
+      "teachers_p": 191655.0,
+      "teachers_j": 113017.0,
+      "ratio_p": 15.54,
+      "ratio_j": 12.84,
+      "entry_share": 0.03,
+      "grad_p": 510562.0,
+      "junior_intake_rate": 1.01,
+      "pre_leavers": 430776.0
+    },
+    "甘肃": {
+      "enrol_p": 2015130.0,
+      "enrol_j": 985609.0,
+      "teachers_p": 151990.0,
+      "teachers_j": 85645.0,
+      "ratio_p": 13.26,
+      "ratio_j": 11.51,
+      "entry_share": 0.02,
+      "grad_p": 339060.0,
+      "junior_intake_rate": 0.99,
+      "pre_leavers": 325062.0
+    },
+    "青海": {
+      "enrol_p": 510935.0,
+      "enrol_j": 251526.0,
+      "teachers_p": 29634.0,
+      "teachers_j": 17597.0,
+      "ratio_p": 17.24,
+      "ratio_j": 14.29,
+      "entry_share": 0.0,
+      "grad_p": 89489.0,
+      "junior_intake_rate": 0.99,
+      "pre_leavers": 83808.0
+    },
+    "宁夏": {
+      "enrol_p": 619278.0,
+      "enrol_j": 296471.0,
+      "teachers_p": 35707.0,
+      "teachers_j": 21415.0,
+      "ratio_p": 17.34,
+      "ratio_j": 13.84,
+      "entry_share": 0.01,
+      "grad_p": 100895.0,
+      "junior_intake_rate": 1.0,
+      "pre_leavers": 100105.0
+    },
+    "新疆": {
+      "enrol_p": 2776161.0,
+      "enrol_j": 1317793.0,
+      "teachers_p": 159141.0,
+      "teachers_j": 94519.0,
+      "ratio_p": 17.45,
+      "ratio_j": 13.94,
+      "entry_share": 0.02,
+      "grad_p": 469588.0,
+      "junior_intake_rate": 1.01,
+      "pre_leavers": 297153.0
+    }
+  },
+  "scenarios": {
+    "基准": {
+      "delta": -0.06,
+      "summary": {
+        "national": {
+          "2024": {
+            "enrol_p": 10584.4,
+            "enrol_j": 5386.2,
+            "teachers_p": 659.0,
+            "teachers_j": 414.9,
+            "gap_p_std": -101.9,
+            "gap_j_std": -15.9,
+            "shift_p": -0.0,
+            "shift_j": 0.0
+          },
+          "2025": {
+            "enrol_p": 10195.3,
+            "enrol_j": 5381.9,
+            "teachers_p": 659.0,
+            "teachers_j": 414.9,
+            "gap_p_std": -122.4,
+            "gap_j_std": -16.2,
+            "shift_p": -24.3,
+            "shift_j": -1.3
+          },
+          "2026": {
+            "enrol_p": 9735.0,
+            "enrol_j": 5387.5,
+            "teachers_p": 659.0,
+            "teachers_j": 414.9,
+            "gap_p_std": -146.6,
+            "gap_j_std": -15.8,
+            "shift_p": -53.4,
+            "shift_j": -0.7
+          },
+          "2027": {
+            "enrol_p": 9223.7,
+            "enrol_j": 5284.5,
+            "teachers_p": 659.0,
+            "teachers_j": 414.9,
+            "gap_p_std": -173.5,
+            "gap_j_std": -23.4,
+            "shift_p": -85.4,
+            "shift_j": -8.7
+          },
+          "2028": {
+            "enrol_p": 8724.7,
+            "enrol_j": 5154.3,
+            "teachers_p": 659.0,
+            "teachers_j": 414.9,
+            "gap_p_std": -199.8,
+            "gap_j_std": -33.1,
+            "shift_p": -116.6,
+            "shift_j": -18.2
+          },
+          "2029": {
+            "enrol_p": 7991.6,
+            "enrol_j": 5201.8,
+            "teachers_p": 659.0,
+            "teachers_j": 414.9,
+            "gap_p_std": -238.4,
+            "gap_j_std": -29.6,
+            "shift_p": -162.2,
+            "shift_j": -14.5
+          },
+          "2030": {
+            "enrol_p": 7454.9,
+            "enrol_j": 5017.6,
+            "teachers_p": 659.0,
+            "teachers_j": 414.9,
+            "gap_p_std": -266.6,
+            "gap_j_std": -43.2,
+            "shift_p": -195.5,
+            "shift_j": -28.6
+          }
+        },
+        "provinces_2030": [
+          {
+            "province": "广东",
+            "enrol_p_wan": 829.7,
+            "enrol_j_wan": 528.3,
+            "gap_p_std": -17.8,
+            "gap_j_std": 3.5,
+            "shift_p": -15.3
+          },
+          {
+            "province": "浙江",
+            "enrol_p_wan": 316.6,
+            "enrol_j_wan": 207.7,
+            "gap_p_std": -7.3,
+            "gap_j_std": 1.1,
+            "shift_p": -5.7
+          },
+          {
+            "province": "福建",
+            "enrol_p_wan": 247.6,
+            "enrol_j_wan": 170.9,
+            "gap_p_std": -7.8,
+            "gap_j_std": 0.6,
+            "shift_p": -6.6
+          },
+          {
+            "province": "广西",
+            "enrol_p_wan": 353.2,
+            "enrol_j_wan": 236.7,
+            "gap_p_std": -11.6,
+            "gap_j_std": 0.4,
+            "shift_p": -9.1
+          },
+          {
+            "province": "山东",
+            "enrol_p_wan": 625.3,
+            "enrol_j_wan": 430.5,
+            "gap_p_std": -14.7,
+            "gap_j_std": 0.3,
+            "shift_p": -11.2
+          },
+          {
+            "province": "贵州",
+            "enrol_p_wan": 297.0,
+            "enrol_j_wan": 190.5,
+            "gap_p_std": -6.3,
+            "gap_j_std": 0.2,
+            "shift_p": -5.2
+          },
+          {
+            "province": "北京",
+            "enrol_p_wan": 88.9,
+            "enrol_j_wan": 55.8,
+            "gap_p_std": -3.4,
+            "gap_j_std": 0.1,
+            "shift_p": -1.9
+          },
+          {
+            "province": "宁夏",
+            "enrol_p_wan": 45.5,
+            "enrol_j_wan": 30.0,
+            "gap_p_std": -1.2,
+            "gap_j_std": 0.1,
+            "shift_p": -0.9
+          },
+          {
+            "province": "西藏",
+            "enrol_p_wan": 29.5,
+            "enrol_j_wan": 17.9,
+            "gap_p_std": -1.2,
+            "gap_j_std": -0.0,
+            "shift_p": -0.6
+          },
+          {
+            "province": "青海",
+            "enrol_p_wan": 37.2,
+            "enrol_j_wan": 24.1,
+            "gap_p_std": -1.0,
+            "gap_j_std": 0.0,
+            "shift_p": -0.8
+          },
+          {
+            "province": "天津",
+            "enrol_p_wan": 60.5,
+            "enrol_j_wan": 42.2,
+            "gap_p_std": -2.0,
+            "gap_j_std": -0.2,
+            "shift_p": -1.4
+          },
+          {
+            "province": "海南",
+            "enrol_p_wan": 61.8,
+            "enrol_j_wan": 40.8,
+            "gap_p_std": -2.5,
+            "gap_j_std": -0.2,
+            "shift_p": -1.6
+          },
+          {
+            "province": "云南",
+            "enrol_p_wan": 292.9,
+            "enrol_j_wan": 186.0,
+            "gap_p_std": -7.5,
+            "gap_j_std": -0.2,
+            "shift_p": -5.4
+          },
+          {
+            "province": "陕西",
+            "enrol_p_wan": 211.4,
+            "enrol_j_wan": 143.3,
+            "gap_p_std": -8.0,
+            "gap_j_std": -0.7,
+            "shift_p": -5.6
+          },
+          {
+            "province": "安徽",
+            "enrol_p_wan": 324.4,
+            "enrol_j_wan": 219.2,
+            "gap_p_std": -9.6,
+            "gap_j_std": -0.9,
+            "shift_p": -7.9
+          },
+          {
+            "province": "重庆",
+            "enrol_p_wan": 146.9,
+            "enrol_j_wan": 99.9,
+            "gap_p_std": -5.6,
+            "gap_j_std": -1.0,
+            "shift_p": -3.7
+          },
+          {
+            "province": "上海",
+            "enrol_p_wan": 78.9,
+            "enrol_j_wan": 53.6,
+            "gap_p_std": -2.6,
+            "gap_j_std": -1.1,
+            "shift_p": -1.0
+          },
+          {
+            "province": "新疆",
+            "enrol_p_wan": 138.3,
+            "enrol_j_wan": 111.4,
+            "gap_p_std": -8.6,
+            "gap_j_std": -1.2,
+            "shift_p": -8.0
+          },
+          {
+            "province": "湖北",
+            "enrol_p_wan": 273.4,
+            "enrol_j_wan": 185.7,
+            "gap_p_std": -8.2,
+            "gap_j_std": -1.3,
+            "shift_p": -6.4
+          },
+          {
+            "province": "甘肃",
+            "enrol_p_wan": 147.5,
+            "enrol_j_wan": 95.9,
+            "gap_p_std": -7.4,
+            "gap_j_std": -1.5,
+            "shift_p": -4.1
+          },
+          {
+            "province": "内蒙古",
+            "enrol_p_wan": 92.4,
+            "enrol_j_wan": 62.4,
+            "gap_p_std": -6.4,
+            "gap_j_std": -2.0,
+            "shift_p": -3.7
+          },
+          {
+            "province": "山西",
+            "enrol_p_wan": 159.5,
+            "enrol_j_wan": 104.1,
+            "gap_p_std": -8.1,
+            "gap_j_std": -2.6,
+            "shift_p": -4.9
+          },
+          {
+            "province": "吉林",
+            "enrol_p_wan": 67.2,
+            "enrol_j_wan": 46.6,
+            "gap_p_std": -6.1,
+            "gap_j_std": -3.0,
+            "shift_p": -3.4
+          },
+          {
+            "province": "辽宁",
+            "enrol_p_wan": 131.5,
+            "enrol_j_wan": 89.3,
+            "gap_p_std": -6.7,
+            "gap_j_std": -3.1,
+            "shift_p": -4.4
+          },
+          {
+            "province": "四川",
+            "enrol_p_wan": 395.4,
+            "enrol_j_wan": 261.9,
+            "gap_p_std": -14.1,
+            "gap_j_std": -3.1,
+            "shift_p": -9.4
+          },
+          {
+            "province": "江西",
+            "enrol_p_wan": 235.9,
+            "enrol_j_wan": 161.6,
+            "gap_p_std": -10.7,
+            "gap_j_std": -3.7,
+            "shift_p": -7.7
+          },
+          {
+            "province": "湖南",
+            "enrol_p_wan": 331.2,
+            "enrol_j_wan": 231.3,
+            "gap_p_std": -13.0,
+            "gap_j_std": -3.7,
+            "shift_p": -10.1
+          },
+          {
+            "province": "江苏",
+            "enrol_p_wan": 383.2,
+            "enrol_j_wan": 264.6,
+            "gap_p_std": -15.9,
+            "gap_j_std": -4.1,
+            "shift_p": -11.8
+          },
+          {
+            "province": "黑龙江",
+            "enrol_p_wan": 69.9,
+            "enrol_j_wan": 48.2,
+            "gap_p_std": -5.4,
+            "gap_j_std": -4.5,
+            "shift_p": -2.7
+          },
+          {
+            "province": "河北",
+            "enrol_p_wan": 389.6,
+            "enrol_j_wan": 268.0,
+            "gap_p_std": -18.9,
+            "gap_j_std": -5.1,
+            "shift_p": -14.5
+          },
+          {
+            "province": "河南",
+            "enrol_p_wan": 592.7,
+            "enrol_j_wan": 409.2,
+            "gap_p_std": -27.0,
+            "gap_j_std": -6.3,
+            "shift_p": -20.6
+          }
+        ]
+      }
+    },
+    "温和": {
+      "delta": -0.03,
+      "summary": {
+        "national": {
+          "2024": {
+            "enrol_p": 10584.4,
+            "enrol_j": 5386.2,
+            "teachers_p": 659.0,
+            "teachers_j": 414.9,
+            "gap_p_std": -101.9,
+            "gap_j_std": -15.9,
+            "shift_p": -0.0,
+            "shift_j": 0.0
+          },
+          "2025": {
+            "enrol_p": 10195.3,
+            "enrol_j": 5381.9,
+            "teachers_p": 659.0,
+            "teachers_j": 414.9,
+            "gap_p_std": -122.4,
+            "gap_j_std": -16.2,
+            "shift_p": -24.3,
+            "shift_j": -1.3
+          },
+          "2026": {
+            "enrol_p": 9778.8,
+            "enrol_j": 5387.5,
+            "teachers_p": 659.0,
+            "teachers_j": 414.9,
+            "gap_p_std": -144.3,
+            "gap_j_std": -15.8,
+            "shift_p": -50.7,
+            "shift_j": -0.7
+          },
+          "2027": {
+            "enrol_p": 9351.1,
+            "enrol_j": 5284.5,
+            "teachers_p": 659.0,
+            "teachers_j": 414.9,
+            "gap_p_std": -166.8,
+            "gap_j_std": -23.4,
+            "shift_p": -77.5,
+            "shift_j": -8.7
+          },
+          "2028": {
+            "enrol_p": 8971.5,
+            "enrol_j": 5154.3,
+            "teachers_p": 659.0,
+            "teachers_j": 414.9,
+            "gap_p_std": -186.8,
+            "gap_j_std": -33.1,
+            "shift_p": -101.2,
+            "shift_j": -18.2
+          },
+          "2029": {
+            "enrol_p": 8389.9,
+            "enrol_j": 5201.8,
+            "teachers_p": 659.0,
+            "teachers_j": 414.9,
+            "gap_p_std": -217.4,
+            "gap_j_std": -29.6,
+            "shift_p": -137.4,
+            "shift_j": -14.5
+          },
+          "2030": {
+            "enrol_p": 8033.8,
+            "enrol_j": 5017.6,
+            "teachers_p": 659.0,
+            "teachers_j": 414.9,
+            "gap_p_std": -236.2,
+            "gap_j_std": -43.2,
+            "shift_p": -159.6,
+            "shift_j": -28.6
+          }
+        },
+        "provinces_2030": [
+          {
+            "province": "广东",
+            "enrol_p_wan": 894.2,
+            "enrol_j_wan": 528.3,
+            "gap_p_std": -14.4,
+            "gap_j_std": 3.5,
+            "shift_p": -11.7
+          },
+          {
+            "province": "浙江",
+            "enrol_p_wan": 341.2,
+            "enrol_j_wan": 207.7,
+            "gap_p_std": -6.0,
+            "gap_j_std": 1.1,
+            "shift_p": -4.2
+          },
+          {
+            "province": "福建",
+            "enrol_p_wan": 266.8,
+            "enrol_j_wan": 170.9,
+            "gap_p_std": -6.8,
+            "gap_j_std": 0.6,
+            "shift_p": -5.5
+          },
+          {
+            "province": "广西",
+            "enrol_p_wan": 380.6,
+            "enrol_j_wan": 236.7,
+            "gap_p_std": -10.1,
+            "gap_j_std": 0.4,
+            "shift_p": -7.5
+          },
+          {
+            "province": "山东",
+            "enrol_p_wan": 673.9,
+            "enrol_j_wan": 430.5,
+            "gap_p_std": -12.2,
+            "gap_j_std": 0.3,
+            "shift_p": -8.3
+          },
+          {
+            "province": "贵州",
+            "enrol_p_wan": 320.1,
+            "enrol_j_wan": 190.5,
+            "gap_p_std": -5.0,
+            "gap_j_std": 0.2,
+            "shift_p": -3.9
+          },
+          {
+            "province": "北京",
+            "enrol_p_wan": 95.8,
+            "enrol_j_wan": 55.8,
+            "gap_p_std": -3.0,
+            "gap_j_std": 0.1,
+            "shift_p": -1.5
+          },
+          {
+            "province": "宁夏",
+            "enrol_p_wan": 49.0,
+            "enrol_j_wan": 30.0,
+            "gap_p_std": -1.0,
+            "gap_j_std": 0.1,
+            "shift_p": -0.7
+          },
+          {
+            "province": "西藏",
+            "enrol_p_wan": 31.8,
+            "enrol_j_wan": 17.9,
+            "gap_p_std": -1.0,
+            "gap_j_std": -0.0,
+            "shift_p": -0.5
+          },
+          {
+            "province": "青海",
+            "enrol_p_wan": 40.1,
+            "enrol_j_wan": 24.1,
+            "gap_p_std": -0.9,
+            "gap_j_std": 0.0,
+            "shift_p": -0.6
+          },
+          {
+            "province": "天津",
+            "enrol_p_wan": 65.2,
+            "enrol_j_wan": 42.2,
+            "gap_p_std": -1.8,
+            "gap_j_std": -0.2,
+            "shift_p": -1.1
+          },
+          {
+            "province": "海南",
+            "enrol_p_wan": 66.6,
+            "enrol_j_wan": 40.8,
+            "gap_p_std": -2.2,
+            "gap_j_std": -0.2,
+            "shift_p": -1.3
+          },
+          {
+            "province": "云南",
+            "enrol_p_wan": 315.7,
+            "enrol_j_wan": 186.0,
+            "gap_p_std": -6.4,
+            "gap_j_std": -0.2,
+            "shift_p": -4.1
+          },
+          {
+            "province": "陕西",
+            "enrol_p_wan": 227.8,
+            "enrol_j_wan": 143.3,
+            "gap_p_std": -7.2,
+            "gap_j_std": -0.7,
+            "shift_p": -4.5
+          },
+          {
+            "province": "安徽",
+            "enrol_p_wan": 349.6,
+            "enrol_j_wan": 219.2,
+            "gap_p_std": -8.3,
+            "gap_j_std": -0.9,
+            "shift_p": -6.4
+          },
+          {
+            "province": "重庆",
+            "enrol_p_wan": 158.3,
+            "enrol_j_wan": 99.9,
+            "gap_p_std": -5.0,
+            "gap_j_std": -1.0,
+            "shift_p": -2.9
+          },
+          {
+            "province": "上海",
+            "enrol_p_wan": 85.0,
+            "enrol_j_wan": 53.6,
+            "gap_p_std": -2.3,
+            "gap_j_std": -1.1,
+            "shift_p": -0.6
+          },
+          {
+            "province": "新疆",
+            "enrol_p_wan": 149.0,
+            "enrol_j_wan": 111.4,
+            "gap_p_std": -8.1,
+            "gap_j_std": -1.2,
+            "shift_p": -7.4
+          },
+          {
+            "province": "湖北",
+            "enrol_p_wan": 294.6,
+            "enrol_j_wan": 185.7,
+            "gap_p_std": -7.0,
+            "gap_j_std": -1.3,
+            "shift_p": -5.2
+          },
+          {
+            "province": "甘肃",
+            "enrol_p_wan": 158.9,
+            "enrol_j_wan": 95.9,
+            "gap_p_std": -6.8,
+            "gap_j_std": -1.5,
+            "shift_p": -3.2
+          },
+          {
+            "province": "内蒙古",
+            "enrol_p_wan": 99.5,
+            "enrol_j_wan": 62.4,
+            "gap_p_std": -6.0,
+            "gap_j_std": -2.0,
+            "shift_p": -3.1
+          },
+          {
+            "province": "山西",
+            "enrol_p_wan": 171.9,
+            "enrol_j_wan": 104.1,
+            "gap_p_std": -7.5,
+            "gap_j_std": -2.6,
+            "shift_p": -4.0
+          },
+          {
+            "province": "吉林",
+            "enrol_p_wan": 72.4,
+            "enrol_j_wan": 46.6,
+            "gap_p_std": -5.8,
+            "gap_j_std": -3.0,
+            "shift_p": -2.9
+          },
+          {
+            "province": "辽宁",
+            "enrol_p_wan": 141.7,
+            "enrol_j_wan": 89.3,
+            "gap_p_std": -6.2,
+            "gap_j_std": -3.1,
+            "shift_p": -3.7
+          },
+          {
+            "province": "四川",
+            "enrol_p_wan": 426.1,
+            "enrol_j_wan": 261.9,
+            "gap_p_std": -12.5,
+            "gap_j_std": -3.1,
+            "shift_p": -7.4
+          },
+          {
+            "province": "江西",
+            "enrol_p_wan": 254.2,
+            "enrol_j_wan": 161.6,
+            "gap_p_std": -9.7,
+            "gap_j_std": -3.7,
+            "shift_p": -6.5
+          },
+          {
+            "province": "湖南",
+            "enrol_p_wan": 357.0,
+            "enrol_j_wan": 231.3,
+            "gap_p_std": -11.7,
+            "gap_j_std": -3.7,
+            "shift_p": -8.6
+          },
+          {
+            "province": "江苏",
+            "enrol_p_wan": 412.9,
+            "enrol_j_wan": 264.6,
+            "gap_p_std": -14.3,
+            "gap_j_std": -4.1,
+            "shift_p": -9.9
+          },
+          {
+            "province": "黑龙江",
+            "enrol_p_wan": 75.3,
+            "enrol_j_wan": 48.2,
+            "gap_p_std": -5.1,
+            "gap_j_std": -4.5,
+            "shift_p": -2.2
+          },
+          {
+            "province": "河北",
+            "enrol_p_wan": 419.8,
+            "enrol_j_wan": 268.0,
+            "gap_p_std": -17.3,
+            "gap_j_std": -5.1,
+            "shift_p": -12.5
+          },
+          {
+            "province": "河南",
+            "enrol_p_wan": 638.8,
+            "enrol_j_wan": 409.2,
+            "gap_p_std": -24.6,
+            "gap_j_std": -6.3,
+            "shift_p": -17.6
+          }
+        ]
+      }
+    },
+    "加速": {
+      "delta": -0.09,
+      "summary": {
+        "national": {
+          "2024": {
+            "enrol_p": 10584.4,
+            "enrol_j": 5386.2,
+            "teachers_p": 659.0,
+            "teachers_j": 414.9,
+            "gap_p_std": -101.9,
+            "gap_j_std": -15.9,
+            "shift_p": -0.0,
+            "shift_j": 0.0
+          },
+          "2025": {
+            "enrol_p": 10195.3,
+            "enrol_j": 5381.9,
+            "teachers_p": 659.0,
+            "teachers_j": 414.9,
+            "gap_p_std": -122.4,
+            "gap_j_std": -16.2,
+            "shift_p": -24.3,
+            "shift_j": -1.3
+          },
+          "2026": {
+            "enrol_p": 9691.1,
+            "enrol_j": 5387.5,
+            "teachers_p": 659.0,
+            "teachers_j": 414.9,
+            "gap_p_std": -148.9,
+            "gap_j_std": -15.8,
+            "shift_p": -56.1,
+            "shift_j": -0.7
+          },
+          "2027": {
+            "enrol_p": 9099.0,
+            "enrol_j": 5284.5,
+            "teachers_p": 659.0,
+            "teachers_j": 414.9,
+            "gap_p_std": -180.1,
+            "gap_j_std": -23.4,
+            "shift_p": -93.1,
+            "shift_j": -8.7
+          },
+          "2028": {
+            "enrol_p": 8488.0,
+            "enrol_j": 5154.3,
+            "teachers_p": 659.0,
+            "teachers_j": 414.9,
+            "gap_p_std": -212.3,
+            "gap_j_std": -33.1,
+            "shift_p": -131.3,
+            "shift_j": -18.2
+          },
+          "2029": {
+            "enrol_p": 7617.2,
+            "enrol_j": 5201.8,
+            "teachers_p": 659.0,
+            "teachers_j": 414.9,
+            "gap_p_std": -258.1,
+            "gap_j_std": -29.6,
+            "shift_p": -185.5,
+            "shift_j": -14.5
+          },
+          "2030": {
+            "enrol_p": 6921.8,
+            "enrol_j": 5017.6,
+            "teachers_p": 659.0,
+            "teachers_j": 414.9,
+            "gap_p_std": -294.7,
+            "gap_j_std": -43.2,
+            "shift_p": -228.7,
+            "shift_j": -28.6
+          }
+        },
+        "provinces_2030": [
+          {
+            "province": "广东",
+            "enrol_p_wan": 770.4,
+            "enrol_j_wan": 528.3,
+            "gap_p_std": -20.9,
+            "gap_j_std": 3.5,
+            "shift_p": -18.6
+          },
+          {
+            "province": "浙江",
+            "enrol_p_wan": 294.0,
+            "enrol_j_wan": 207.7,
+            "gap_p_std": -8.4,
+            "gap_j_std": 1.1,
+            "shift_p": -7.0
+          },
+          {
+            "province": "福建",
+            "enrol_p_wan": 229.9,
+            "enrol_j_wan": 170.9,
+            "gap_p_std": -8.7,
+            "gap_j_std": 0.6,
+            "shift_p": -7.6
+          },
+          {
+            "province": "广西",
+            "enrol_p_wan": 328.0,
+            "enrol_j_wan": 236.7,
+            "gap_p_std": -12.9,
+            "gap_j_std": 0.4,
+            "shift_p": -10.7
+          },
+          {
+            "province": "山东",
+            "enrol_p_wan": 580.6,
+            "enrol_j_wan": 430.5,
+            "gap_p_std": -17.1,
+            "gap_j_std": 0.3,
+            "shift_p": -13.8
+          },
+          {
+            "province": "贵州",
+            "enrol_p_wan": 275.8,
+            "enrol_j_wan": 190.5,
+            "gap_p_std": -7.4,
+            "gap_j_std": 0.2,
+            "shift_p": -6.4
+          },
+          {
+            "province": "北京",
+            "enrol_p_wan": 82.5,
+            "enrol_j_wan": 55.8,
+            "gap_p_std": -3.7,
+            "gap_j_std": 0.1,
+            "shift_p": -2.4
+          },
+          {
+            "province": "宁夏",
+            "enrol_p_wan": 42.2,
+            "enrol_j_wan": 30.0,
+            "gap_p_std": -1.3,
+            "gap_j_std": 0.1,
+            "shift_p": -1.1
+          },
+          {
+            "province": "西藏",
+            "enrol_p_wan": 27.4,
+            "enrol_j_wan": 17.9,
+            "gap_p_std": -1.3,
+            "gap_j_std": -0.0,
+            "shift_p": -0.8
+          },
+          {
+            "province": "青海",
+            "enrol_p_wan": 34.6,
+            "enrol_j_wan": 24.1,
+            "gap_p_std": -1.1,
+            "gap_j_std": 0.0,
+            "shift_p": -1.0
+          },
+          {
+            "province": "天津",
+            "enrol_p_wan": 56.1,
+            "enrol_j_wan": 42.2,
+            "gap_p_std": -2.3,
+            "gap_j_std": -0.2,
+            "shift_p": -1.7
+          },
+          {
+            "province": "海南",
+            "enrol_p_wan": 57.4,
+            "enrol_j_wan": 40.8,
+            "gap_p_std": -2.7,
+            "gap_j_std": -0.2,
+            "shift_p": -1.9
+          },
+          {
+            "province": "云南",
+            "enrol_p_wan": 272.0,
+            "enrol_j_wan": 186.0,
+            "gap_p_std": -8.7,
+            "gap_j_std": -0.2,
+            "shift_p": -6.7
+          },
+          {
+            "province": "陕西",
+            "enrol_p_wan": 196.2,
+            "enrol_j_wan": 143.3,
+            "gap_p_std": -8.8,
+            "gap_j_std": -0.7,
+            "shift_p": -6.5
+          },
+          {
+            "province": "安徽",
+            "enrol_p_wan": 301.2,
+            "enrol_j_wan": 219.2,
+            "gap_p_std": -10.8,
+            "gap_j_std": -0.9,
+            "shift_p": -9.2
+          },
+          {
+            "province": "重庆",
+            "enrol_p_wan": 136.4,
+            "enrol_j_wan": 99.9,
+            "gap_p_std": -6.1,
+            "gap_j_std": -1.0,
+            "shift_p": -4.4
+          },
+          {
+            "province": "上海",
+            "enrol_p_wan": 73.3,
+            "enrol_j_wan": 53.6,
+            "gap_p_std": -2.9,
+            "gap_j_std": -1.1,
+            "shift_p": -1.4
+          },
+          {
+            "province": "新疆",
+            "enrol_p_wan": 128.4,
+            "enrol_j_wan": 111.4,
+            "gap_p_std": -9.2,
+            "gap_j_std": -1.2,
+            "shift_p": -8.6
+          },
+          {
+            "province": "湖北",
+            "enrol_p_wan": 253.8,
+            "enrol_j_wan": 185.7,
+            "gap_p_std": -9.2,
+            "gap_j_std": -1.3,
+            "shift_p": -7.6
+          },
+          {
+            "province": "甘肃",
+            "enrol_p_wan": 136.9,
+            "enrol_j_wan": 95.9,
+            "gap_p_std": -8.0,
+            "gap_j_std": -1.5,
+            "shift_p": -4.9
+          },
+          {
+            "province": "内蒙古",
+            "enrol_p_wan": 85.8,
+            "enrol_j_wan": 62.4,
+            "gap_p_std": -6.7,
+            "gap_j_std": -2.0,
+            "shift_p": -4.2
+          },
+          {
+            "province": "山西",
+            "enrol_p_wan": 148.1,
+            "enrol_j_wan": 104.1,
+            "gap_p_std": -8.7,
+            "gap_j_std": -2.6,
+            "shift_p": -5.7
+          },
+          {
+            "province": "吉林",
+            "enrol_p_wan": 62.4,
+            "enrol_j_wan": 46.6,
+            "gap_p_std": -6.3,
+            "gap_j_std": -3.0,
+            "shift_p": -3.8
+          },
+          {
+            "province": "辽宁",
+            "enrol_p_wan": 122.1,
+            "enrol_j_wan": 89.3,
+            "gap_p_std": -7.2,
+            "gap_j_std": -3.1,
+            "shift_p": -5.1
+          },
+          {
+            "province": "四川",
+            "enrol_p_wan": 367.2,
+            "enrol_j_wan": 261.9,
+            "gap_p_std": -15.6,
+            "gap_j_std": -3.1,
+            "shift_p": -11.2
+          },
+          {
+            "province": "江西",
+            "enrol_p_wan": 219.0,
+            "enrol_j_wan": 161.6,
+            "gap_p_std": -11.6,
+            "gap_j_std": -3.7,
+            "shift_p": -8.8
+          },
+          {
+            "province": "湖南",
+            "enrol_p_wan": 307.6,
+            "enrol_j_wan": 231.3,
+            "gap_p_std": -14.3,
+            "gap_j_std": -3.7,
+            "shift_p": -11.6
+          },
+          {
+            "province": "江苏",
+            "enrol_p_wan": 355.8,
+            "enrol_j_wan": 264.6,
+            "gap_p_std": -17.3,
+            "gap_j_std": -4.1,
+            "shift_p": -13.5
+          },
+          {
+            "province": "黑龙江",
+            "enrol_p_wan": 64.9,
+            "enrol_j_wan": 48.2,
+            "gap_p_std": -5.7,
+            "gap_j_std": -4.5,
+            "shift_p": -3.2
+          },
+          {
+            "province": "河北",
+            "enrol_p_wan": 361.7,
+            "enrol_j_wan": 268.0,
+            "gap_p_std": -20.4,
+            "gap_j_std": -5.1,
+            "shift_p": -16.3
+          },
+          {
+            "province": "河南",
+            "enrol_p_wan": 550.3,
+            "enrol_j_wan": 409.2,
+            "gap_p_std": -29.3,
+            "gap_j_std": -6.3,
+            "shift_p": -23.2
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+幼儿园校舍情况 Statistics of Kindergarten Buildings |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+地区 Region | 校舍建筑 面积 Floor Space |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+地区 Region | 校舍建筑 面积 Floor Space | 教学及辅助用房 Buildings for Instruction and Ancillary Uses |  |  |  |  |  |  | 行政办公用房 Administrative |  |  |  | 生活用房 Residential and Welfare |  |  | 其他用房 for Other Purposes
+地区 Region | 校舍建筑 面积 Floor Space | 教学及辅助用房 Buildings for Instruction and Ancillary Uses | 班级活动单元 Class Activities Unit |  |  |  |  | 综合活动室 Multi- functional Room | 行政办公用房 Administrative | 办公室 Office | 保健观察室 Health Observation Room | 其他 Others | 生活用房 Residential and Welfare | 厨房 Kitchen | 其他 Others | 其他用房 for Other Purposes
+地区 Region | 校舍建筑 面积 Floor Space | 教学及辅助用房 Buildings for Instruction and Ancillary Uses | 班级活动单元 Class Activities Unit | 活动室 Recreational | 寝室 Bedroom | 卫生间 Toilet | 其他 Others | 综合活动室 Multi- functional Room | 行政办公用房 Administrative | 办公室 Office | 保健观察室 Health Observation Room | 其他 Others | 生活用房 Residential and Welfare | 厨房 Kitchen | 其他 Others | 其他用房 for Other Purposes
