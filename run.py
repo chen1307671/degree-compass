@@ -1,8 +1,8 @@
-"""学位罗盘 Compass · 统一入口
+"""Degree Compass - unified entry point.
 
-用法：
-    python run.py --selftest          数据校验 + 三条提示词推演
-    python run.py --serve [--port N]  启动演示服务
+Usage:
+    python run.py --selftest          data checks + three sample questions
+    python run.py --serve [--port N]  start the demo service
 """
 from __future__ import annotations
 

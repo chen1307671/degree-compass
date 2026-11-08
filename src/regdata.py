@@ -1,7 +1,7 @@
-"""区域教育数据加载器：按中文标签解析列，避免依赖列序。
+"""Regional education data loader: resolves columns by label instead of position.
 
-数据来源：教育部《2024 年教育统计数据》分省表（31 省），本地 raw/tables/*.csv，
-列名在 raw/manifest.json 的 labels 中给出（中英双语），这里按关键词匹配。
+Source: China Ministry of Education, 2024 provincial tables (31 provinces), stored in raw/tables/*.csv.
+Column names are given in raw/manifest.json (bilingual labels); this loader matches them by keyword.
 """
 from __future__ import annotations
 
@@ -21,7 +21,7 @@ PROVINCES = [
     "海南", "重庆", "四川", "贵州", "云南", "西藏", "陕西", "甘肃", "青海", "宁夏", "新疆",
 ]
 
-# 关键词 → 语义键（顺序重要：先匹配更具体的）
+# keyword -> semantic key (order matters: specific first)
 RULES: list[tuple[str, str]] = [
     ("合计 Total", "total"),
     ("预计毕业生数", "expected_graduates"),
@@ -51,12 +51,12 @@ def _table_meta(title_kw: str) -> dict:
 
 
 def load(title_kw: str) -> tuple[dict[str, dict], dict[str, str]]:
-    """返回 (province -> {key: value}, col -> key 映射)。"""
+    """Returns (province -> {key: value}, column -> key)."""
     meta = _table_meta(title_kw)
     path = TABLES / meta["file"]
     labels: list[str] = meta["labels"]
 
-    # 第 0 列是"地区"；其余列按标签匹配语义键
+    # Column 0 is the region; remaining columns map to keys by label
     col_key: dict[str, str] = {}
     for i, lab in enumerate(labels):
         if i == 0:
@@ -91,7 +91,7 @@ def national_total(stage: str, key: str) -> float:
 
 
 def diagnostics() -> dict:
-    """对关键口径做自检：分年级之和 = 在校生，且与公报全国值一致。"""
+    """Self-check: grade totals equal enrolment and match the national bulletin."""
     rep: dict = {}
     for stage in ("小学教育学生数", "初中教育学生数"):
         data, mapping = load(stage)

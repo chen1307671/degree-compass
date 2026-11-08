@@ -1,23 +1,23 @@
-"""大模型解释生成适配器（OpenAI 兼容协议，多厂商预设）。
+"""LLM explanation adapter (OpenAI-compatible, multi-provider presets).
 
-设计原则
---------
-1. **只生成解释，不参与决策**：不改风险概率、不改干预排序、不改判定。
-2. **默认关闭**：未配置 Key 时返回模板文本，离线可跑。
-3. **失败必降级**：超时/网络错误/限流/返回异常，一律回退模板，不抛异常。
-4. **数字护栏**：模型输出中不得出现证据里没有的数字，否则判定违规并降级。
-5. **可观测**：返回来源、模型名、耗时、重试次数、错误与护栏结果；另有 status() 供诊断。
-6. **Key 只读环境变量**，不落盘、不写日志、不回传前端。
+Design rules
+------------
+1. **Explanations only**: it never changes risk scores, ranking or verdicts.
+2. **Off by default**: without an API key it returns template text and runs offline.
+3. **Always degrade**: timeout, network error, rate limit or malformed reply fall back to the template.
+4. **Numeric guardrail**: numbers in the output must match the evidence, otherwise the reply is rejected.
+5. **Observable**: returns source, model, latency, retries, error and guardrail result; status() for diagnostics.
+6. **Key from environment only**: never written to disk, logs or the frontend.
 
-环境变量
---------
-LLM_API_KEY    必填，缺失即视为未启用
-LLM_BASE_URL   可选，缺省按 LLM_PROVIDER 预设
-LLM_MODEL      可选，缺省按 LLM_PROVIDER 预设
-LLM_PROVIDER   zhipu | dashscope | deepseek | openai | custom（默认 custom）
-LLM_TIMEOUT    秒，默认 8
-LLM_RETRIES    重试次数，默认 2
-LLM_ENABLE     置 0 可强制关闭（即使配了 Key）
+Environment
+-----------
+LLM_API_KEY    required; without it the adapter stays disabled
+LLM_BASE_URL   optional; defaults to the provider preset
+LLM_MODEL      optional; defaults to the provider preset
+LLM_PROVIDER   zhipu | dashscope | deepseek | openai | custom (default: custom)
+LLM_TIMEOUT    seconds, default 8
+LLM_RETRIES    retries, default 2
+LLM_ENABLE     set 0 to force-disable even with a key
 """
 from __future__ import annotations
 
@@ -64,7 +64,7 @@ def enabled() -> bool:
 
 
 def status() -> dict:
-    """诊断用：不含 Key，可安全暴露给前端/日志。"""
+    """Diagnostics payload: contains no API key, safe for the frontend or logs."""
     c = _cfg()
     now = time.time()
     return {
@@ -83,7 +83,7 @@ def status() -> dict:
 
 
 def _template(ev: dict) -> str:
-    """规则模板：只用证据里的字段，绝不编造。"""
+    """Rule-based fallback: uses only fields present in the evidence, never invents numbers."""
     prov = ev.get("province", "该省")
     stage = ev.get("stage", "该学段")
     year = ev.get("year", "")
@@ -112,10 +112,10 @@ _NUM = re.compile(r"\d+(?:\.\d+)?")
 
 
 def _guardrail(text: str, ev: dict) -> tuple[bool, str]:
-    """输出中的数字必须与证据数值近似一致（容差匹配），否则判定违规。
+    """Numbers in the output must match the evidence within tolerance, otherwise the response is rejected.
 
-    容差：绝对 0.02 或相对 1%，取大者。这样 "11.58%" 能对上 0.1158，
-    而凭空出现的 "3 名学生" 会被拦下。
+    Tolerance: max(0.02 absolute, 1% relative). "11.58%" therefore matches 0.1158,
+    while an invented "3 students" is rejected.
     """
     vals: list[float] = []
     for v in ev.values():
@@ -136,7 +136,7 @@ def _cache_key(ev: dict) -> str:
 
 
 def generate(evidence: dict) -> dict:
-    """返回 {source, text, model, latency_ms, retries, error?, guardrail?}。"""
+    """Returns {source, text, model, latency_ms, retries, error?, guardrail?}."""
     t0 = time.perf_counter()
     c = _cfg()
     base_res = {"model": c["model"] or "-", "provider": c["provider"]}

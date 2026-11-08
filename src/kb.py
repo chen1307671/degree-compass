@@ -1,12 +1,12 @@
-"""措施库：把"紧缺/平衡/富余"三种判定翻译成教育系统可执行的动作。
+"""Measure library: turns shortage / balanced / surplus into executable actions.
 
-每条含六个字段：责任方 / 动作 / 前提 / 禁忌 / 观察指标 / 证据等级。
-证据等级：A=有明确政策依据或数据支撑；B=机制合理但缺本地验证。
+Each entry has six fields: owner / action / precondition / taboo / indicator / evidence level.
+Evidence level: A = clear policy basis or data support; B = plausible mechanism, not locally verified.
 """
 from __future__ import annotations
 
 MEASURES: list[dict] = [
-    # —— 紧缺 ——
+    # --- shortage ---
     dict(id="S1", verdict="紧缺", stage="all", name="跨县跨校编制调剂",
          owner="省级教育行政部门", action="在编制总量内，从富余县区向紧缺县区调剂，教师随岗流动",
          precondition="省级统筹编制、岗位设置可调整", taboo="不得挤占乡村小规模学校编制",
@@ -27,7 +27,7 @@ MEASURES: list[dict] = [
          owner="学校 + 教研机构", action="以县域优质校带薄弱校，薄弱学科同步课堂",
          precondition="网络与终端到位", taboo="不得替代实验课与体育课",
          metric="开课节次、学生覆盖数", evidence="B"),
-    # —— 富余 ——
+    # --- surplus ---
     dict(id="F1", verdict="富余", stage="primary", name="小学教师转岗学前与特教",
          owner="省级教育行政部门", action="经培训取得资格后转岗幼儿园或特教学校",
          precondition="有岗位空缺、培训学时达标", taboo="不得强制转岗至无资质岗位",
@@ -48,7 +48,7 @@ MEASURES: list[dict] = [
          owner="学校", action="把富余课时转为课后服务、社团与教研岗位",
          precondition="有经费保障与考核办法", taboo="不得强制教师无偿承担",
          metric="课后服务参与率、教师课时结构", evidence="B"),
-    # —— 平衡 ——
+    # --- balanced ---
     dict(id="B1", verdict="平衡", stage="all", name="学科结构优化",
          owner="县级教育行政部门", action="按缺口学科补充音体美科学信息科技教师",
          precondition="有学科需求测算", taboo="不得只看总量不看结构",
@@ -64,13 +64,77 @@ MEASURES: list[dict] = [
 ]
 
 
+
+EN = {
+ "S1": ("Reallocate posts across counties", "Provincial education department",
+        "Move posts from surplus counties to shortage counties within the total quota",
+        "Provincial quota control and adjustable post plans", "Do not take posts from small rural schools",
+        "Posts reallocated / shortage"),
+ "S2": ("Targeted recruitment (special-post & funded teacher graduates)", "Province + universities",
+        "Recruit by subject gap, service period of at least six years",
+        "Vacant posts and a training pipeline", "Not for non-teaching roles",
+        "Recruits / shortage"),
+ "S3": ("Re-employ retired teachers", "County education bureau",
+        "Rehire retired subject teachers for teaching and mentoring",
+        "Health and subject fit", "Not a substitute for permanent posts",
+        "Returnees, subjects covered"),
+ "S4": ("Expand classrooms and temporary campuses", "County government + schools",
+        "Renovate or add classrooms for the intake peak",
+        "Safety certification and land", "No long-term over-standard class size",
+        "Share of classes above 56 students"),
+ "S5": ("Dual-teacher online classes", "Schools + teaching research bodies",
+        "Pair strong schools with weak ones for synchronous classes",
+        "Network and devices in place", "Not for lab or PE classes",
+        "Sessions delivered, students covered"),
+ "F1": ("Redeploy primary teachers to pre-school and special education", "Provincial education department",
+        "Redeploy after training and certification",
+        "Vacancies and training hours", "No forced moves to unqualified roles",
+        "Redeployed staff, certification rate"),
+ "F2": ("Smaller class sizes", "County government + schools",
+        "Lower the class-size cap and shift surplus teachers into smaller classes",
+        "Fiscal capacity for extra classes", "Not a route to school choice",
+        "Students per class, student-teacher ratio"),
+ "F3": ("Cross-stage redeployment (primary to secondary)", "Provincial education department",
+        "Plan moves 2-3 years ahead of the stage-level peaks",
+        "Qualification for the higher stage", "No unlicensed teaching",
+        "Staff moved across stages"),
+ "F4": ("Attrition-based reduction with structure protection", "Provincial staffing authority",
+        "Do not replace retirees; keep hiring only for shortage subjects",
+        "Exit mechanism and transition period", "No one-size-fits-all cuts",
+        "Net reduction, shortage-subject hiring"),
+ "F5": ("Convert surplus hours into after-school and research roles", "Schools",
+        "Turn surplus teaching hours into after-school services and mentoring",
+        "Funding and appraisal rules", "No unpaid compulsory extra work",
+        "Participation rate, hour structure"),
+ "B1": ("Optimise subject structure", "County education bureau",
+        "Hire for art, PE, music, science and IT gaps",
+        "Subject-level demand estimate", "Do not look at totals only",
+        "Shortage-subject compliance"),
+ "B2": ("Urban-rural teacher rotation", "County education bureau",
+        "Rotate experienced teachers, linked to promotion",
+        "Rotation rules and allowances", "Do not send only new teachers",
+        "Rotation share, seniority mix"),
+ "B3": ("Targeted training through teacher development centres", "Municipal research body",
+        "Small, theme-based training on diagnosed weaknesses",
+        "Needs diagnosis", "Training is not a substitute for posts",
+        "Training hours, classroom follow-up"),
+}
+
 def retrieve(verdict: str, stage: str, top_k: int = 4) -> list[dict]:
-    """按判定与学段检索：判定匹配优先，学段匹配次之。"""
+    """Retrieve by verdict and stage: verdict match first, then stage."""
     def key(m: dict) -> tuple:
         return (0 if m["verdict"] == verdict else 1,
                 0 if m["stage"] == stage else (0 if m["stage"] == "all" else 1))
     hits = [m for m in MEASURES if m["verdict"] == verdict or m["stage"] in (stage, "all")]
-    return sorted(hits, key=key)[:top_k]
+    out = []
+    for m in sorted(hits, key=key)[:top_k]:
+        d = dict(m)
+        e = EN.get(m["id"])
+        if e:
+            d.update({"name_en": e[0], "owner_en": e[1], "action_en": e[2],
+                      "precondition_en": e[3], "taboo_en": e[4], "metric_en": e[5]})
+        out.append(d)
+    return out
 
 
 def summary() -> dict:

@@ -1,15 +1,16 @@
-"""分省分学段学龄人口推演与师资缺口测算（2024 基线 → 2030）。
+"""Provincial cohort projection and teacher-gap estimation (2024 baseline to 2030).
 
-方法：队列递推（cohort progression）
-- 小学：一年级由全国招生路径驱动（2025 用公报值，之后按情景增速），二至六年级由
-  上一年的低一年级按存活率递推；存活率取 0.995（转学/休学净影响，口径写死可改）。
-- 初中：一年级 = 当年小学毕业生 × 分省升学率（2024 观测），二、三年级按 0.995 递推。
-- 教师需求两种口径：
-  A. 标准口径：在校生 ÷ 国家基本生师比（小学 19:1、初中 13.5:1）→ 与现有教师比，得缺口/富余
-  B. 现状口径：保持 2024 实际生师比 → 需求随学龄人口同步变化，得"需转岗/需补充"人数
+Method: cohort progression
+- Primary: grade 1 follows the national intake path (2025 from the bulletin, then scenario growth);
+  grades 2-6 roll forward from the previous grade with a survival rate of 0.995.
+- Junior secondary: grade 1 = primary graduates x provincial transition rate; grades 2-4 roll forward.
+- Teacher demand under two conventions:
+  A. Standard staffing: enrolment / national ratio (primary 19:1, junior 13.5:1), compared with current teachers
+  B. Current ratio: hold the 2024 ratio, giving the number to add or reduce
 
-外部锚点（教育部 2025 年公报）：
-  小学招生 1461.74 万、在校生 10178.29 万；初中招生 1852.81 万、在校生 5509.34 万。
+External anchors (2025 national bulletin):
+  primary intake 14.6174 million, primary enrolment 101.7829 million
+  junior intake 18.5281 million, junior enrolment 55.0934 million
 """
 from __future__ import annotations
 
@@ -44,7 +45,7 @@ def load_all() -> dict:
 
 
 def baseline(d: dict) -> dict:
-    """2024 基线：分省在校生、教师、生师比、招生份额、升学率。"""
+    """2024 baseline: enrolment, teachers, ratio, intake share and transition rate by province."""
     pri, jun = d["primary"], d["junior"]
     nat_pri_ent = sum(r.get("entrants", 0) for r in pri.values())
     out = {}
@@ -52,7 +53,7 @@ def baseline(d: dict) -> dict:
         gp = pri.get(p, {})
         gj = jun.get(p, {})
         grades = [gp.get(f"g{i}", 0.0) for i in range(1, 7)]
-        # 初中存在五四学制（4 个年级），按实际数据判定，避免按三年制硬推
+        # Four-year junior secondary (Shanghai, Heilongjiang, Shandong): detect from data
         jgrades = [gj.get(f"g{i}", 0.0) for i in range(1, 5)]
         n_jun = 4 if jgrades[3] > 0.02 * max(1.0, sum(jgrades)) else 3
         enrol_p = gp.get("enrolment", sum(grades))
@@ -77,9 +78,9 @@ def baseline(d: dict) -> dict:
 
 
 def project(base: dict, delta: float, years=range(2025, 2031)) -> dict:
-    """按情景递推，返回 {year: {province: {...}}}。"""
+    """Project by scenario; returns {year: {province: {...}}}."""
     nat_entry = {2024: sum(b["enrol_p"] for b in base.values()) * 0}  # 占位
-    # 2024 全国招生 = 各省 entry_share × 全国招生，反推全国招生
+    # Reconstruct the 2024 national intake from provincial shares
     shares = {p: b["entry_share"] for p, b in base.items()}
     total_share = sum(shares.values()) or 1.0
     nat_2024 = ANCHOR["primary_entrants_2025"] / (1 + delta)   # 由 2025 锚点与增速反推 2024
@@ -87,11 +88,11 @@ def project(base: dict, delta: float, years=range(2025, 2031)) -> dict:
     for y in range(2026, (max(years) if years else 2030) + 1):
         nat_entry[y] = nat_entry[y - 1] * (1 + delta)
 
-    # 全国初一招生路径：2025 锚定公报；2026 起 = 上一年全国小学毕业生 × 招生率 × 校准
+    # National junior-intake path: 2025 anchored to the bulletin, then graduates x rate x calibration
     grad_nat = {2024: sum(b["grades_p"][5] for b in base.values()) / 1e4}
 
     res = {}
-    # 2024 基线
+    # 2024 baseline
     res[2024] = {p: {"enrol_p": b["enrol_p"], "enrol_j": b["enrol_j"],
                      "grades_p": b["grades_p"], "grades_j": b["grades_j"]}
                  for p, b in base.items()}
@@ -104,10 +105,10 @@ def project(base: dict, delta: float, years=range(2025, 2031)) -> dict:
         for p, b in base.items():
             gp = prev[p]["grades_p"]
             gj = prev[p]["grades_j"]
-            # 小学：新生来自全国招生 × 省份额；高年级由低年级递推
+            # Primary: grade 1 from national intake x provincial share; higher grades roll forward
             g1 = nat_entry[y] * (shares[p] / total_share if total_share else 0)
             new_gp = [g1] + [gp[i] * SURVIVE for i in range(5)]
-            # 初中：初一 = 小学毕业生 × 升学率；初二初三递推
+            # Junior: grade 1 = primary graduates x transition rate; grades 2-3 roll forward
             grad_p = gp[5] * SURVIVE
             rate = (b["junior_intake_rate"] or 1.0) * JUNIOR_CALIB
             j1 = grad_p * rate
@@ -126,7 +127,7 @@ def project(base: dict, delta: float, years=range(2025, 2031)) -> dict:
 
 
 def gaps(base: dict, proj: dict) -> dict:
-    """两种口径的师资缺口/富余。"""
+    """Teacher gap / surplus under the two staffing conventions."""
     out = {}
     for y, rows in proj.items():
         per = {}
@@ -197,7 +198,7 @@ def main() -> int:
     REP.mkdir(exist_ok=True)
     (REP / "projection.json").write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    # 分省分年明细（供智能体逐格查询）
+    # Per-province yearly detail for the agent's cell-level queries
     by_prov: dict = {}
     for name, delta in SCENARIOS.items():
         proj = project(base, delta)
